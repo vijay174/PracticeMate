@@ -1,0 +1,24 @@
+Henry Park P5 Maths EOY 2025 P1 Q26: Drawing task (draw a cuboid on an isometric grid) — cannot be answered or auto-checked in the app.
+Henry Park P5 Maths EOY 2025 P1 Q30 (part): Part (a) (draw the front view) left out — drawing task.
+Raffles Girls' P5 Maths EOY 2025 P1 Q27: Drawing task (complete a right-angled triangle ABC on a grid) — cannot be answered in the app.
+Raffles Girls' P5 Maths EOY 2025 P2 Q3 (part): Part (a) (draw the top view) left out — drawing task.
+Raffles Girls' P5 Maths EOY 2025 P2 Q10 (part): Part (b) left out: the school key's working (42 + 5) does not match its final answer (49).
+Tao Nan P5 Maths EOY 2025 P1 Q23: Drawing task (complete a rhombus on a square grid) — cannot be answered or auto-checked in the app.
+Tao Nan P5 Maths EOY 2025 P2 Q13 (part): Part (b) (length of PK) left out: the school answer key's working for (b) ends at '120 ÷ 24 = 5', which does not match the question.
+Henry Park P5 Science EOY 2025 B Q32 (part): Part (a) (draw an arrow on the diagram) left out — drawing task.
+Henry Park P5 Science EOY 2025 B Q40 (part): Parts (b) and (c) (mark switch positions / complete a circuit) left out — drawing tasks.
+Nanyang P5 Science EOY 2025 B Q33 (part): Part (a) (draw two bars on the graph) left out — drawing task.
+Nanyang P5 Science EOY 2025 B Q34 (part): Part (b) (complete a line graph) left out — drawing task.
+Nanyang P5 Science EOY 2025 B Q40 (part): Part (d) left out — drawing task, and its answer is unreadable in the scanned key.
+Tao Nan P5 Science EOY 2025 B Q36 (part): Part (a) (complete a bar graph) left out — drawing task.
+Tao Nan P5 Science EOY 2025 B Q37 (part): Part (b) (complete the circuit drawing) left out — drawing task.
+Tao Nan P5 Science EOY 2025 B Q39 (part): Part (b) (draw heat-flow arrows) left out — drawing task.
+Henry Park P5 English EOY 2025 (Paper 2) B Q73 (part): Part (b) (circle the character value) left out: the school answer key gives no answer for it.
+Nanyang P5 English EOY 2025 (Paper 2) B Q73: Tick-two question (how Siti felt): the scanned answer key shows only one ticked box ('defeated'), so the full answer can't be confirmed.
+Rosyth P5 Science EOY 2024 A Q24: The school key's answer ('melting point above 37 °C') contradicts the question (the substance melts at 37 °C), so this question is left out.
+Rosyth P5 Science EOY 2024 B Q30 (part): Part (a) (label the graph lines) left out — the answer is drawn on the graph.
+Rosyth P5 Science EOY 2024 B Q36 (part): Part (b) (draw the circuit) left out — drawing task.
+Rosyth P5 Maths EOY 2023 P1 Q25: Drawing task (draw triangle ABX on a dot grid) — cannot be answered in the app.
+Nanyang P5 Science EOY 2023 B Q36 (part): Part (a)(i) (draw the water droplets on the diagram) left out — drawing task.
+Nanyang P5 Science EOY 2023 B Q37 (part): Part (c) (draw the new water level) left out — drawing task.
+Nanyang P5 Science EOY 2023 B Q40 (part): Parts (a) (mark where the switch goes) and (c) (draw a circuit) left out — drawing tasks.

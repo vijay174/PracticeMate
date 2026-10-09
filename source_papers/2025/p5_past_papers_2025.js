@@ -1,0 +1,8120 @@
+// Generated from free 2025 P5 papers on testpapersfree.com (see source_papers/2025/). Loaded by p5_practice_app.html.
+window.P5_PAST_PAPERS = [
+ {
+  "key": "2025-taonan-maths-eoy",
+  "title": "Tao Nan P5 Maths EOY 2025",
+  "subject": "Math",
+  "school": "Tao Nan School",
+  "year": 2025,
+  "exam": "EOY (SA2)",
+  "sourcePdf": "source_papers/2025/P5_Maths_2025_SA2_taonan.pdf",
+  "sourceSite": "testpapersfree.com",
+  "questions": [
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "What is the value of the digit 3 in 30 517?",
+    "options": [
+     "30",
+     "300",
+     "3000",
+     "30 000"
+    ],
+    "answer": "30 000",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q1",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "In the number line, what is the mixed number represented by A?",
+    "options": [
+     "4 2/3",
+     "4 3/4",
+     "4 5/7",
+     "4 5/8"
+    ],
+    "answer": "4 5/8",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q2.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q2",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "70 + 7/10 + 7/100 = ______",
+    "options": [
+     "77.07",
+     "70.77",
+     "70.077",
+     "70.707"
+    ],
+    "answer": "70.77",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q3",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Rate",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "A wheel makes 900 turns in 15 minutes. At this rate, how many turns will it make in 60 minutes?",
+    "options": [
+     "60",
+     "3600",
+     "13 500",
+     "54 000"
+    ],
+    "answer": "3600",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q4",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Mary had $200. She spent $160. What percentage of her money did she spend?",
+    "options": [
+     "80%",
+     "60%",
+     "40%",
+     "20%"
+    ],
+    "answer": "80%",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q5",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Area",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following is the related height of base BC?",
+    "options": [
+     "AB",
+     "AF",
+     "BD",
+     "BE"
+    ],
+    "answer": "AF",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q6.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q6",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Angles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "In the figure, ABC is a straight line. Find angle k.",
+    "options": [
+     "52°",
+     "62°",
+     "118°",
+     "128°"
+    ],
+    "answer": "118°",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q7.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q7",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Find the value of 50 + (40 − 10) ÷ 5 × 2",
+    "options": [
+     "62",
+     "53",
+     "32",
+     "8"
+    ],
+    "answer": "62",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q8",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Geometry",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following is NOT a net of a cube? (Options (1)–(4) are shown in the figure.)",
+    "options": [
+     "(1)",
+     "(2)",
+     "(3)",
+     "(4)"
+    ],
+    "answer": "(4)",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q9.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q9",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Geometry",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which pair of lines are parallel?",
+    "options": [
+     "AB and AF",
+     "AB and ED",
+     "BC and CD",
+     "BC and FE"
+    ],
+    "answer": "AB and ED",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q10.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q10",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The bar graph shows the number of children per family in a housing estate. Find the total number of children in the housing estate.",
+    "options": [
+     "22",
+     "27",
+     "49",
+     "53"
+    ],
+    "answer": "49",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q11.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q11",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Arrange the following from the lightest to the heaviest: 4.6 kg, 4 kg 80 g, 4 2/3 kg.",
+    "options": [
+     "4 2/3 kg, 4.6 kg, 4 kg 80 g",
+     "4.6 kg, 4 2/3 kg, 4 kg 80 g",
+     "4 kg 80 g, 4 2/3 kg, 4.6 kg",
+     "4 kg 80 g, 4.6 kg, 4 2/3 kg"
+    ],
+    "answer": "4 kg 80 g, 4.6 kg, 4 2/3 kg",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q12",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Apples are sold at 5 for $3.10. What is the cost of each apple?",
+    "options": [
+     "65¢",
+     "62¢",
+     "55¢",
+     "52¢"
+    ],
+    "answer": "62¢",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q13",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Ms Lynn had 200 markers. 40% of her markers were blue and 35% of her markers were red. The rest of her markers were green. How many green markers did she have?",
+    "options": [
+     "80",
+     "70",
+     "50",
+     "25"
+    ],
+    "answer": "50",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q14",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table shows the number of books read by 4 children: Mabel 10, Naomi 18, Olivia ?, Penny ?. The 4 children read 100 books altogether. Olivia read 3 times as many books as Penny. How many books did Olivia read?",
+    "options": [
+     "54",
+     "48",
+     "24",
+     "18"
+    ],
+    "answer": "54",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q15",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Area",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The figure is made up of squares. The perimeter of the figure is 160 cm. What is the area of the figure?",
+    "options": [
+     "16 cm²",
+     "64 cm²",
+     "100 cm²",
+     "1000 cm²"
+    ],
+    "answer": "1000 cm²",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q16.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q16",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Jenny had 1/2 as many stickers as Rachel. After Jenny gave 1/3 of her stickers to Rachel, Rachel had 140 more stickers than her. How many stickers did Rachel have in the end?",
+    "options": [
+     "160",
+     "168",
+     "196",
+     "245"
+    ],
+    "answer": "196",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q17",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The pie chart shows the number of each type of burger sold by a stall during lunchtime. A total of 60 burgers is sold. Find the number of chicken burgers sold.",
+    "options": [
+     "5",
+     "7",
+     "17",
+     "21"
+    ],
+    "answer": "17",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q18.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q18",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "(a) Write eight million, one hundred and ten thousand and fifty-five in numerals.\n(b) Round 51 457 to the nearest thousand.",
+    "options": [],
+    "answer": "(a) 8 110 055  (b) 51 000",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q19",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "(a) Find the value of 14/3 × 6.\n(b) Find the value of 5/6 − 1/4.",
+    "options": [],
+    "answer": "(a) 28  (b) 7/12",
+    "solution": "(b) 20/24 − 6/24 = 14/24 = 7/12",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q20",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "(a) Find the value of 0.64 × 50.\n(b) Express 6.01 kilometres in metres.",
+    "options": [],
+    "answer": "(a) 32  (b) 6010 m",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q21",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Volume",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "A rectangular tank is 2/3 full of water as shown (15 cm by 10 cm by 30 cm). Find the volume of water in the tank, in litres.",
+    "options": [],
+    "answer": "3 L",
+    "solution": "2/3 × 30 = 20 cm; 15 × 10 × 20 = 3000 cm³ = 3 L",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q22.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q22",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "The table shows the number of fruits sold.\nShop A: 4 apples, 11 oranges, 6 bananas.\nShop B: 8 apples, 9 oranges, 7 bananas.\nFind the difference in the total number of fruits sold by Shop A and Shop B.",
+    "options": [],
+    "answer": "3",
+    "solution": "A: 4 + 11 + 6 = 21; B: 8 + 9 + 7 = 24; 24 − 21 = 3",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q24",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Geometry",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "ABCD is a parallelogram. Find angle m (in degrees).",
+    "options": [],
+    "answer": "91°",
+    "solution": "180 − 73 = 107; 107 − 16 = 91°",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q25.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q25",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Jenny wanted to buy 9 doughnuts and 6 cupcakes but she would need $2 more than what she had. So she bought 14 cupcakes and some doughnuts. Doughnuts cost $3 each and cupcakes cost $1 each. What was the greatest number of doughnuts she could have bought?",
+    "options": [],
+    "answer": "5",
+    "solution": "She had 9×3 + 6×1 − 2 = $31. 31 − 14 = 17; 17 ÷ 3 = 5 R2, so 5 doughnuts.",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q26",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Mdm Wong deposits $6000 in a bank for one year. The interest rate is 2.5% per year. What is the total amount she will have in the bank at the end of one year?",
+    "options": [],
+    "answer": "$6150",
+    "solution": "1% = 60; 2.5% = 150; 6000 + 150 = $6150",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q27",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Ali bought some flowers. 2/5 of them were sunflowers. 1/4 of the remainder were orchids. The rest were roses. What fraction of the flowers were roses?",
+    "options": [],
+    "answer": "9/20",
+    "solution": "Orchids = 1/4 × 3/5 = 3/20. Roses = 1 − 8/20 − 3/20 = 9/20",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q28",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Each morning, the first bus will leave a bus interchange at 5.45 a.m. A bus will leave the interchange every 15 minutes. The time taken to travel from the interchange to Johan's school is 45 minutes. What is the latest time that Johan has to board the bus at the interchange to reach school by 7.20 a.m.?",
+    "options": [],
+    "answer": "6.30 a.m.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q29",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The line graph shows the temperature of water in a kettle from 08 00 to 08 06.\n(a) What was the temperature of water at first?\n(b) During which two 1-minute intervals did the temperature of water increase at the same rate?",
+    "options": [],
+    "answer": "(a) 15 °C  (b) 08 02 to 08 03 and 08 04 to 08 05",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p1-q30.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P1 Q30",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Miss Tan bought 12 boxes of rainbow cookies. Each box had 20 rainbow cookies. She also bought 90 plain cookies. She packed all the cookies equally into 6 packets. How many cookies were there in each packet?",
+    "options": [],
+    "answer": "55",
+    "solution": "12 × 20 = 240; 240 + 90 = 330; 330 ÷ 6 = 55",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q1",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Angles",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "ABC is an equilateral triangle and AD = CD. Angle ADC = 112°. Find angle BAD.",
+    "options": [],
+    "answer": "26°",
+    "solution": "(180 − 112) ÷ 2 = 34; 60 − 34 = 26°",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p2-q2.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q2",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Tom needs 100 pieces of string, each of length 75 cm, to tie parcels. String is sold in rolls of 25 m each. What is the least number of rolls of string that Tom needs to buy?",
+    "options": [],
+    "answer": "4",
+    "solution": "25 m = 2500 cm; 2500 ÷ 75 = 33 1/3, so 33 pieces per roll. 100 ÷ 33 = 3 R1, so 3 + 1 = 4 rolls.",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q3",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Ms Lim bought 9 packs of milk. When calculating the total volume of milk bought, she made a mistake by multiplying the volume of 1 pack of milk by 6 instead of 9 and got 1380 ml. What should be the correct total volume of milk bought, in litres?",
+    "options": [],
+    "answer": "2.07 L",
+    "solution": "1380 ÷ 6 = 230 ml; 9 × 230 = 2070 ml = 2.07 L",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q4",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "The line graph shows the fare a taxi company charges for the first 12 kilometres. The table shows the additional charge for every taxi trip starting from Changi Airport: from 5 p.m. to before midnight on any day, $8; all other times, $6.\nMrs Bala took a taxi from Changi Airport at 7 a.m. She paid $22 for her taxi ride. What was the distance she travelled, in km?",
+    "options": [],
+    "answer": "7 km",
+    "solution": "22 − 6 = $16 fare; from the graph $16 → 7 km",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p2-q5.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q5",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Volume",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The figure shows a cuboid. The area of Face A is 72 cm² and the area of Face B is 36 cm². Face C has the same area as Face A.\n(a) What is the height of the cuboid?\n(b) What is the volume of the cuboid?",
+    "options": [],
+    "answer": "(a) 6 cm  (b) 432 cm³",
+    "solution": "(a) Face B is a square: √36 = 6 cm. (b) Length = 72 ÷ 6 = 12 cm; 6 × 6 × 12 = 432 cm³ (the school key writes the unit as m³, a typo).",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p2-q6.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q6",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "At a fruit stall, there were 8 more honeydews than watermelons. The mass of each watermelon was 6.75 kg. It was 3.5 kg heavier than each honeydew. The total mass of the fruits was 86 kg. How many honeydews were there?",
+    "options": [],
+    "answer": "14",
+    "solution": "Honeydew = 3.25 kg. Try 6 watermelons & 14 honeydews: 6 × 6.75 = 40.5; 14 × 3.25 = 45.5; 40.5 + 45.5 = 86 ✓",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q7",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The price of a laptop before GST was $1800.\n(a) What was the price of the laptop after adding 9% GST?\n(b) Anna bought the laptop on sale at 20% discount from the Code Shop. As a Code Shop member, she was given a further 5% discount off the discounted price. How much did Anna pay for the laptop after adding 9% GST?",
+    "options": [],
+    "answer": "(a) $1962  (b) $1491.12",
+    "solution": "(a) 1800 × 109% = $1962. (b) 80% of 1800 = 1440; 95% of 1440 = 1368; 109% of 1368 = $1491.12",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q8",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The pie chart shows how Raju spent his money.\n(a) Raju spent $42 on food. How much did he spend on transport?\n(b) Raju bought 8 identical pens with 4/7 of the money spent on stationery. What was the cost of 1 pen?",
+    "options": [],
+    "answer": "(a) $12.60  (b) $1.50",
+    "solution": "(a) Total = $84; 1% = 0.84; transport = 15% → 0.84 × 15 = $12.60. (b) Stationery = 25% = $21; 7u = 21, u = 3; 4u = 12; 12 ÷ 8 = $1.50",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p2-q9.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q9",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "At first, Farah had 91 star stickers and 78 heart stickers. Then, she bought an equal number of boxes of star stickers and heart stickers. Each box of star stickers contained 5 stickers and each box of heart stickers contained 7 stickers. In the end, there were 15 more heart stickers than star stickers. How many boxes of star stickers did she buy?",
+    "options": [],
+    "answer": "14",
+    "solution": "Initial difference 91 − 78 = 13 (more stars). Each set of boxes adds 7 − 5 = 2 more hearts. Change needed = 13 + 15 = 28; 28 ÷ 2 = 14 boxes.",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q10",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Rate",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Tap A and tap B were turned on to fill two identical empty containers X and Y at different rates. Water flowed out of tap B at a rate that was 3 times as fast as tap A.\n(a) Tap A filled container X with some water for 12 minutes. How long did it take tap B to fill container Y with the same amount of water?\n(b) In another identical set-up, Janice turned on tap A at first. After the first 10 minutes, she turned on tap B. After the next 5 minutes, containers X and Y were half filled with water. For each statement, write True, False or Not possible to tell:\n  (i) After another 5 minutes, there was more water in container X than container Y.\n  (ii) There were 15 ℓ of water in container X when it was half filled.\n  (iii) It took tap B 20 minutes to fill container Y to the brim.",
+    "options": [],
+    "answer": "(a) 4 minutes  (b) (i) False (ii) Not possible to tell (iii) False",
+    "solution": "(a) 12 ÷ 3 = 4 minutes",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p2-q11.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q11",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Ratio",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "A box contained the same number of red, blue and green toy blocks at first. After 44 green blocks, some red blocks and blue blocks were removed, there were 122 blocks left. There were twice as many red blocks as blue blocks left. The number of green blocks left was 18 fewer than the number of red blocks left.\n(a) How many more green blocks than blue blocks were left?\n(b) How many blocks were in the box at first?",
+    "options": [],
+    "answer": "(a) 10  (b) 246",
+    "solution": "R = 2u, B = 1u, G = 2u − 18. 5u − 18 = 122 → u = 28. R = 56, B = 28, G = 38. (a) 38 − 28 = 10. (b) Each colour at first = 38 + 44 = 82; 82 × 3 = 246",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q12",
+     "marks": 5
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Area",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "The figure shows rectangle KLMN and triangle MOL (OM = 20 cm, ML = 24 cm). The area of MNPL is 7/16 of the area of MOL and 7 times the area of PKL.\n(a) What is the area of MNPL?\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "105 cm²",
+    "solution": "Area of MOL = 1/2 × 24 × 20 = 240 cm²; 240 ÷ 16 × 7 = 105 cm²  Note: Part (b) (length of PK) left out: the school answer key's working for (b) ends at '120 ÷ 24 = 5', which does not match the question.",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p2-q13.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q13",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Geometry",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "QRUT and QRSU are parallelograms. TUS and QUV are straight lines and QT = QU. Angle RUS = 64° and angle UVS = 50°.\n(a) Find angle TQU.\n(b) Find angle USV.\n(c) Choose the correct words: RSVU is a (trapezium / parallelogram) because RU (is / is not) parallel to SV and RS (is / is not) parallel to UV.",
+    "options": [],
+    "answer": "(a) 52°  (b) 66°  (c) trapezium, is not, is",
+    "solution": "(a) 64 × 2 = 128; 180 − 128 = 52°. (b) 180 − 64 − 50 = 66°",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-maths-eoy-p2-q14.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q14",
+     "marks": 5
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "At first, Siti had 36 more apples than oranges. After selling 1/3 of the apples and 1/4 of the oranges, she had 92 fruits left.\n(a) How many fruits did Siti have at first?\n(b) Siti earned 40¢ for each apple that she sold and $1 for each orange that she sold. Did she earn more from the sale of apples or oranges? How much more?",
+    "options": [],
+    "answer": "(a) 132  (b) Siti earned $0.80 more from the sale of oranges.",
+    "solution": "Apples left = 2/3 × (O + 36) = 2/3 O + 24; oranges left = 3/4 O. 17/12 O = 68 → O = 48, A = 84; total 132. Sold 28 apples ($11.20) and 12 oranges ($12); $12 − $11.20 = $0.80",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Maths EOY 2025",
+     "paperKey": "2025-taonan-maths-eoy",
+     "qno": "P2 Q15",
+     "marks": 5
+    }
+   }
+  ]
+ },
+ {
+  "key": "2025-henrypark-maths-eoy",
+  "title": "Henry Park P5 Maths EOY 2025",
+  "subject": "Math",
+  "school": "Henry Park Primary School",
+  "year": 2025,
+  "exam": "EOY (SA2)",
+  "sourcePdf": "source_papers/2025/P5_Maths_2025_SA2_henrypark.pdf",
+  "sourceSite": "testpapersfree.com",
+  "questions": [
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "30 000 + 7000 + 900 + 5 = ______",
+    "options": [
+     "37 950",
+     "37 905",
+     "37 095",
+     "30 795"
+    ],
+    "answer": "37 905",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q1",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following is equal to 7 5/6?",
+    "options": [
+     "35/6",
+     "41/6",
+     "47/6",
+     "75/6"
+    ],
+    "answer": "47/6",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q2",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Round 4.675 to 2 decimal places.",
+    "options": [
+     "4.60",
+     "4.67",
+     "4.68",
+     "4.70"
+    ],
+    "answer": "4.68",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q3",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "What is the value of 42 − (8 + 16) ÷ 3 × 2?",
+    "options": [
+     "38",
+     "12",
+     "3",
+     "26"
+    ],
+    "answer": "26",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q4",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Rate",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Ali folds 10 stars in 6 minutes. At this rate, how many stars can he fold in 30 minutes?",
+    "options": [
+     "18",
+     "50",
+     "60",
+     "300"
+    ],
+    "answer": "50",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q5",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Timmy received $300 as a prize. He gave $60 to his parents. What percentage of the prize money did Timmy give to his parents?",
+    "options": [
+     "20%",
+     "40%",
+     "60%",
+     "80%"
+    ],
+    "answer": "20%",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q6",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "What is 25 minutes before the time shown on the clock?",
+    "options": [
+     "16 00",
+     "16 55",
+     "16 50",
+     "17 35"
+    ],
+    "answer": "16 55",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q7.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q7",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Volume",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "A solid cuboid of height 10 cm has a square base of side 4 cm. What is its volume?",
+    "options": [
+     "40 cm³",
+     "64 cm³",
+     "160 cm³",
+     "400 cm³"
+    ],
+    "answer": "160 cm³",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q8",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Geometry",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "In the square grid, which of the following lines, when drawn, is parallel to QP?",
+    "options": [
+     "AR",
+     "BR",
+     "CR",
+     "DR"
+    ],
+    "answer": "AR",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q9.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q9",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table shows the points scored by 5 participants in a game: A 12, B 6, C 18, D 24, E 12. Which of the bar graphs (1)–(4) represents this information?",
+    "options": [
+     "(1)",
+     "(2)",
+     "(3)",
+     "(4)"
+    ],
+    "answer": "(4)",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q10.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q10",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Pupils chose one sport to be played during PE lesson. The pie chart shows the different sports they chose. What fraction of the class chose Volleyball?",
+    "options": [
+     "1/4",
+     "1/5",
+     "2/5",
+     "3/20"
+    ],
+    "answer": "1/5",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q11.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q11",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "What percentage of 2 kg is 5 g?",
+    "options": [
+     "0.25%",
+     "0.4%",
+     "2.5%",
+     "4%"
+    ],
+    "answer": "0.25%",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q12",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Angles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "In the figure, POQ is a straight line. Angle POS = 100° and angle ROQ = 124°. Find angle ROS.",
+    "options": [
+     "24°",
+     "44°",
+     "56°",
+     "80°"
+    ],
+    "answer": "44°",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q13.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q13",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "A box contains some stickers. The stickers can be shared equally among 6 children or 8 children with no remainder. What is the smallest possible number of stickers in the box?",
+    "options": [
+     "16",
+     "18",
+     "24",
+     "48"
+    ],
+    "answer": "24",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q14",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The postal charges for sending mails to a country are: mass up to 20 g — $0.75; up to 50 g — $1.20; up to 100 g — $1.95; up to 250 g — $4.\nRay sent a mail with a mass of 40 g and another mail with a mass of 180 g separately. How much did he pay for the postage?",
+    "options": [
+     "$4",
+     "$5.20",
+     "$5.50",
+     "$5.85"
+    ],
+    "answer": "$5.20",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q15",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Volume",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The figure shows a rectangular box partly filled with 1-cm cubes. What is the volume of the rectangular box?",
+    "options": [
+     "105 cm³",
+     "140 cm³",
+     "112 cm³",
+     "192 cm³"
+    ],
+    "answer": "192 cm³",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q16.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q16",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The bar graph shows the number of cupcakes sold from Monday to Friday. Each cupcake is sold at $4. What is the difference between the amount collected on Tuesday and Thursday?",
+    "options": [
+     "$84",
+     "$88",
+     "$104",
+     "$296"
+    ],
+    "answer": "$88",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q17.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q17",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Jason had some money. He spent 1/5 of his money on cards and 5/8 of the remaining money on his lunch. He had $42 left. How much money did Jason have at first?",
+    "options": [
+     "$48",
+     "$112",
+     "$140",
+     "$240"
+    ],
+    "answer": "$140",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q18",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "(a) Find the value of 2/11 × 4.\n(b) Find the value of 5 ÷ 8. Express your answer as a decimal.",
+    "options": [],
+    "answer": "(a) 8/11  (b) 0.625",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q19",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "9000 ml of water was poured into 4 containers equally. How many litres of water were there in one container?",
+    "options": [],
+    "answer": "2.25 L",
+    "solution": "9000 ÷ 4 = 2250 ml = 2.25 L",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q20",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Rate",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Water leaks from a tap at a rate of 7 ml per second. At this rate, how much water will leak from the tap in 1 minute?",
+    "options": [],
+    "answer": "420 ml",
+    "solution": "7 × 60 = 420 ml",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q21",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Area",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "The figure shows a right-angled triangle with sides 16 cm, 30 cm and 34 cm (the right angle is between the 16 cm and 30 cm sides). Find the area of the triangle.",
+    "options": [],
+    "answer": "240 cm²",
+    "solution": "1/2 × 16 × 30 = 240 cm²",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q22.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q22",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Angles",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Look at the angles a, b, c, d and e in the figure.\n(a) Name the smallest angle.\n(b) Name the two angles that are greater than 90°.",
+    "options": [],
+    "answer": "(a) angle e  (b) angle a and angle d",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q23.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q23",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The line graph shows the temperature of water in a kettle from 08 00 to 08 20.\n(a) What was the temperature of the water at 08 05?\n(b) For how long did the temperature of the water remain at 100 °C?",
+    "options": [],
+    "answer": "(a) 65 °C  (b) 10 min",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q24.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q24",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Minah deposited $3200 in a bank account. The bank offers an interest rate of 2% per year. How much would Minah have in her bank account at the end of one year?",
+    "options": [],
+    "answer": "$3264",
+    "solution": "$3200 × 1.02 = $3264",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q25",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "A group of 50 students participated in a spelling quiz. Their scores: 20 marks — 16 students; 35 marks — 18 students; 43 marks — 4 students; 50 marks — 12 students.\nWhat fraction of the students scored more than 35 marks? Give your answer in the simplest form.",
+    "options": [],
+    "answer": "8/25",
+    "solution": "(4 + 12) / 50 = 16/50 = 8/25",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q27",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Geometry",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "DEFG is a rhombus. DH is a straight line. Angle DEF = 72°. Find angle GFH.",
+    "options": [],
+    "answer": "126°",
+    "solution": "Angle DFG = (180 − 72) ÷ 2 = 54°; angle GFH = 180 − 54 = 126°",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q28.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q28",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "A pattern is formed using the numbers 0, 2 and 5. The first 15 numbers of the pattern are:\n2 0 2 5 0 2 0 2 5 0 2 0 2 5 0\nThe sum of the numbers in the pattern is 121. How many numbers are there in the pattern?",
+    "options": [],
+    "answer": "68",
+    "solution": "Each group (2, 0, 2, 5, 0) sums to 9. 121 ÷ 9 = 13 R4, and 4 = 2 + 0 + 2. 13 × 5 + 3 = 68",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q29",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Volume",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "The diagram shows a solid formed with 8 cubes. The side view is shown. Find the greatest number of unit cubes that can be added to the solid without changing the front view and side view.\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "4",
+    "solution": "Note: Part (a) (draw the front view) left out — drawing task.",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p1-q30.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P1 Q30",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Two different shops sell the same brand and model of a handbag at a discount. Shop A: usual price $480, 25% discount. Shop B: usual price $440, 10% discount. Mrs Lim wants to buy the handbag at a lower price.\nWhich shop should she buy the handbag from, Shop A or Shop B? How much would she pay for the handbag from that shop?",
+    "options": [],
+    "answer": "Shop A, $360",
+    "solution": "A: $480 × 75% = $360. B: $440 × 90% = $396.",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q1",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Rate",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "A machine produces 128 notebooks in 4 minutes. At this rate, how long does the machine take to produce 16 notebooks? Give your answer in seconds.",
+    "options": [],
+    "answer": "30 s",
+    "solution": "4 × 60 ÷ 128 × 16 = 30 s",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q2",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "The pie chart shows the types of books at the school library. There are 60 comic books. There is an equal number of Mystery and Science Fiction books. Thriller = 7/20, Fantasy = 1/10 and Comic = 1/4 (right angle).\nWhat percentage of the books are Mystery books?",
+    "options": [],
+    "answer": "15%",
+    "solution": "1/2 × (1 − 7/20 − 1/10 − 1/4) = 3/20 = 15%",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p2-q3.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q3",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p2-q3.png"
+    ]
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "(Same pie chart as the previous question: 60 comic books; Comic = 1/4 of the books, Thriller = 7/20.) How many books are Thriller books?",
+    "options": [],
+    "answer": "84",
+    "solution": "Total = 60 × 4 = 240; 7/20 × 240 = 84",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p2-q3.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q4",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p2-q3.png"
+    ]
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "A stationery shop had 200 files. 40% of them were blue and the rest were yellow. The shop owner bought 100 more blue files. What percentage of the files were blue in the end?",
+    "options": [],
+    "answer": "60%",
+    "solution": "Yellow = 120; blue = 80 + 100 = 180; 180 / 300 = 60%",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q5",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Mei Ling baked 1200 cookies and muffins for a charity sale. After she sold 1/2 of the cookies and 1/4 of the muffins, she had an equal number of cookies and muffins left.\n(a) How many cookies did she sell?\n(b) Each cookie costs $2.10 and each muffin costs $3.50. How much did Mei Ling raise for the charity sale?",
+    "options": [],
+    "answer": "(a) 360  (b) $1176",
+    "solution": "Cookies : muffins = 6 : 4 → cookies 720, muffins 480. (a) 360 sold. (b) 120 muffins sold; 360 × 2.10 + 120 × 3.50 = $1176",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q6",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Data Analysis",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The line graph shows the number of cakes sold each month from January to June. The number of cakes sold in 6 months from July to December is not shown.\n(a) During which one-month interval was the increase in the number of cakes sold the greatest?\n(b) How many cakes were sold for the first half of the year from January to June?\n(c) 4/9 of the total number of cakes were sold in 6 months from July to December. Find the total number of cakes sold from January to December.",
+    "options": [],
+    "answer": "(a) May to June  (b) 4050  (c) 7290",
+    "solution": "(b) 450 + 700 + 650 + 700 + 600 + 950 = 4050. (c) 4050 ÷ 5 × 9 = 7290",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p2-q7.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q7",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Area",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "A rectangular piece of paper is folded to form the figure. The total area of the two identical shaded triangles is 81 cm².\n(a) Find the length of XY.\n(b) Find the area of the rectangular piece of paper before it was folded.",
+    "options": [],
+    "answer": "(a) 9 cm  (b) 630 cm²",
+    "solution": "(a) Each shaded triangle is half a square: 81 = XY × XY → XY = 9 cm. (b) Length = 20 + 9 + 12 + 9 + 20 = 70 cm; 70 × 9 = 630 cm²",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p2-q8.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q8",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Decimals",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "The table shows the prices of shirts at a shop: first 7 shirts or fewer — $12.90 each; every additional shirt — $9.90.\nMr Chen paid $149.70 for some shirts. How many shirts did he buy?",
+    "options": [],
+    "answer": "13",
+    "solution": "7 × 12.90 = 90.30; 149.70 − 90.30 = 59.40; 59.40 ÷ 9.90 = 6; 7 + 6 = 13",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q9",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Geometry",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "WXYZ is a trapezium and PYR is an isosceles triangle where PY = YR. Angle WZY = 52°, angle WQY = 74° and angle QYR = 35°.\n(a) Find angle YRP.\n(b) Find angle XYP.",
+    "options": [],
+    "answer": "(a) 39°  (b) 61°",
+    "solution": "(a) 74 − 35 = 39° (exterior angle of triangle). (b) Angle YPR = angle YRP = 39°, so angle PYQ = 180 − 35 − 39 − 39 = 67°; angle XYP = 180 − 52 − 67 = 61° (angles between parallel sides)",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p2-q10.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q10",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Fractions",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Rachel and Joanne gave away the same number of stickers. Rachel gave away 2/3 of her stickers and Joanne gave away 3/5 of her stickers.\n(a) What fraction of the number of Joanne's stickers is the number of Rachel's stickers?\n(b) Rachel and Joanne had a total of 323 stickers. How many stickers did Rachel give away?",
+    "options": [],
+    "answer": "(a) 9/10  (b) 102",
+    "solution": "2/3 = 6/9 and 3/5 = 6/10, so Rachel : Joanne = 9 : 10. (b) 323 ÷ 19 × 6 = 102",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q11",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Ahmad played a target board game at a carnival. He earns 5 points for every target that he hit accurately. For every 8 targets that he hit accurately, Ahmad also earns a bonus of 50 points. At the end of the game, Ahmad earned a total of 840 points. How many targets did he hit in the game?",
+    "options": [],
+    "answer": "78",
+    "solution": "Every 8 targets = 40 + 50 = 90 points. 840 ÷ 90 = 9 R30; 30 ÷ 5 = 6. 9 × 8 + 6 = 78",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q12",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Meiling used identical 2-cm squares to form figures that follow a pattern. Figure 1: 1 square, perimeter 8 cm; Figure 2: 3 squares, 16 cm; Figure 3: 6 squares, 24 cm; Figure 4: 10 squares, 32 cm.\n(a) For Figure 5, find the number of squares and the perimeter.\n(b) Find the perimeter of Figure 20.\n(c) In which figure would 465 squares be used?",
+    "options": [],
+    "answer": "(a) 15 squares, 40 cm  (b) 160 cm  (c) Figure 30",
+    "solution": "(b) 20 × 8 = 160 cm. (c) n(n + 1)/2 = 465 → n(n + 1) = 930 = 30 × 31 → n = 30",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-maths-eoy-p2-q13.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q13",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Whole Numbers",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Susan puts 2 coins into her coin box every day. Each coin was either a 20-cent coin or a 50-cent coin. Every 5 days, her father added a $1 coin to her coin box. After 210 days, the total value of the coins in the coin box was $225.\n(a) How many coins were there altogether?\n(b) How many of her coins were 50-cent coins?",
+    "options": [],
+    "answer": "(a) 462  (b) 330",
+    "solution": "(a) 210 × 2 + 210 ÷ 5 = 420 + 42 = 462. (b) $225 − $42 = $183. If all 420 were 20-cent: $84. 183 − 84 = 99; 99 ÷ 0.30 = 330",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q14",
+     "marks": 5
+    }
+   },
+   {
+    "subject": "Math",
+    "topic": "Percentage",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "On Monday, 50 more men than women visited a museum. On Tuesday, the number of women who visited the museum was 80% of the number of women who visited on Monday. The number of men who visited the museum on both days remained the same. There were 950 visitors on Tuesday.\n(a) What was the total number of visitors on Monday and Tuesday?\n(b) What fraction of the total number of visitors on both days were women? Give your answer in the simplest form.",
+    "options": [],
+    "answer": "(a) 2000  (b) 9/20",
+    "solution": "Women Mon = 5u, Tue = 4u; men = 5u + 50 each day. 4u + 5u + 50 = 950 → u = 100. (a) 19u + 100 = 2000. (b) 900/2000 = 9/20",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 Maths EOY 2025",
+     "paperKey": "2025-henrypark-maths-eoy",
+     "qno": "P2 Q15",
+     "marks": 4
+    }
+   }
+  ]
+ },
+ {
+  "key": "2025-taonan-science-eoy",
+  "title": "Tao Nan P5 Science EOY 2025",
+  "subject": "Science",
+  "school": "Tao Nan School",
+  "year": 2025,
+  "exam": "EOY (SA2)",
+  "sourcePdf": "source_papers/2025/P5_Science_2025_SA2_taonan.pdf",
+  "sourceSite": "testpapersfree.com",
+  "questions": [
+   {
+    "subject": "Science",
+    "topic": "Diversity",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table shows some information on three different animals, A, B and C (a tick shows that the animal has the characteristic):\nA: has wings; breathes through lungs.\nB: has dry and scaly skin as body covering; breathes through lungs.\nC: gives birth to young alive; breathes through lungs.\nWhich of the following correctly identifies the groups the animals belong to?",
+    "options": [
+     "A bird, B reptile, C mammal",
+     "A bird, B fish, C mammal",
+     "A reptile, B mammal, C fish",
+     "A mammal, B fish, C reptile"
+    ],
+    "answer": "A bird, B reptile, C mammal",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q1",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Refer to the diagram. Which of the following is the function of part A of a plant?",
+    "options": [
+     "It supports the plant.",
+     "It makes food for the plant.",
+     "It takes in water for the plant.",
+     "It holds the plant firmly to the ground."
+    ],
+    "answer": "It makes food for the plant.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q2.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q2",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q2.png"
+    ]
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Refer to the same diagram. A farmer removed the food-carrying tubes of the plant (between branch B and branch C). The plant was watered regularly and placed under the Sun. Which of the statements is/are most likely true of the plant after one week?\nA: The leaves on branch C died.\nB: There was swelling of the stem above and below the cut.\nC: The leaves on branch B grew slower than those on branch C.",
+    "options": [
+     "A only",
+     "B only",
+     "A and C only",
+     "B and C only"
+    ],
+    "answer": "B only",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q2.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q3",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q2.png"
+    ]
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which material is most suitable for making the bouncing net that children can jump on safely?\nMaterial A: flexible ✓, strong ✓, allows light to pass through ✓\nMaterial B: flexible ✓, strong ✗, allows light ✓\nMaterial C: flexible ✓, strong ✓, allows light ✗\nMaterial D: flexible ✗, strong ✓, allows light ✗",
+    "options": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "answer": "C",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q4.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q4",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The diagram shows the life cycle of a flowering plant: Adult plant → (P) → Seed → (Q) → Young plant → Adult plant. Which of the following processes take place at P and Q?",
+    "options": [
+     "P: germination, pollination; Q: seed dispersal, fertilisation",
+     "P: pollination, fertilisation; Q: germination, seed dispersal",
+     "P: fertilisation, seed dispersal; Q: pollination, germination",
+     "P: germination; Q: pollination, fertilisation, seed dispersal"
+    ],
+    "answer": "P: pollination, fertilisation; Q: germination, seed dispersal",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q5.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q5",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table shows the characteristics of fruits X, Y and Z: X has a wing-like structure; Y has a fibrous husk; Z is fleshy and juicy. The diagram shows the dispersal patterns of the fruits from parent plants shaped as a circle, a triangle and a square. Which option correctly matches the parent plants (circle, triangle, square) to fruits X, Y and Z?",
+    "options": [
+     "circle X, triangle Y, square Z",
+     "circle Y, triangle Z, square X",
+     "circle Z, triangle X, square Y",
+     "circle Y, triangle X, square Z"
+    ],
+    "answer": "circle Y, triangle X, square Z",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q6.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q6",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Three different fruits, S, T and U, were dropped from the top of a building at the same time. The distance each fruit landed away from the building was measured (see graph). Which of the statements can be concluded from the results of the experiment?\nA: Fruit S has less mass than fruit U.\nB: Fruit T has the largest wing-like structure.\nC: Fruit U is the lightest and the smallest.",
+    "options": [
+     "A only",
+     "C only",
+     "A and B only",
+     "B and C only"
+    ],
+    "answer": "C only",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q7.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q7",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Seeds on damp cotton wool were watered daily but placed in different locations: A near the window, B in the freezer, C in a dark cupboard. In which set-up(s) would the seeds most likely germinate?",
+    "options": [
+     "A only",
+     "B only",
+     "A and C only",
+     "A, B and C"
+    ],
+    "answer": "A and C only",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q8",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table compares parts of the plant and human reproductive systems that have similar functions: plant U ↔ human testes; plant ovary ↔ human V. What could U and V be?",
+    "options": [
+     "U anther, V ovule",
+     "U stigma, V ovary",
+     "U anther, V ovary",
+     "U stigma, V ovule"
+    ],
+    "answer": "U anther, V ovary",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q9",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table shows some characteristics of Amanda and her family:\nAmanda: detached earlobes ✓, short hair ✓, brown eyes ✓\nSister: detached earlobes ✓, short hair ✗, brown eyes ✓\nFather: detached earlobes ✗, short hair ✓, brown eyes ✓\nMother: detached earlobes ✓, short hair ✓, brown eyes ✗\nBased on the information in the table, which statement is most likely true?",
+    "options": [
+     "Amanda inherited 2 characteristics from her father.",
+     "Amanda inherited her detached earlobes trait from her mother and sister.",
+     "Amanda's mother passed down her characteristic of short hair to Amanda.",
+     "Amanda's father passed down his characteristic of brown eyes to Amanda."
+    ],
+    "answer": "Amanda's father passed down his characteristic of brown eyes to Amanda.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q10",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "A celery plant was placed into a container as shown. The lower part of the stem was split into two at R; one half stands in red-coloured water and the other in blue-coloured water. Which of the following is a correct observation after one day?",
+    "options": [
+     "The leaves remained green.",
+     "All the leaves turned purple.",
+     "The part of the stem above cut R turned purple.",
+     "Some leaves turned red while some leaves turned blue."
+    ],
+    "answer": "Some leaves turned red while some leaves turned blue.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q11.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q11",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The diagram shows the direction of blood flow in certain parts of the body a few hours after a meal. Which statement(s) is/are correct?\nA: Blood in P has less oxygen than blood in Q.\nB: Blood in R has less carbon dioxide than blood in S.\nC: Blood in T has less digested food than blood in U.",
+    "options": [
+     "A only",
+     "C only",
+     "A and B only",
+     "B and C only"
+    ],
+    "answer": "A only",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q12.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q12",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "A boy is blowing into a balloon. Compare the gases in the surrounding and in the balloon. Which statement is correct?",
+    "options": [
+     "There is less oxygen in the surrounding than in the balloon.",
+     "There is less water vapour in the surrounding than in the balloon.",
+     "There is more carbon dioxide in the surrounding than in the balloon.",
+     "There is no change in the percentage of gases in the surrounding and in the balloon."
+    ],
+    "answer": "There is less water vapour in the surrounding than in the balloon.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q13",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which part is involved in the exchange of gases in a plant, fish and human?",
+    "options": [
+     "plant: leaves; fish: mouth; human: lungs",
+     "plant: leaves; fish: gills; human: nose",
+     "plant: tiny openings; fish: gills; human: lungs",
+     "plant: tiny openings; fish: mouth; human: nose"
+    ],
+    "answer": "plant: tiny openings; fish: gills; human: lungs",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q14",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Alvin walked for 5 minutes to the park. At the park, he cycled for 15 minutes before resting for 5 minutes. Which of the graphs (1)–(4) correctly shows his heart rate?",
+    "options": [
+     "(1)",
+     "(2)",
+     "(3)",
+     "(4)"
+    ],
+    "answer": "(2)",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q15.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q15",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The diagram shows a kettle of boiling water with a 'white cloud' near the spout. What is the 'white cloud' that can be seen?",
+    "options": [
+     "steam",
+     "smoke",
+     "water vapour",
+     "water droplets"
+    ],
+    "answer": "water droplets",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q16",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Substance A is a liquid at 21 °C and a gas at 92 °C. Which of the following are possible freezing and boiling points of substance A?",
+    "options": [
+     "freezing 0 °C, boiling 100 °C",
+     "freezing 6 °C, boiling 80 °C",
+     "freezing 26 °C, boiling 161 °C",
+     "freezing 41 °C, boiling 182 °C"
+    ],
+    "answer": "freezing 6 °C, boiling 80 °C",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q17",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which one of the following statements about boiling and melting is INCORRECT?",
+    "options": [
+     "Both processes involve a change of state.",
+     "Both processes occur at a fixed temperature.",
+     "The boiling point is always higher than the melting point.",
+     "One process involves heat gain and the other process involves heat loss."
+    ],
+    "answer": "One process involves heat gain and the other process involves heat loss.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q18",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The diagram represents the water cycle. A, B and C are processes that occur in the water cycle. Which of the following about the processes in the water cycle is correct?",
+    "options": [
+     "A — heat loss",
+     "B — heat gain",
+     "B and C — heat gain",
+     "C and A — no heat gain or heat loss"
+    ],
+    "answer": "B — heat gain",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q19.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q19",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following definitely helps to conserve water?\nA: repair a leaking tap\nB: use a mug when brushing teeth\nC: take a longer shower\nD: use the water hose when watering the plants",
+    "options": [
+     "A and B only",
+     "A and C only",
+     "B and C only",
+     "C and D only"
+    ],
+    "answer": "A and B only",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q20",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Four containers J, K, L and M hold the same amount of water. They are left near an open window for a few hours. Arrange the containers from the least volume to the most volume of water left after a few hours.",
+    "options": [
+     "J, L, K, M",
+     "M, K, J, L",
+     "L, J, K, M",
+     "K, J, M, L"
+    ],
+    "answer": "L, J, K, M",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q21.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q21",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Jerry arranged a set-up (audience | screen | puppet | light source) to perform a shadow puppet show. Which of the following explains how the shadows are formed so that the audience can enjoy the show?",
+    "options": [
+     "puppet allows no light to pass through; screen allows some light to pass through",
+     "puppet allows most light to pass through; screen allows no light to pass through",
+     "puppet allows no light to pass through; screen allows most light to pass through",
+     "puppet allows some light to pass through; screen allows no light to pass through"
+    ],
+    "answer": "puppet allows no light to pass through; screen allows some light to pass through",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q22.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q22",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "A sealed container holds 300 cm³ of air and 300 cm³ of water. A volume of 100 cm³ of air was removed from the container through the air pump while 150 cm³ of water was removed through the tap. What was the final volume of the air in the container?",
+    "options": [
+     "150 cm³",
+     "200 cm³",
+     "300 cm³",
+     "450 cm³"
+    ],
+    "answer": "450 cm³",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q23.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q23",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "When boiling water was poured into a thick glass cup that was just taken out of the freezer, the walls of the glass cracked. X is the inner part of the glass and Y is the outer part of the glass. What would be the best explanation why the glass cracked?",
+    "options": [
+     "X gained heat but Y did not.",
+     "X gained heat but Y lost heat.",
+     "X lost more heat than Y and contracted faster.",
+     "X gained more heat than Y and expanded faster."
+    ],
+    "answer": "X gained more heat than Y and expanded faster.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q24",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Interactions (Forces & Energy)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The diagram shows the positions at which each magnet A, B, C and D started to attract the paper clip. Which magnet was the strongest?",
+    "options": [
+     "Magnet A",
+     "Magnet B",
+     "Magnet C",
+     "Magnet D"
+    ],
+    "answer": "Magnet C",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q25.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q25",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Billy set up the circuit shown. Which bulb(s) will light up when the switch is closed?",
+    "options": [
+     "A and C only",
+     "B and D only",
+     "A, B and C only",
+     "None will light up."
+    ],
+    "answer": "A and C only",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q26.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q26",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Study the circuit card (clips E, F, G, H) which is tested with the circuit tester. Which set of results is INCORRECT?",
+    "options": [
+     "E and F — does not light up",
+     "F and G — does not light up",
+     "E and G — does not light up",
+     "F and H — lights up"
+    ],
+    "answer": "F and G — does not light up",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q27.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q27",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Sanjay set up a circuit with bulbs P, Q and R in series. Which of the following should Sanjay do to increase the brightness of bulb Q?\nA: Remove bulb R.\nB: Remove one battery.\nC: Add one more battery.\nD: Rearrange all the bulbs to be in parallel to one another.",
+    "options": [
+     "A and C only",
+     "B and D only",
+     "A, C and D only",
+     "A, B and D only"
+    ],
+    "answer": "A, C and D only",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q28.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q28",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Two circuits are set up as shown. All bulbs are identical and the components are in working condition. Which bulb in Circuit 2 will have the same brightness as bulb L in Circuit 1?",
+    "options": [
+     "Bulb M",
+     "Bulb N",
+     "Bulb P",
+     "None of the bulbs in Circuit 2"
+    ],
+    "answer": "Bulb M",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q29.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q29",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q29.png"
+    ]
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "(Same two circuits.) What will happen when bulb P is removed from Circuit 2?",
+    "options": [
+     "Only bulb M will light up.",
+     "Only bulb N will light up.",
+     "Bulbs M and N will light up.",
+     "None of the bulbs will light up."
+    ],
+    "answer": "Bulbs M and N will light up.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q29.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "A Q30",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-a-q29.png"
+    ]
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The diagrams show the life cycles of a mosquito and a grasshopper.\n(a) Based on the diagrams, state two differences between the life cycles of the mosquito and the grasshopper.\n(b) Name another animal that has the same number of stages as the life cycle of the mosquito.",
+    "options": [],
+    "answer": "(a) Any two: the grasshopper has a 3-stage life cycle but the mosquito has a 4-stage life cycle; the mosquito has a larval/pupal stage but the grasshopper does not; the young of the grasshopper looks like the adult but the young of the mosquito does not.  (b) beetle / moth / butterfly",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q31.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q31",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The diagram shows a flower that Jenny found in her garden (sticky stigma; large and brightly-coloured petals).\n(a) What is pollination?\n(b) Based on the diagram, what is the likely method of pollination of this flower? Explain your answer.\n(c) Jenny removed a certain part of the flower from each of three flowers, K, L and M (second diagram). After some time, which flower(s) can develop into fruits? Explain why.",
+    "options": [],
+    "answer": "(a) Pollination is the process where pollen grains are transferred from the anther to the stigma.  (b) Insect-/animal-pollinated: the large, brightly coloured petals attract pollinators (or: the sticky stigma traps the pollen grains stuck to the pollinators).  (c) Flowers K and L. Both still have the stigma AND the ovary/ovule (female parts), so fertilisation can take place.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q32-1.png",
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q32-2.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q32",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The diagrams show the female and male human reproductive systems.\n(a) Identify part X and part Y.\n(b) State what fertilisation is.\n(c) Due to health reasons, an adult male needs to have part Y removed. Will he still be able to have an offspring? Explain why.",
+    "options": [],
+    "answer": "(a) X: ovary; Y: testis  (b) Fertilisation is the process where the egg (female reproductive cell) fuses with the sperm (male reproductive cell).  (c) Yes. There is still one more testis that can produce sperms.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q33.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q33",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Timmy was hiking up a mountain. He wanted to find out how his breathing rate at rest was affected when he went higher up the mountain. He recorded:\nHeight 1500 m — oxygen 17% — 16 breaths per minute\nHeight 2000 m — oxygen 16% — 20 breaths per minute\nHeight 2500 m — oxygen 15% — ?\nHeight 3000 m — oxygen 14% — 24 breaths per minute\n(a) Write down a possible reading of Timmy's breathing rate at rest at 2500 m.\n(b) What could Timmy conclude about how his breathing rate at rest was affected by the height above sea level?\n(c) Based on the data, explain your answer in (b).\n(d) State how sitting for 30 minutes before measuring his breathing rate at each height helped to make the investigation a fair test.",
+    "options": [],
+    "answer": "(a) Any number between 20 and 24  (b) As the height above sea level increases, his breathing rate increases.  (c) The greater the height above sea level, the lower the oxygen level, so Timmy needs to breathe faster for his body to receive enough oxygen.  (d) It allows his breathing rate to return to the resting/normal rate.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q34",
+     "marks": 5
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The diagram shows a fruit with juicy flesh and many tiny seeds.\n(a) State an advantage of this fruit having many seeds.\n(b) Describe how the seeds of this fruit can be dispersed over a wide area.",
+    "options": [],
+    "answer": "(a) To increase the chances of seeds germinating/growing into adult plants.  (b) Animals eat the flesh of the fruit, and the (indigestible) seeds are passed out in their droppings as they move/fly to other places.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q35.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q35",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Four identical containers, filled with the same volume of water, were left in four different locations for 2 hours: A cloudy, no wind; B cloudy, windy; C sunny, windy; D sunny, no wind.\n(b) What is the aim of this experiment?\n(c) In which of the four locations will wet clothes dry the fastest? Explain why.\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "(b) To find out how the rate of evaporation of water is affected by the presence of wind and the temperature of the surroundings.  (c) Location C. It is windy and the surroundings are warmer (sunny), which both increase the rate of evaporation of water from the wet clothes.",
+    "solution": "Note: Part (a) (complete a bar graph) left out — drawing task.",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q36",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "The diagram shows the circuit inside a remote-controlled toy helicopter. All components are in working condition. When the switch is closed, the bulb should light up while propellers X and Y spin, but the bulb did not light up and neither propeller spun. Motor 1 turns X and motor 2 turns Y if electricity flows through the circuit.\n(a) Based on the diagram, give a reason why the toy is not working.\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "One of the batteries is placed the wrong way.",
+    "solution": "Note: Part (b) (complete the circuit drawing) left out — drawing task.",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q37.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q37",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Fred placed a cup into a basin. He poured some coffee into the basin and covered it with a plastic dish. He then placed the basin under the hot sun for a few hours. After a few hours, Fred found substance F in the cup.\n(a) What is substance F?\n(b) State the two processes that took place for substance F to be collected in the cup.\n(c) Without changing the plastic dish, suggest a change to the set-up to increase the amount of substance F in the cup within the same duration.",
+    "options": [],
+    "answer": "(a) (Pure) water  (b) Evaporation and condensation  (c) Any one: place some ice on the plastic dish; use coffee at a higher temperature; add a heat source below the basin.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q38.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q38",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "A cup of water at 10 °C (in a metal cup with a lid) was placed in a room at a temperature of 29 °C.\n(a) What is the temperature of the water in the cup after a few hours?\n(c) The cup was then placed in the freezer where the temperature is below 0 °C. What is the state of the water in the cup after a few hours? Explain why.\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "(a) 29 °C (room temperature)  (c) Solid. The water in the cup loses heat to the surrounding air in the freezer until it reaches its freezing point and freezes.",
+    "solution": "Note: Part (b) (draw heat-flow arrows) left out — drawing task.",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q39",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Interactions (Forces & Energy)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Gary made a simple alarm system which he installed onto the door and door frame of his office. If the switch is closed, the bell will sound when the door is opened.\n(a) Based on the diagrams, explain how the alarm system works when a burglar opens the door if the switch was closed earlier on.\n(b) Gary wanted to add a bulb to his alarm system. How should Gary connect the bulb to the circuit such that he could be warned by the lit bulb even when the bell is not working?",
+    "options": [],
+    "answer": "(a) When the door is opened, the magnet (on the door frame) no longer attracts the iron disc. The iron disc falls and touches the metal contacts, closing the circuit, so electricity flows and the bell sounds.  (b) Connect the bulb in parallel to the bell.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q40.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q40",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "A circuit was set up using 3 rods of different materials, W, X and Y. Only one of them is an insulator of electricity. All components are in working condition.\n(a) When the switch was closed, two bulbs lit up. Which rods are conductors of electricity and which is the insulator?\n(b) What would happen to the brightness of bulb F if another bulb is added in series to it? Explain why.\n(c) If rod W was replaced with a plastic rod, how many bulbs would light up? Explain why.",
+    "options": [],
+    "answer": "(a) Conductors: W and X. Insulator: Y.  (b) Bulb F will become dimmer. Less electric current flows through the bulbs.  (c) None. Plastic is an insulator of electricity.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-taonan-science-eoy-b-q41.png"
+    ],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 Science EOY 2025",
+     "paperKey": "2025-taonan-science-eoy",
+     "qno": "B Q41",
+     "marks": 4
+    }
+   }
+  ]
+ },
+ {
+  "key": "2025-nanyang-science-eoy",
+  "title": "Nanyang P5 Science EOY 2025",
+  "subject": "Science",
+  "school": "Nanyang Primary School",
+  "year": 2025,
+  "exam": "EOY (SA2)",
+  "sourcePdf": "source_papers/2025/P5_Science_2025_SA2_nanyang.pdf",
+  "sourceSite": "testpapersfree.com",
+  "questions": [
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The diagrams show parts of the human reproductive system. In which of the parts, A, B, C or D, does a fertilised egg develop into a baby?",
+    "options": [
+     "A",
+     "B",
+     "C",
+     "D"
+    ],
+    "answer": "B",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q1.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q1",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table shows the parts where reproductive cells are contained: female reproductive cell — human system E, plant system G; male reproductive cell — human system F, plant system H. Which of the following correctly identifies E, F, G and H?",
+    "options": [
+     "E testes, F ovaries, G style, H stigma",
+     "E testes, F ovaries, G ovules, H anther",
+     "E ovaries, F testes, G ovules, H anther",
+     "E ovaries, F testes, G stigma, H style"
+    ],
+    "answer": "E ovaries, F testes, G ovules, H anther",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q2",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Jenny has a plant in her garden that produces brightly-coloured flowers. She removed the petals of one of the flowers. She observed that the flower without petals took a longer time to develop into a fruit compared to the flower with petals. Which one of the following statements about the flower without petals best explains Jenny's observation?",
+    "options": [
+     "The anthers produced lesser pollen grains.",
+     "The stigma was unable to catch the pollen grains in the wind.",
+     "The pollinators were less attracted to the flower to carry out pollination.",
+     "The pollinators were less attracted to the flower to carry out germination."
+    ],
+    "answer": "The pollinators were less attracted to the flower to carry out pollination.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q3.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q3",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Cayden removed the food-carrying tubes from a tree as shown (on the branch below fruit P, where fruit Q grows). After two weeks, she noticed that only fruit P became bigger. Which of the following explains why only fruit P became bigger?",
+    "options": [
+     "Fruit P was able to make more food than fruit Q.",
+     "Water taken in by the roots was transported to fruit P only.",
+     "Food made by the leaves was transported to fruit P but not fruit Q.",
+     "Water-carrying tubes transported more water to fruit Q than to fruit P."
+    ],
+    "answer": "Food made by the leaves was transported to fruit P but not fruit Q.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q4.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q4",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q4.png"
+    ]
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "(Same set-up: Cayden removed the food-carrying tubes on one branch of the tree.) Which of the following is a possible observation of the whole plant after a few weeks?",
+    "options": [
+     "The leaves withered.",
+     "The tree continues to grow well.",
+     "The roots do not get enough food and shrank.",
+     "Fruit Q does not get enough water and dried up."
+    ],
+    "answer": "The tree continues to grow well.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q4.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q5",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q4.png"
+    ]
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following correctly shows the function of the nose and the lungs?",
+    "options": [
+     "nose: moistens the air; lungs: pump air around the body",
+     "nose: has tiny hairs to filter the air; lungs: allow for gaseous exchange",
+     "nose: carbon dioxide is removed from the blood; lungs: moisten the air",
+     "nose: oxygen is removed from the blood; lungs: allow for gaseous exchange"
+    ],
+    "answer": "nose: has tiny hairs to filter the air; lungs: allow for gaseous exchange",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q6",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following correctly shows the comparison of oxygen and carbon dioxide in the air that we breathe?",
+    "options": [
+     "There is a higher amount of oxygen in exhaled air than in inhaled air.",
+     "There is a lower amount of carbon dioxide in inhaled air than in exhaled air.",
+     "The amount of oxygen in inhaled and exhaled air remains the same.",
+     "The amount of carbon dioxide in inhaled and exhaled air remains the same."
+    ],
+    "answer": "There is a lower amount of carbon dioxide in inhaled air than in exhaled air.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q7",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Ahmad drew the diagram to represent blood flow in some parts of the body. Which of the arrows are wrongly drawn?",
+    "options": [
+     "A and C",
+     "B and D",
+     "E and F",
+     "G and H"
+    ],
+    "answer": "E and F",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q8.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q8",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following is the correct function of the human circulatory system?",
+    "options": [
+     "protects organs in the body",
+     "absorbs water from undigested food",
+     "takes in oxygen from the surrounding into the body",
+     "transports waste materials away from different parts of the body for removal"
+    ],
+    "answer": "transports waste materials away from different parts of the body for removal",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q9",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table shows the processes taking place in organs M and P, which are parts of the human digestive system:\nWater is absorbed — M: yes; P: no\nDigestive juice is produced — M: no; P: no\nFood is broken into smaller pieces — M: no; P: no\nWhich of the following correctly identifies organs M and P?",
+    "options": [
+     "M large intestine, P gullet",
+     "M large intestine, P mouth",
+     "M small intestine, P mouth",
+     "M small intestine, P gullet"
+    ],
+    "answer": "M large intestine, P gullet",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q10",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Jenny set up two identical beakers, Q and R, with the same amount of digestive juice and the same mass (40 g) of meat in each beaker; the meat in Q was cut into small pieces and the meat in R was one big piece. Four hours later, the mass of meat in both beakers decreased, and the total mass of meat in beaker Q was less than the mass of meat in beaker R. Which of the statements are correct?\nA: No digestion took place in beaker R.\nB: More digestion took place in beaker Q.\nC: Smaller pieces of food help to speed up digestion.\nD: The mass of food in each beaker at the start affected the rate of digestion.",
+    "options": [
+     "A and B only",
+     "A and D only",
+     "B and C only",
+     "C and D only"
+    ],
+    "answer": "B and C only",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q11.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q11",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which group of living things has a four-stage life cycle?",
+    "options": [
+     "butterfly, frog, mosquito",
+     "frog, grasshopper, cockroach",
+     "butterfly, mealworm beetle, mosquito",
+     "cockroach, grasshopper, mealworm beetle"
+    ],
+    "answer": "butterfly, mealworm beetle, mosquito",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q12",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The diagram shows the life cycle of animal X (egg → young → adult). The graph shows the number of weeks animal X remains in each stage of its life cycle. Based on the graph, which statement about the life cycle of animal X is correct?",
+    "options": [
+     "Animal X is a mosquito.",
+     "The animal spends fewer weeks as a young than as an adult.",
+     "The animal takes 5 weeks to become an adult after the egg is laid.",
+     "After the young hatches from the egg, it takes 17 weeks to become an adult."
+    ],
+    "answer": "The animal spends fewer weeks as a young than as an adult.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q13.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q13",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the diagrams (1)–(4) correctly shows the life cycle of a plant?",
+    "options": [
+     "(1)",
+     "(2)",
+     "(3)",
+     "(4)"
+    ],
+    "answer": "(4)",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q14.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q14",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The table shows the freezing and boiling points of three substances: X freezes at 13 °C and boils at 105 °C; Y freezes at 22 °C and boils at 48 °C; Z freezes at 105 °C and boils at 210 °C. Which of the following statements is correct?",
+    "options": [
+     "X is a solid at 27 °C.",
+     "X and Y are liquids at 20 °C.",
+     "Y and Z are solids at 130 °C.",
+     "X and Y are gases at 120 °C."
+    ],
+    "answer": "X and Y are gases at 120 °C.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q15",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "In the diagram, A (solid → liquid), B (liquid → gas), C (gas → liquid) and D (liquid → solid) represent the different processes that result in a change in state of water. Which of the following correctly represent A, B, C and D?",
+    "options": [
+     "A melting, B boiling, C evaporation, D freezing",
+     "A freezing, B evaporation, C condensation, D melting",
+     "A melting, B boiling, C condensation, D freezing",
+     "A freezing, B evaporation, C boiling, D melting"
+    ],
+    "answer": "A melting, B boiling, C condensation, D freezing",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q16",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Ali poured an equal amount of water at different temperatures into 2 identical cups, A and B. He covered the cups with identical lids and left them in a room at 29 °C. After 10 minutes, cup A had water droplets on the underside of its lid, while cup B had water droplets on the outside of the cup. Which of the following shows the most likely temperature of water in each cup?",
+    "options": [
+     "cup A 10 °C, cup B 80 °C",
+     "cup A 10 °C, cup B 10 °C",
+     "cup A 80 °C, cup B 10 °C",
+     "cup A 80 °C, cup B 80 °C"
+    ],
+    "answer": "cup A 80 °C, cup B 10 °C",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q17.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q17",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "In what ways are the cloud in the sky and the mist formed around the spout of a kettle of boiling water similar?\nA: Both are in liquid state.\nB: Both are of the same temperature.\nC: Both are formed by water gaining heat from the surrounding air.\nD: Both are formed by water vapour losing heat to the surrounding air.",
+    "options": [
+     "A and B only",
+     "A and D only",
+     "B and C only",
+     "A, C and D only"
+    ],
+    "answer": "A and D only",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q18",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Interactions (Forces & Energy)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "A large amount of fertiliser from a vegetable farm and animal waste from an animal farm flows into a nearby river at point X. A factory nearby would also dump their toxic waste into the river. The presence of fertiliser and animal waste turned the water cloudy. Which of the graphs (1)–(4) best represents the effect of fertiliser, animal waste and toxic waste on the amount of fishes in the river?",
+    "options": [
+     "(1)",
+     "(2)",
+     "(3)",
+     "(4)"
+    ],
+    "answer": "(4)",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q19.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q19",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following activities can cause water pollution?\nA: Using rainwater to wash the toilet.\nB: Watering plants with water from washing rice.\nC: Littering and dumping of waste into canals and rivers.\nD: Spraying insecticide over the water in drains and ponds.",
+    "options": [
+     "A and C only",
+     "C and D only",
+     "A, B and D only",
+     "B, C and D only"
+    ],
+    "answer": "C and D only",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q20",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Lucian set up four circuits using identical batteries and bulbs as shown. All the circuit components are in working condition. In which circuit would the bulb light up?",
+    "options": [
+     "Circuit A",
+     "Circuit B",
+     "Circuit C",
+     "Circuit D"
+    ],
+    "answer": "Circuit A",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q21.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q21",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Connie set up the electric circuit shown. All the electrical components are working. She observed that only bulb U lit up. Which of the following is correct?",
+    "options": [
+     "V copper, W iron",
+     "V copper, W cardboard",
+     "V cardboard, W copper",
+     "V cardboard, W iron"
+    ],
+    "answer": "V copper, W cardboard",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q22.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q22",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The diagram shows a wire loop game which requires players to guide a loop along a wire. When the loop touches the metal maze, the bulb will light up. Which statement(s) is/are correct?\nA: When the loop touches the metal maze, a closed circuit is formed.\nB: The wire, loop and handle are made of electrical conductors.",
+    "options": [
+     "A only",
+     "B only",
+     "Both A and B",
+     "Neither A nor B"
+    ],
+    "answer": "A only",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q23.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q23",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q23.png"
+    ]
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "(Wire loop game.) Which statement(s) show unsafe ways to play the wire loop game?\nP: Use wires that are not insulated.\nQ: Hold only the handle to play the game.\nR: Touch the metal maze with wet hands.",
+    "options": [
+     "Q only",
+     "P and R only",
+     "Q and R only",
+     "P, Q and R"
+    ],
+    "answer": "P and R only",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q23.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q24",
+     "marks": 2
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q23.png"
+    ]
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Which of the following practices will help to conserve electricity?",
+    "options": [
+     "Overload a socket with many plugs.",
+     "Use an air-conditioner instead of a fan.",
+     "Switch off the lights when leaving a room.",
+     "Choose electrical appliances with less green ticks."
+    ],
+    "answer": "Switch off the lights when leaving a room.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q25",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Study the flowchart: Matter → 'Does it have a definite shape?' Yes → P; No → 'Does it have a definite volume?' Yes → Q; No → R. Which of the following best represents Q?",
+    "options": [
+     "eraser",
+     "oxygen",
+     "football",
+     "orange juice"
+    ],
+    "answer": "orange juice",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q26",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Jaya pumped more air into a basketball. She observed that the size and shape of the basketball did not change. Which of the following best explains her observations?",
+    "options": [
+     "Air has mass.",
+     "Air takes up space.",
+     "Air can be compressed.",
+     "Air has a definite shape."
+    ],
+    "answer": "Air can be compressed.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q27",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The device measures the oxygen levels and pulse rate. In this device, light from the light source reflects off a person's finger into a light sensor. The light ray is shown in the diagram. Based on the diagram, which statement is NOT correct?",
+    "options": [
+     "Light can be reflected.",
+     "Light travels in straight lines.",
+     "A is the light source and B is the light sensor.",
+     "B is the light source and A is the light sensor."
+    ],
+    "answer": "B is the light source and A is the light sensor.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q28.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q28",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Nora stood under a lamp as shown. She walked in a straight line from position X to position Y, and then to position Z. Which graph shows how the length of her shadow changed during this time?",
+    "options": [
+     "(1)",
+     "(2)",
+     "(3)",
+     "(4)"
+    ],
+    "answer": "(3)",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-a-q29.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q29",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Kumar is holding a metal plate in one hand and a wooden plate in the other. He noticed that the metal plate felt cold but not the wooden plate. If both plates were in the same room for the same duration, why did the metal plate feel cold while the wooden plate did not?",
+    "options": [
+     "The temperature of the metal plate is higher than Kumar's hand.",
+     "The metal plate lost more heat to Kumar's hand than the wooden plate did.",
+     "The metal plate gained more heat from Kumar's hand than the wooden plate did.",
+     "The wooden plate gained more heat from Kumar's hand than the metal plate did."
+    ],
+    "answer": "The metal plate gained more heat from Kumar's hand than the wooden plate did.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "A Q30",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The diagram shows the fruits and seeds of different plants: X has a wing-like structure, Y has a hair-like structure, Z has a fibrous husk. A second diagram shows a seed germinating (stage 1 seed, stage 2 seedling with seed leaf, stage 3 young plant).\n(a) Based only on the observable characteristics, which one is most likely dispersed by water? Explain your answer.\n(b) What is the disadvantage of the dispersal method of fruit Y?\n(c) State all the conditions needed for the seed to germinate from stage 1 to stage 2.\n(d) The seed leaf in stage 3 is observed to be much smaller than in stage 2. Give a reason for the observation.",
+    "options": [],
+    "answer": "(a) Z. It has a fibrous husk that traps air and allows it to float on water.  (b) Fruit Y depends on the availability of wind for dispersal.  (c) Warmth/suitable temperature, oxygen/air and water.  (d) The food in the seed leaf had been used up.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q31.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q31",
+     "marks": 5
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Herman went for a jog in the park. He measured his heart rate throughout the jog. The graph shows his heart rate over a period of time (points A to E).\n(a) What is Herman's heart rate when he is at rest?\n(b) Identify the point at which Herman (i) started running, (ii) stopped running.\n(c) Describe and explain the change in Herman's heart rate when he stopped running.",
+    "options": [],
+    "answer": "(a) 60 beats per minute  (b) (i) Point B (ii) Point D  (c) His heart rate decreased. His heart pumped blood more slowly / pumped less blood as less oxygen and digested food were needed.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q32.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q32",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Systems (Human/Plant)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "The graph shows the amount of undigested food entering and leaving different parts of the digestive system (mouth, gullet, stomach, small intestine, large intestine).\n(b) State two functions of the small intestine.\n(c) Why does the amount of undigested food entering and leaving the gullet remain the same?\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "(b) (i) Absorbs digested food into the bloodstream. (ii) Breaks down food into simpler substances.  (c) No digestion takes place in the gullet.",
+    "solution": "Note: Part (a) (draw two bars on the graph) left out — drawing task.",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q33.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q33",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Animal X lives on land and only its young are found on the leaves of plants. The adult of animal X feeds on other insects to survive. When animal X is found on the plants in a farm, farmers have more damaged plants. Its life cycle is egg → larva → pupa → adult. In 2025, farmers sprayed substance Q on the leaves of plants to reduce the amount of damaged plants. When substance Q is eaten, only the young of animal X is affected.\n(a) State the stage of the life cycle affected by substance Q. Give a reason for your answer.\n(c) State one similarity and one difference between the life cycle of animal X and the life cycle of a grasshopper.\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "(a) Larva stage. The larva feeds on the leaves with substance Q.  (c) Similarity: both life cycles take place entirely on land. Difference: the grasshopper has a 3-stage life cycle while animal X has a 4-stage life cycle / the grasshopper's young resembles the adult while animal X's young does not.",
+    "solution": "Note: Part (b) (complete a line graph) left out — drawing task.",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q34.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q34",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Cycles",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Alima wanted to find out if the amount of water affects the height of a plant after two weeks. She prepared four pots:\nPot D: 200 g soil, seed X, 50 ml water\nPot E: 500 g soil, seed Y, 50 ml water\nPot F: 200 g soil, seed Y, 100 ml water\nPot G: 500 g soil, seed Y, 100 ml water\n(a) Which two pots should Alima use for the experiment to be a fair test?\n(b) Which apparatus should Alima use to accurately measure the height of the plant: beaker, ruler, weighing balance or 1 cm unit cubes?\n(c) Her results (bar graph) show the plant height over 3 weeks with 50 ml and 100 ml of water. State what Alima can conclude from her results.",
+    "options": [],
+    "answer": "(a) Pot E and Pot G  (b) ruler  (c) More water causes plants to grow faster/taller.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q35.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q35",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Shanti has two containers, X (a cylinder) and Y (narrowing towards the bottom), both 10 cm wide at the top. She filled the containers with 500 ml of water each and left them on a table in the same room for two days, then measured the amount of water left.\n(a) Why did Shanti use the same amount of water at the start of the experiment?\n(b) Which container would have more water left in it after two days? Explain your answer.\n(c) State another way in which the rate of evaporation of the water can be increased.",
+    "options": [],
+    "answer": "(a) To ensure that the results are affected only by the change in the exposed surface area of the water and not by any other factor.  (b) Container Y. The exposed surface area of the water decreased over time, so the rate of evaporation decreased.  (c) Place a fan near the containers / place the containers in a location of higher temperature.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q36.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q36",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Matter",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "John put together a set-up: a container with a capacity of 300 cm³, holding 200 cm³ of water, closed with a stopper and connected to a pump.\n(a)(i) What is the volume of air in the container?\n(a)(ii) Using the pump, 50 cm³ of water was added into the container. What is the final volume of air in the container? Explain your answer.\n(b) To release the water, a small hole was made at the bottom of the container and water started dripping out slowly. Without changing the hole or adding another hole, what can John do to increase the rate of water dripping out?",
+    "options": [],
+    "answer": "(a)(i) 100 cm³  (a)(ii) 50 cm³. The added water took up the space previously occupied by the air; air can be compressed.  (b) Remove the stopper / pump more air into the container.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q37.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q37",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Liam used two beakers of water, both starting at 80 °C: beaker F with 500 ml and beaker G with 180 ml. He wanted to cook an egg by leaving it in the beaker of hot water.\n(a) In which beaker would the egg cook faster? Give a reason for your answer.\nLiam then used 2 beakers of identical materials, J and K, each completely filled with 200 ml of water at 80 °C, with lids made of different materials. After 3 minutes, the water in J was 45 °C and the water in K was 20 °C.\n(b) Suggest a possible material for the lid covering beaker K. Explain your answer.",
+    "options": [],
+    "answer": "(a) F. F has a greater volume of water, so it has more heat to cook the egg.  (b) Metal/steel/iron. The temperature of water in K decreased faster; metal is a good conductor of heat, so the lid conducts heat away to the surroundings faster.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q38",
+     "marks": 4
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Interactions (Forces & Energy)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Mei Mei made an electromagnet (coils of wire around a steel nail, connected to a battery and switch).\n(a) State one way Mei Mei can increase the strength of the electromagnet without using other materials.\nA car park barrier uses an electromagnet to operate. When there is no car, the switch is open and the barrier is in the position shown.\n(b) Based on the diagram, explain clearly how the electromagnet helps to lift the barrier when a car approaches.",
+    "options": [],
+    "answer": "(a) Increase the number of coils of wire around the steel nail.  (b) When the switch is closed, a closed circuit is formed and the iron rod becomes magnetised. It attracts the steel weight, which pulls part K down, lifting the barrier.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q39.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q39",
+     "marks": 3
+    }
+   },
+   {
+    "subject": "Science",
+    "topic": "Energy",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Harold bought a toy microwave (diagram 1). Its circuit (diagram 2) contains a motor to spin the plate, bulb P and bulb Q. Bulbs P and Q are identical and all components work. When the motor for the spinning plate stopped working, the lamp no longer lit up but the light-up display could still work.\n(a) Identify the bulb used for the lamp and for the light-up display.\n(b) Give a reason why the bulb for the light-up display could still work when the motor stopped working.\n(c) Harold replaced the motor with bulb R (identical to P and Q). Describe and compare the brightness of bulbs P, Q and R.\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "(a) Lamp: bulb Q; light-up display: bulb P  (b) The bulb for the light-up display is connected in parallel to the motor, so electricity can still pass through it.  (c) Bulb P is brighter than bulbs Q and R; bulbs Q and R have the same brightness.",
+    "solution": "Note: Part (d) left out — drawing task, and its answer is unreadable in the scanned key.",
+    "images": [
+     "source_papers/2025/figs/2025-nanyang-science-eoy-b-q40.png"
+    ],
+    "source": {
+     "school": "Nanyang Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Nanyang P5 Science EOY 2025",
+     "paperKey": "2025-nanyang-science-eoy",
+     "qno": "B Q40",
+     "marks": 3
+    }
+   }
+  ]
+ },
+ {
+  "key": "2025-henrypark-english-eoy",
+  "title": "Henry Park P5 English EOY 2025 (Paper 2)",
+  "subject": "English",
+  "school": "Henry Park Primary School",
+  "year": 2025,
+  "exam": "EOY (SA2)",
+  "sourcePdf": "source_papers/2025/P5_English_2025_SA2_henrypark.pdf",
+  "sourceSite": "testpapersfree.com",
+  "questions": [
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The law clearly ________ that drivers who fail to wear their seat belts while driving will be fined.",
+    "options": [
+     "state",
+     "states",
+     "stated",
+     "had been stating"
+    ],
+    "answer": "states",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q1",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "She has ________ experience in flying a plane as she has a pilot's licence.",
+    "options": [
+     "few",
+     "most",
+     "many",
+     "some"
+    ],
+    "answer": "some",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q2",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "That man, ________ mother is a lawyer, is coming over for lunch this afternoon.",
+    "options": [
+     "who",
+     "which",
+     "whom",
+     "whose"
+    ],
+    "answer": "whose",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q3",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "\"I would have been punctual for school if I ________ up early this morning,\" I grumbled to my mother.",
+    "options": [
+     "is waking",
+     "has woken",
+     "had woken",
+     "was waking"
+    ],
+    "answer": "had woken",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q4",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "________ Jane, who was in London, all of us attended Mary's birthday party last week.",
+    "options": [
+     "Since",
+     "Although",
+     "Except for",
+     "In spite of"
+    ],
+    "answer": "Except for",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q5",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "I heard the puppy ________ loudly in the yard.",
+    "options": [
+     "barked",
+     "barking",
+     "has barked",
+     "having barked"
+    ],
+    "answer": "barking",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q6",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Either John or his sisters ________ the kitchen before they go to school.",
+    "options": [
+     "clean",
+     "cleans",
+     "has cleaned",
+     "have cleaned"
+    ],
+    "answer": "clean",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q7",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "\"Mum's going to bake me a cake, ________ she?\" Kai Wen asked his brother.",
+    "options": [
+     "isn't",
+     "aren't",
+     "hasn't",
+     "doesn't"
+    ],
+    "answer": "isn't",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q8",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "\"You ________ wear your safety helmet when riding a bicycle!\" Dad insisted.",
+    "options": [
+     "may",
+     "must",
+     "could",
+     "would"
+    ],
+    "answer": "must",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q9",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "All the basketball players in the school team have trained ________ Coach Lee.",
+    "options": [
+     "by",
+     "under",
+     "against",
+     "through"
+    ],
+    "answer": "under",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q10",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The bully glared at the boy ________ before he kicked him.",
+    "options": [
+     "seriously",
+     "alarmingly",
+     "menacingly",
+     "nonchalantly"
+    ],
+    "answer": "menacingly",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q11",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The soccer players were ________ as they had won the World Cup Championship for the very first time.",
+    "options": [
+     "ecstatic",
+     "engaging",
+     "extravagant",
+     "emboldened"
+    ],
+    "answer": "ecstatic",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q12",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Peter complained to his mother that his younger brother was being a ________ because he kept taking his stationery from his pencil case.",
+    "options": [
+     "paper tiger",
+     "black sheep",
+     "pain in the neck",
+     "bitter pill to swallow"
+    ],
+    "answer": "pain in the neck",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q13",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "During World War 2, many buildings collapsed when bombs ________ in neighbourhoods across the country.",
+    "options": [
+     "blew up",
+     "blew off",
+     "blew over",
+     "blew away"
+    ],
+    "answer": "blew up",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q14",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The train service at Buona Vista MRT station will ________ once all the repair works have been completed.",
+    "options": [
+     "revive",
+     "restore",
+     "resume",
+     "resurrect"
+    ],
+    "answer": "resume",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q15",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Vocabulary cloze: choose the word closest in meaning to 'exciting' (16) in the passage.",
+    "options": [
+     "exclusive",
+     "exuberant",
+     "exceptional",
+     "exhilarating"
+    ],
+    "answer": "exhilarating",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q16",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-reindeer",
+     "text": "Get ready, set, run! The Running of the Reindeer race in Alaska is an [16] exciting event where people run through streets with real reindeer close behind! Despite animal rights groups [17] labelling the event as problematic, it continues to be popular.\n\nThis tradition began in 2007 when a reindeer [18] accidentally escaped during a parade. An innovative local radio host boldly suggested making it an official event.\n\nThe [19] inaugural race happened in 2008. Thousands of [20] spectators cheered while nine reindeer ran alongside 1,000 people. Who do you think won – runners or reindeer?",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the word closest in meaning to 'labelling' (17) in the passage.",
+    "options": [
+     "naming",
+     "stamping",
+     "assigning",
+     "designating"
+    ],
+    "answer": "naming",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q17",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-reindeer",
+     "text": "Get ready, set, run! The Running of the Reindeer race in Alaska is an [16] exciting event where people run through streets with real reindeer close behind! Despite animal rights groups [17] labelling the event as problematic, it continues to be popular.\n\nThis tradition began in 2007 when a reindeer [18] accidentally escaped during a parade. An innovative local radio host boldly suggested making it an official event.\n\nThe [19] inaugural race happened in 2008. Thousands of [20] spectators cheered while nine reindeer ran alongside 1,000 people. Who do you think won – runners or reindeer?",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the word closest in meaning to 'accidentally' (18) in the passage.",
+    "options": [
+     "intermittently",
+     "unconsciously",
+     "inappropriately",
+     "unintentionally"
+    ],
+    "answer": "unintentionally",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q18",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-reindeer",
+     "text": "Get ready, set, run! The Running of the Reindeer race in Alaska is an [16] exciting event where people run through streets with real reindeer close behind! Despite animal rights groups [17] labelling the event as problematic, it continues to be popular.\n\nThis tradition began in 2007 when a reindeer [18] accidentally escaped during a parade. An innovative local radio host boldly suggested making it an official event.\n\nThe [19] inaugural race happened in 2008. Thousands of [20] spectators cheered while nine reindeer ran alongside 1,000 people. Who do you think won – runners or reindeer?",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the word closest in meaning to 'inaugural' (19) in the passage.",
+    "options": [
+     "annual",
+     "ultimate",
+     "primary",
+     "opening"
+    ],
+    "answer": "opening",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q19",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-reindeer",
+     "text": "Get ready, set, run! The Running of the Reindeer race in Alaska is an [16] exciting event where people run through streets with real reindeer close behind! Despite animal rights groups [17] labelling the event as problematic, it continues to be popular.\n\nThis tradition began in 2007 when a reindeer [18] accidentally escaped during a parade. An innovative local radio host boldly suggested making it an official event.\n\nThe [19] inaugural race happened in 2008. Thousands of [20] spectators cheered while nine reindeer ran alongside 1,000 people. Who do you think won – runners or reindeer?",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the word closest in meaning to 'spectators' (20) in the passage.",
+    "options": [
+     "players",
+     "followers",
+     "onlookers",
+     "demonstrators"
+    ],
+    "answer": "onlookers",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q20",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-reindeer",
+     "text": "Get ready, set, run! The Running of the Reindeer race in Alaska is an [16] exciting event where people run through streets with real reindeer close behind! Despite animal rights groups [17] labelling the event as problematic, it continues to be popular.\n\nThis tradition began in 2007 when a reindeer [18] accidentally escaped during a parade. An innovative local radio host boldly suggested making it an official event.\n\nThe [19] inaugural race happened in 2008. Thousands of [20] spectators cheered while nine reindeer ran alongside 1,000 people. Who do you think won – runners or reindeer?",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Visual text. Study the poster (Text 1) and the charity website extract (Text 2). The main purpose of the musical event described in Text 1 is to ________.",
+    "options": [
+     "showcase advanced technology in musical theatre",
+     "celebrate the achievements of the child performers",
+     "introduce a new local arts organisation to the public",
+     "raise funds that support children's arts programmes"
+    ],
+    "answer": "raise funds that support children's arts programmes",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-english-eoy-a-q21.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q21",
+     "marks": 1
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-henrypark-english-eoy-a-q21.png"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-hopehaven",
+     "text": "Text 2 — from the website of a charity organisation, Hope Haven:\n\nEvery child deserves a chance to dream, but for many, hardship stands in the way. Hope Haven, a local charity, provides underprivileged children with education, nutritious meals, and creative arts programmes to help them thrive. The charity believes that every child, regardless of background, should be given the opportunity to explore their potential.\n\nOne such child is 12-year-old Daniel Lim, whose family struggled to afford basic school supplies. With Hope Haven's support, he received free tutoring and discovered a passion for music. \"I never imagined I could learn the violin,\" Daniel shared after performing at a fundraising concert. \"Now, I can use my talents to help raise funds.\"\n\nBeyond helping individuals, Hope Haven runs food drives, community events and mentorship programmes, ensuring no child is left behind. Through collective effort and generosity, the organisation continues to transform young lives, proving that even small acts of charity can make a lasting impact.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "According to Text 1 (the poster), the musical performance is special because it ________.",
+    "options": [
+     "features well-known child performers",
+     "combines singing, dancing, and interactive elements",
+     "showcases traditional dances from around the world",
+     "features original songs written by professional composers"
+    ],
+    "answer": "combines singing, dancing, and interactive elements",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-english-eoy-a-q21.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q22",
+     "marks": 1
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-henrypark-english-eoy-a-q21.png"
+    ]
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "From Text 2, Daniel Lim chose to take part in the fundraising concert to ________.",
+    "options": [
+     "help raise funds for those in need",
+     "earn extra money for his family's needs",
+     "gain experience for a future career in music",
+     "meet and perform with other talented musicians"
+    ],
+    "answer": "help raise funds for those in need",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q23",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-hopehaven",
+     "text": "Text 2 — from the website of a charity organisation, Hope Haven:\n\nEvery child deserves a chance to dream, but for many, hardship stands in the way. Hope Haven, a local charity, provides underprivileged children with education, nutritious meals, and creative arts programmes to help them thrive. The charity believes that every child, regardless of background, should be given the opportunity to explore their potential.\n\nOne such child is 12-year-old Daniel Lim, whose family struggled to afford basic school supplies. With Hope Haven's support, he received free tutoring and discovered a passion for music. \"I never imagined I could learn the violin,\" Daniel shared after performing at a fundraising concert. \"Now, I can use my talents to help raise funds.\"\n\nBeyond helping individuals, Hope Haven runs food drives, community events and mentorship programmes, ensuring no child is left behind. Through collective effort and generosity, the organisation continues to transform young lives, proving that even small acts of charity can make a lasting impact.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "According to Text 2, Hope Haven does not provide ________ for underprivileged children.",
+    "options": [
+     "food",
+     "books",
+     "tuition",
+     "transport"
+    ],
+    "answer": "transport",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q24",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-hopehaven",
+     "text": "Text 2 — from the website of a charity organisation, Hope Haven:\n\nEvery child deserves a chance to dream, but for many, hardship stands in the way. Hope Haven, a local charity, provides underprivileged children with education, nutritious meals, and creative arts programmes to help them thrive. The charity believes that every child, regardless of background, should be given the opportunity to explore their potential.\n\nOne such child is 12-year-old Daniel Lim, whose family struggled to afford basic school supplies. With Hope Haven's support, he received free tutoring and discovered a passion for music. \"I never imagined I could learn the violin,\" Daniel shared after performing at a fundraising concert. \"Now, I can use my talents to help raise funds.\"\n\nBeyond helping individuals, Hope Haven runs food drives, community events and mentorship programmes, ensuring no child is left behind. Through collective effort and generosity, the organisation continues to transform young lives, proving that even small acts of charity can make a lasting impact.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "What do both Text 1 and Text 2 suggest about fund raising?",
+    "options": [
+     "Fundraising mainly benefits professional performers.",
+     "Fundraising should only focus on providing food and shelter.",
+     "Fundraising can create opportunities that help children achieve their dreams.",
+     "Fundraising events are successful only if they involve famous celebrities."
+    ],
+    "answer": "Fundraising can create opportunities that help children achieve their dreams.",
+    "solution": "",
+    "images": [
+     "source_papers/2025/figs/2025-henrypark-english-eoy-a-q21.png"
+    ],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "A Q25",
+     "marks": 1
+    },
+    "sharedImages": [
+     "source_papers/2025/figs/2025-henrypark-english-eoy-a-q21.png"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-hopehaven",
+     "text": "Text 2 — from the website of a charity organisation, Hope Haven:\n\nEvery child deserves a chance to dream, but for many, hardship stands in the way. Hope Haven, a local charity, provides underprivileged children with education, nutritious meals, and creative arts programmes to help them thrive. The charity believes that every child, regardless of background, should be given the opportunity to explore their potential.\n\nOne such child is 12-year-old Daniel Lim, whose family struggled to afford basic school supplies. With Hope Haven's support, he received free tutoring and discovered a passion for music. \"I never imagined I could learn the violin,\" Daniel shared after performing at a fundraising concert. \"Now, I can use my talents to help raise funds.\"\n\nBeyond helping individuals, Hope Haven runs food drives, community events and mentorship programmes, ensuring no child is left behind. Through collective effort and generosity, the organisation continues to transform young lives, proving that even small acts of charity can make a lasting impact.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (26)? Type the word.",
+    "options": [],
+    "answer": "have",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q26",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (27)? Type the word.",
+    "options": [],
+    "answer": "are",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q27",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (28)? Type the word.",
+    "options": [],
+    "answer": "in",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q28",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (29)? Type the word.",
+    "options": [],
+    "answer": "to",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q29",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (30)? Type the word.",
+    "options": [],
+    "answer": "which",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q30",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (31)? Type the word.",
+    "options": [],
+    "answer": "on",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q31",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (32)? Type the word.",
+    "options": [],
+    "answer": "around",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q32",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (33)? Type the word.",
+    "options": [],
+    "answer": "that",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q33",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (34)? Type the word.",
+    "options": [],
+    "answer": "for",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q34",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (35)? Type the word.",
+    "options": [],
+    "answer": "from",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q35",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-otters",
+     "text": "Word list: (A) are, (B) around, (C) before, (D) for, (E) from, (F) in, (G) on, (H) over, (J) has, (K) have, (L) that, (M) to, (N) when, (P) which, (Q) whose. Each word can be used only once.\n\nSingapore is known for its modern skyscrapers, but it also has a surprising amount of wildlife. In recent years, otters __(26)__ been spotted swimming in rivers and canals. These animals __(27)__ known to adapt well to the city, finding food and shelter even __(28)__ crowded areas.\n\nSome experts believe that the increase in urban wildlife sightings is due __(29)__ conservation efforts. However, not all human-animal interactions are good. Some people feed wild animals __(30)__ can lead to aggressive behaviour. To tackle this, authorities have created guidelines to educate residents __(31)__ the importance of responsible co-existence. For example, signs have been placed __(32)__ the entrances of parks and nature reserves to remind people not to feed or approach wildlife. These actions help ensure __(33)__ both people and wildlife can safely share the city.\n\nConservationists also emphasise the need __(34)__ proper waste disposal, which helps prevent animals __(35)__ searching for food in urban areas. Together, these efforts maintain a healthy balance between nature and city life.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'a' (36) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "the",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q36",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'lived' (37) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "living",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q37",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'depenoancy' (38) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "dependency",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q38",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'clicked' (39) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "clicks",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q39",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'enviroment' (40) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "environment",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q40",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'which' (41) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "who",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q41",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'continous' (42) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "continuous",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q42",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'posess' (43) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "possess",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q43",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'precise' (44) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "precision",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q44",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word 'differance' (45) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "difference",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q45",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-echo",
+     "text": "Each underlined word [in brackets] contains either a spelling or grammatical error.\n\nHow do you go from losing your sight as an infant to 'seeing' with sound just like 'Batman'?\n\nIt has been an incredible journey for Daniel Kish – from the moment he could walk, to travelling the world and helping to light [a](36) way for generations of blind people of all ages. They would otherwise be [lived](37) their entire lives in 'dark' isolation and [depenoancy](38). Being blind since he was 13 months old, Daniel has learned to 'see' using sound, a method called echolocation. He [clicked](39) his tongue and the sound bounces off objects in the [enviroment](40). The returning echoes help him understand what is nearby and where things are. Studies show that people [which](41) use human sonar to get around actually activate their usual part of the brain, which means seeing happens in the brain, not just the eyes.\n\nKish explains that it all works because of the sound 'flashes' they create. You do get a [continous](42) sort of vision, the way you might if you used flashes to light up a darkened scene. It comes into clarity and focus with every flash. It does not [posess](43) any of the type of high definition and detailed [precise](44) that vision has. There is a big variation in size between sound and light waves. There is also a [differance](45) in how the nervous system handles auditory information versus visual information. In the latter, information is sent to the brain through the eye, as opposed to the ear.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (46) with a suitable word.",
+    "options": [],
+    "answer": "are",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q46",
+     "marks": 1
+    },
+    "accept": [
+     "are"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (47) with a suitable word.",
+    "options": [],
+    "answer": "one",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q47",
+     "marks": 1
+    },
+    "accept": [
+     "one"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (48) with a suitable word.",
+    "options": [],
+    "answer": "which",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q48",
+     "marks": 1
+    },
+    "accept": [
+     "which"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (49) with a suitable word.",
+    "options": [],
+    "answer": "practice (also accepted: process)",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q49",
+     "marks": 1
+    },
+    "accept": [
+     "practice",
+     "process"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (50) with a suitable word.",
+    "options": [],
+    "answer": "almost (also accepted: practically, absolutely)",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q50",
+     "marks": 1
+    },
+    "accept": [
+     "almost",
+     "practically",
+     "absolutely"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (51) with a suitable word.",
+    "options": [],
+    "answer": "an",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q51",
+     "marks": 1
+    },
+    "accept": [
+     "an"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (52) with a suitable word.",
+    "options": [],
+    "answer": "attended (also accepted: joined, completed)",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q52",
+     "marks": 1
+    },
+    "accept": [
+     "attended",
+     "joined",
+     "completed"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (53) with a suitable word.",
+    "options": [],
+    "answer": "numbers",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q53",
+     "marks": 1
+    },
+    "accept": [
+     "numbers"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (54) with a suitable word.",
+    "options": [],
+    "answer": "their",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q54",
+     "marks": 1
+    },
+    "accept": [
+     "their"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (55) with a suitable word.",
+    "options": [],
+    "answer": "pulls",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q55",
+     "marks": 1
+    },
+    "accept": [
+     "pulls"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (56) with a suitable word.",
+    "options": [],
+    "answer": "scans (also accepted: checks, looks, searches)",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q56",
+     "marks": 1
+    },
+    "accept": [
+     "scans",
+     "checks",
+     "looks",
+     "searches"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (57) with a suitable word.",
+    "options": [],
+    "answer": "be",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q57",
+     "marks": 1
+    },
+    "accept": [
+     "be"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (58) with a suitable word.",
+    "options": [],
+    "answer": "has",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q58",
+     "marks": 1
+    },
+    "accept": [
+     "has"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (59) with a suitable word.",
+    "options": [],
+    "answer": "donated",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q59",
+     "marks": 1
+    },
+    "accept": [
+     "donated"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (60) with a suitable word.",
+    "options": [],
+    "answer": "our",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q60",
+     "marks": 1
+    },
+    "accept": [
+     "our"
+    ],
+    "passage": {
+     "id": "2025-henrypark-english-eoy-oysters",
+     "text": "Some see oysters as a delicious treat. Others value them as a source of pearls. To Demi Johnson, oysters __(46)__ environmental 'superstars'. \"They're important,\" she told TIME Magazine. A single __(47)__ can filter up to 50 litres of seawater a day, removing algae and harmful organisms. Groups of oysters form reefs __(48)__ act as a habitat for other sea creatures.\n\nDemi learned all about oysters from her experience in oyster gardening. This is the __(49)__ of growing oysters in cages for conservation purposes. At first, she knew __(50)__ nothing about oysters and was even afraid of them. Today, she is __(51)__ expert. She has earned a 'Master Oyster Gardener' certificate and even __(52)__ a free course run by the Oyster Gardening Program (OGP) to learn more about oysters.\n\nThere used to be many oysters in the coastal waters near Demi's home. But their __(53)__ have dropped due to disasters such as oil spills and hurricanes. Oyster gardening is a way to help. During oyster gardening season, Demi and her mother go to the Pier near __(54)__ home. Demi brings along nine cages. \"Once a week I go out there and drop my cages into the water,\" she says. After a few hours, she __(55)__ the cages out from the water. She shakes each one to remove algae and mud. She then __(56)__ for predators, such as snails and crabs.\n\nHarvested oysters will then __(57)__ \"planted\" on existing reefs in the ocean. The whole community is excited about this. Demi __(58)__ grown more than 1,500 oysters. Last year, Demi won the National Geographic Award. She __(59)__ the $1,000 cash prize to the OGP, who were able to invest that into helping the oysters to grow and flourish. Demi is happy to help. \"It's great to be able to do something that benefits __(60)__ ecosystem,\" she says. \"It's a really good feeling,\" Demi added. She wishes that others would join her in saving the oysters.",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence using 'Not only ... also': Sarah sings beautifully. She plays the piano well.",
+    "options": [],
+    "answer": "Not only does Sarah sing beautifully, but she also plays the piano well.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q61",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence using 'although' (in the middle of the sentence): Sarah was tired. She continued working on her project.",
+    "options": [],
+    "answer": "Sarah continued working on her project although she was tired.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q62",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence using 'despite' (in the middle of the sentence): It rained heavily, but the marathon continued as planned.",
+    "options": [],
+    "answer": "The marathon continued as planned despite the heavy rain.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q63",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence beginning with 'Neither': Jane does not like to eat broccoli. Her brother does not like to eat broccoli.",
+    "options": [],
+    "answer": "Neither Jane nor her brother likes to eat broccoli.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q64",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence using 'that': John told his teacher, \"I will submit my project by the end of this week.\"",
+    "options": [],
+    "answer": "John told his teacher that he would submit his project by the end of that week.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q65",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Why was Anthony Perry meeting his grandfather that afternoon?",
+    "options": [],
+    "answer": "He wanted to look at a car that he (Anthony Perry) wanted to buy.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q66",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Refer to lines 11-15. Identify a two-word phrase for each blank that shows that Perry acted quickly to try to save the man on the tracks: (a) ____ (b) ____",
+    "options": [],
+    "answer": "(a) without hesitation  (b) moved rapidly",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q67",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Based on lines 11-18, why was it dangerous for Anthony Perry to try to save the man on the tracks? Give two reasons.",
+    "options": [],
+    "answer": "(a) Stepping on the electrified rail could kill him.  (b) The next train could hit him.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q68",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "What did Perry do to keep the man alive after pulling him away from the electrified rail?",
+    "options": [],
+    "answer": "He gave the man chest compressions and kept him from moving back onto the electrified rail.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q69",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "What do these words from the passage refer to? (a) 'It' (line 14)  (b) 'this' (line 24)  (c) 'them' (line 30)",
+    "options": [],
+    "answer": "(a) using high steps  (b) the man breathing abnormally  (c) the paramedics and firefighters",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q70",
+     "marks": 3
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "State whether each statement is true or false, and give one reason.\n(a) One of the men involved in the fight managed to escape.\n(b) It was difficult for Perry to get the man away from the electrified rail.\n(c) The newspaper reported that Perry had saved a man's life.",
+    "options": [],
+    "answer": "(a) True. The other man quickly clambered back and ran away.  (b) True. Perry had to try three times before he pulled the man away from the rail.  (c) False. It was Perry's friend who revealed that the hero was Perry.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q71",
+     "marks": 3
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "State how the other bystanders helped Perry during the rescue. Give two ways.",
+    "options": [],
+    "answer": "(a) Someone called the emergency hotline.  (b) A woman told Perry to give the man chest compressions.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q72",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "In line 32, Perry 'quietly slipped away' after the firefighters and paramedics took over. Why did he do so?\n(Part of the original question is not included here.)",
+    "options": [],
+    "answer": "He did not want to be seen as a hero.",
+    "solution": "Note: Part (b) (circle the character value) left out: the school answer key gives no answer for it.",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q73",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Why did Perry's friend want people to know that Perry was a hero?",
+    "options": [],
+    "answer": "The friend was proud of Perry for his bravery.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q74",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Explain in your own words what you think Perry meant when he used the phrase 'Faith is stronger than fear'.",
+    "options": [],
+    "answer": "Perry chose to trust and believe in his ability to save the man's life instead of letting the fear of dying overcome him.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Henry Park Primary School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Henry Park P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-henrypark-english-eoy",
+     "qno": "B Q75",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-henrypark-english-eoy-perry",
+     "text": "(1) It was a sunny afternoon in June 2022 when Anthony Perry got off the train at Summer Street station. The 20-year-old was on his way to meet his grandfather to look at a car he wanted to buy.\n(4) On the platform, Perry saw two men fighting. Suddenly, they fell onto the train tracks. One man landed on his back while the other man, panicked, quickly clambered back onto the platform and ran away.\n(7) The man on the tracks had fallen onto the third rail - a dangerous rail that carries 600 volts of electricity to power the trains. He was convulsing as the electricity went through his body.\n(10) \"Help him!\" a woman cried out. \"Please, someone!\"\n(11) Perry could not just watch. Without hesitation, he lowered himself onto the tracks. He had to be very careful because stepping on the electrified rail could prove fatal. Perry moved rapidly towards the man, using high steps like he did when playing football in high school. It worked and he made his way safely to the man.\n(16) The man looked badly hurt. His body was still shaking from the electricity. Perry knew he had to act fast before the next train arrived. Up on the platform, someone was calling the emergency hotline.\n(19) Perry reached down to grab the man's wrist. Immediately, he felt an electric shock go through his own body. Gritting his teeth, he tried again and was electrocuted a second time. On his third try, Perry grabbed the man's arm and quickly pulled him away from the dangerous rail.\n(23) The trouble was not over yet. The man was breathing, but not normally. Noticing this, a woman shouted from the platform, \"Give him chest compressions!\"\n(26) Though anxious, Perry did his best to recall his past training as a first-aider. He carried out the chest compressions to keep the injured man alive. He also kept him from moving back onto the electrified rail.\n(29) Soon, firefighters arrived and turned off the electricity to the third rail. They joined the paramedics to help get the man to safety. Perry let them take over. Satisfied with how he had helped the man, he climbed back onto the platform and quietly slipped away. He met up with his grandfather. Unfortunately, due to the delay, the car he wanted had already been sold.\n(34) Later, the newspaper reported the story of a hero who had saved a man's life. Perry's best friend, who had heard about the incident from him, was extremely proud. He revealed on social media that it was Perry, and Perry became famous in Chicago overnight. A kind, anonymous man gifted Perry a car to thank him for his brave act. The Chicago Firefighter Department presented Perry with a Medal of Valour for his exceptional bravery in the face of danger.\n(41) \"Why did you help when no one else did?\" someone asked Perry. \"Because of faith,\" Perry said. \"Faith is stronger than fear.\"\n(Numbers in brackets are the paper's line numbers.)",
+     "images": []
+    }
+   }
+  ]
+ },
+ {
+  "key": "2025-taonan-english-eoy",
+  "title": "Tao Nan P5 English EOY 2025 (Paper 2)",
+  "subject": "English",
+  "school": "Tao Nan School",
+  "year": 2025,
+  "exam": "EOY (SA2)",
+  "sourcePdf": "source_papers/2025/P5_English_2025_SA2_taonan.pdf",
+  "sourceSite": "testpapersfree.com",
+  "questions": [
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "It was the students, and not Mdm Goh, that kept the equipment by ________.",
+    "options": [
+     "himself",
+     "herself",
+     "ourselves",
+     "themselves"
+    ],
+    "answer": "themselves",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q1",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The hikers made their way ________ the forest to explore the trails.",
+    "options": [
+     "in",
+     "over",
+     "along",
+     "through"
+    ],
+    "answer": "through",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q2",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Mei Lin ________ at a wildlife rehabilitation centre since she was seven. She enjoys caring and feeding injured birds and small animals.",
+    "options": [
+     "volunteers",
+     "volunteered",
+     "was volunteering",
+     "has been volunteering"
+    ],
+    "answer": "has been volunteering",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q3",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The virus ________ rapidly before anyone realised what was happening.",
+    "options": [
+     "spread",
+     "has spread",
+     "had spread",
+     "is spreading"
+    ],
+    "answer": "had spread",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q4",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The children let the puppy ________ around the garden just now.",
+    "options": [
+     "run",
+     "ran",
+     "runs",
+     "running"
+    ],
+    "answer": "run",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q5",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Samuel, as well as his teammates, ________ watching the upcoming movie.",
+    "options": [
+     "is",
+     "are",
+     "was",
+     "were"
+    ],
+    "answer": "is",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q6",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "There is ________ evidence that this medicine is safe for consumption. More tests need to be carried out before it can be approved.",
+    "options": [
+     "few",
+     "little",
+     "much",
+     "several"
+    ],
+    "answer": "little",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q7",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The mischievous boy broke the vase. ________, he owned up to his mistake immediately.",
+    "options": [
+     "Instead",
+     "Otherwise",
+     "Furthermore",
+     "Nevertheless"
+    ],
+    "answer": "Nevertheless",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q8",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "By the end of this month, our team ________ the Science project.",
+    "options": [
+     "completes",
+     "is completing",
+     "will have completed",
+     "would have completed"
+    ],
+    "answer": "will have completed",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q9",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "\"You'll remember to bring your student handbook, ________?\" the teacher asked.",
+    "options": [
+     "will you",
+     "won't you",
+     "would you",
+     "wouldn't you"
+    ],
+    "answer": "won't you",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q10",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The ________ of freshly made coffee wafted from the kitchen every morning.",
+    "options": [
+     "scent",
+     "aroma",
+     "texture",
+     "essence"
+    ],
+    "answer": "aroma",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q11",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "To save the goal, the ________ goalkeeper lunged forward in one fluid motion to catch the ball.",
+    "options": [
+     "agile",
+     "tardy",
+     "defensive",
+     "spontaneous"
+    ],
+    "answer": "agile",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q12",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The editor spent hours checking all the articles ________ to ensure that they were flawless.",
+    "options": [
+     "hastily",
+     "effortlessly",
+     "thoughtfully",
+     "painstakingly"
+    ],
+    "answer": "painstakingly",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q13",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "The heavy rain flooded the field. As a result, the match had to be ________ until the next fine day.",
+    "options": [
+     "put off",
+     "held up",
+     "given up",
+     "called off"
+    ],
+    "answer": "put off",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q14",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Refraining from all forms of exercise for a week can help ________ the pain and swelling on Lynn's ankle.",
+    "options": [
+     "avoid",
+     "lighten",
+     "prevent",
+     "alleviate"
+    ],
+    "answer": "alleviate",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q15",
+     "marks": 1
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the word closest in meaning to 'a futile attempt' (16) in the passage.",
+    "options": [
+     "risky",
+     "pointless",
+     "ineffective",
+     "challenging"
+    ],
+    "answer": "pointless",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q16",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-jenna",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-jenna-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the phrase closest in meaning to 'with bated breath' (17) in the passage.",
+    "options": [
+     "in fear",
+     "in surprise",
+     "with anxiety",
+     "with frustration"
+    ],
+    "answer": "with anxiety",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q17",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-jenna",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-jenna-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the word closest in meaning to 'put up with' (18) in the passage.",
+    "options": [
+     "face",
+     "handle",
+     "tolerate",
+     "manage"
+    ],
+    "answer": "tolerate",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q18",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-jenna",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-jenna-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the word closest in meaning to 'Slowly but surely' (19) in the passage.",
+    "options": [
+     "Gradually",
+     "Concurrently",
+     "Subsequently",
+     "Simultaneously"
+    ],
+    "answer": "Gradually",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q19",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-jenna",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-jenna-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Vocabulary",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Choose the word closest in meaning to 'steeling' (20) in the passage.",
+    "options": [
+     "bracing",
+     "calming",
+     "preparing",
+     "steadying"
+    ],
+    "answer": "bracing",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q20",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-jenna",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-jenna-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Visual text. According to the poster in Text 1, which of the following is true of the performance?",
+    "options": [
+     "Bryan Wong is the director.",
+     "The story is adapted from a book.",
+     "Star Drama Club is the sole organiser.",
+     "The performance features children dreaming about chocolate."
+    ],
+    "answer": "The story is adapted from a book.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q21",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-chocolate",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-1.png",
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-2.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "\"Who can resist the temptation of chocolate?\" The picture supports this by giving the impression that the children are ________.",
+    "options": [
+     "attentive and lively",
+     "eager and delighted",
+     "bold and hardworking",
+     "inquisitive and hopeful"
+    ],
+    "answer": "eager and delighted",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q22",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-chocolate",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-1.png",
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-2.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "\"What will they discover?\" Why did the writer ask the question in Text 1?",
+    "options": [
+     "to give people a preview of the show",
+     "to entice children to purchase the novel",
+     "to draw people to watch the performance",
+     "to encourage children to join the drama club"
+    ],
+    "answer": "to draw people to watch the performance",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q23",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-chocolate",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-1.png",
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-2.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "Based on the poster in Text 1, which of the following best describes the performance you expect to watch?",
+    "options": [
+     "Opera",
+     "Musical",
+     "Comedy",
+     "Orchestra"
+    ],
+    "answer": "Musical",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q24",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-chocolate",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-1.png",
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-2.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (MCQ)",
+    "type": "MCQ",
+    "difficulty": "Medium",
+    "text": "We cannot trust the way Text 1 portrays chocolate because Text 2 states that ________.",
+    "options": [
+     "chocolate has widespread popularity",
+     "not all children enjoy eating chocolate",
+     "eating dark chocolate is good for health",
+     "chocolate is not readily available everywhere"
+    ],
+    "answer": "not all children enjoy eating chocolate",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "A Q25",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-chocolate",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-1.png",
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-chocolate-2.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (26)? Type the word (not the letter).",
+    "options": [],
+    "answer": "whether",
+    "solution": "(P) whether",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q26",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (27)? Type the word (not the letter).",
+    "options": [],
+    "answer": "has",
+    "solution": "(F) has",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q27",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (28)? Type the word (not the letter).",
+    "options": [],
+    "answer": "while",
+    "solution": "(Q) while",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q28",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (29)? Type the word (not the letter).",
+    "options": [],
+    "answer": "may",
+    "solution": "(G) may",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q29",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (30)? Type the word (not the letter).",
+    "options": [],
+    "answer": "even",
+    "solution": "(D) even",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q30",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (31)? Type the word (not the letter).",
+    "options": [],
+    "answer": "these",
+    "solution": "(L) these",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q31",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (32)? Type the word (not the letter).",
+    "options": [],
+    "answer": "by",
+    "solution": "(C) by",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q32",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (33)? Type the word (not the letter).",
+    "options": [],
+    "answer": "between",
+    "solution": "(A) between",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q33",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (34)? Type the word (not the letter).",
+    "options": [],
+    "answer": "but",
+    "solution": "(B) but",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q34",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Grammar cloze: which word from the list best fits blank (35)? Type the word (not the letter).",
+    "options": [],
+    "answer": "their",
+    "solution": "(K) their",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q35",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-screen",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-screen-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (36) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "proudest",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q36",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (37) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "remembering",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q37",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (38) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "consistently",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q38",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (39) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "preparation",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q39",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (40) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "enthusiastically",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q40",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (41) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "applause",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q41",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (42) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "announced",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q42",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (43) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "achievement",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q43",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (44) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "unbelievable",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q44",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Grammar",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Editing for spelling and grammar: the underlined word at (45) contains an error. Write the correct word.",
+    "options": [],
+    "answer": "shown",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q45",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-editing",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-editing-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (46) with a suitable word.",
+    "options": [],
+    "answer": "amount",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q46",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (47) with a suitable word.",
+    "options": [],
+    "answer": "serve",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q47",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (48) with a suitable word.",
+    "options": [],
+    "answer": "found",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q48",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (49) with a suitable word.",
+    "options": [],
+    "answer": "severe",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q49",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (50) with a suitable word.",
+    "options": [],
+    "answer": "bulk",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q50",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (51) with a suitable word.",
+    "options": [],
+    "answer": "contributor",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q51",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (52) with a suitable word.",
+    "options": [],
+    "answer": "wasted",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q52",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (53) with a suitable word.",
+    "options": [],
+    "answer": "resolve",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q53",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (54) with a suitable word.",
+    "options": [],
+    "answer": "example",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q54",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (55) with a suitable word.",
+    "options": [],
+    "answer": "increased",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q55",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (56) with a suitable word.",
+    "options": [],
+    "answer": "sign",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q56",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (57) with a suitable word.",
+    "options": [],
+    "answer": "smaller",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q57",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (58) with a suitable word.",
+    "options": [],
+    "answer": "expiry",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q58",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (59) with a suitable word.",
+    "options": [],
+    "answer": "participating",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q59",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Comprehension cloze: fill in blank (60) with a suitable word.",
+    "options": [],
+    "answer": "helped",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q60",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-food",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-food-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence using 'enough': The wind was powerful. Many trees were uprooted.",
+    "options": [],
+    "answer": "The wind was powerful enough to uproot many trees.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q61",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence beginning with 'Peter asked': Peter asked his sister, \"Where did you go?\"",
+    "options": [],
+    "answer": "Peter asked his sister where she had gone.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q62",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence beginning with 'The last cupcake': Sanjay ate the last cupcake and doughnut in the box.",
+    "options": [],
+    "answer": "The last cupcake and doughnut in the box were eaten by Sanjay.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q63",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence using 'neither': Ranjit did not play the guitar. Ranjit also did not play the drum.",
+    "options": [],
+    "answer": "Ranjit played neither the guitar nor the drum.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q64",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Synthesis & Transformation",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Rewrite in one sentence beginning with 'It was': I chose to volunteer at the elder care centre.",
+    "options": [],
+    "answer": "It was my choice to volunteer at the elder care centre.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q65",
+     "marks": 2
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Which word in paragraph one has the same meaning as 'dismal'?",
+    "options": [],
+    "answer": "dreary",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q66",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Which two actions by Elina calmed the kitten down before she took it home?",
+    "options": [],
+    "answer": "(a) She gently wrapped the kitten in her jacket.  (b) She cradled the kitten in her arms.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q67",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Why was Elina unsuccessful in getting a pet?",
+    "options": [],
+    "answer": "She was always turned down by her parents as they thought that taking care of a pet was a great responsibility and Elina was always busy with schoolwork.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q68",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "Based on lines 13-23, state whether each statement is true or false, then give one reason.\n(a) Elina's parents were unconcerned about her well-being after she got home.\n(b) Initially, Elina did not want her parents to find the kitten's owner.",
+    "options": [],
+    "answer": "(a) False. When Elina got home, her parents looked worried to see their girl drenched.  (b) True. When her parents said that she could only keep the kitten for a few days, she wanted to rebut.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q69",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Referring to lines 6-7, why did Elina say \"... I know exactly how it feels to be alone and vulnerable\"?",
+    "options": [],
+    "answer": "Elina had no siblings, so she was lonely. She sometimes wished that she had one to share her secrets and worries with, instead of only the quiet companionship of her parents.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q70",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "From lines 31-42, pick out two separate phrases to show the characters' feelings and explain why they felt that way.\n(a) Two-word phrase which shows that Elina was in a dilemma.\n(b) Reason for Elina's feeling.\n(c) Three-word phrase which shows that the boy was relieved.\n(d) Reason for the boy's feeling.",
+    "options": [],
+    "answer": "(a) deliberated intensely  (b) Elina had a hard time deciding whether to keep Snowy or return it to its rightful owners.  (c) exclaimed in glee  (d) He had found his kitten after it went missing.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q71",
+     "marks": 4
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Structured",
+    "difficulty": "Medium",
+    "text": "What do these words from the passage refer to? (a) 'doubt' (line 14)  (b) 'something' (line 28)",
+    "options": [],
+    "answer": "(a) Whether her parents would be angry and refuse to let the kitten stay.  (b) The 'Missing kitten – white with a small brown patch on its tail. Answers to the name Luna.' notice put up by the owner, with a contact number.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q72",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Write 1, 2 and 3 to show the order in which the events occurred in the story, in the order the statements are listed:\n• Elina was a proud pet owner.\n• Elina saw the 'Missing Kitten' poster.\n• Elina forged a bond with the kitten.\n(Answer like: 2, 1, 3)",
+    "options": [],
+    "answer": "3, 2, 1",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q73",
+     "marks": 1
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Do you think the boy was a responsible pet owner? Support your answer with a reason from the text.",
+    "options": [],
+    "answer": "Yes. The boy put up 'Missing Kitten' posters to find his kitten.",
+    "solution": "",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q74",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   },
+   {
+    "subject": "English",
+    "topic": "Comprehension (Open-Ended)",
+    "type": "Short Answer",
+    "difficulty": "Medium",
+    "text": "Referring to line 44, \"... you're ready for a little responsibility of your own\", what was Elina ready for? Support your answer with a piece of evidence from the text.",
+    "options": [],
+    "answer": "She knew how to prioritise her time: she fed Snowy and cleaned its bedding before going to school.",
+    "solution": "This is the school key's answer, word for word; it gives the evidence only (she was ready to own and care for a pet — see the last paragraph).",
+    "images": [],
+    "source": {
+     "school": "Tao Nan School",
+     "year": 2025,
+     "exam": "EOY (SA2)",
+     "paper": "Tao Nan P5 English EOY 2025 (Paper 2)",
+     "paperKey": "2025-taonan-english-eoy",
+     "qno": "B Q75",
+     "marks": 2
+    },
+    "passage": {
+     "id": "2025-taonan-english-eoy-elina",
+     "text": "",
+     "images": [
+      "source_papers/2025/figs/2025-taonan-english-eoy-passage-elina-1.png"
+     ]
+    }
+   }
+  ]
+ }
+];

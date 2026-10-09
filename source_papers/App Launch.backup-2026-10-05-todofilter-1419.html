@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>P5 Practice Paper Generator</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  /* Untitled UI v2.0 design tokens */
+  :root{
+    --brand-25:#FCFAFF; --brand-50:#F9F5FF; --brand-100:#F4EBFF; --brand-200:#E9D7FE; --brand-300:#D6BBFB;
+    --brand-400:#B692F6; --brand-500:#9E77ED; --brand-600:#7F56D9; --brand-700:#6941C6; --brand-800:#53389E; --brand-900:#42307D;
+    --gray-25:#FDFDFD; --gray-50:#FAFAFA; --gray-100:#F5F5F5; --gray-200:#E5E5E5; --gray-300:#D4D4D4;
+    --gray-400:#A3A3A3; --gray-500:#737373; --gray-600:#525252; --gray-700:#404040; --gray-800:#262626; --gray-900:#171717;
+    --success-50:#F0FDF4; --success-100:#DCFCE7; --success-500:#22C55E; --success-600:#16A34A; --success-700:#15803D;
+    --error-50:#FEF2F2; --error-100:#FEE2E2; --error-200:#FECACA; --error-500:#EF4444; --error-600:#DC2626; --error-700:#B91C1C;
+    --warning-50:#FEFCE8; --warning-100:#FEF9C3; --warning-200:#FEF08A; --warning-500:#EAB308; --warning-700:#A16207;
+    --blue-50:#EFF6FF; --blue-100:#DBEAFE; --blue-500:#3B82F6; --blue-600:#2563EB; --blue-700:#1D4ED8;
+    --orange-50:#FFF7ED; --orange-100:#FFEDD5; --orange-700:#C2410C;
+
+    --font:"Inter","Noto Sans Devanagari",system-ui,-apple-system,"Segoe UI",Roboto,"Kohinoor Devanagari","Nirmala UI","Mangal",sans-serif;
+    --text-xs:12px; --lh-xs:18px; --text-sm:14px; --lh-sm:20px; --text-md:16px; --lh-md:24px;
+    --text-lg:18px; --lh-lg:28px; --text-xl:20px; --lh-xl:30px; --display-xs:24px; --lh-display-xs:32px;
+    --display-sm:30px; --lh-display-sm:38px;
+
+    --radius-sm:6px; --radius-md:8px; --radius-lg:12px; --radius-xl:16px; --radius-full:9999px;
+    --sp-1:4px; --sp-2:8px; --sp-3:12px; --sp-4:16px; --sp-5:20px; --sp-6:24px; --sp-8:32px; --sp-12:48px;
+
+    --shadow-xs:0 1px 2px rgba(0,0,0,.05);
+    --shadow-sm:0 1px 2px rgba(0,0,0,.06);
+    --shadow-md:0 2px 4px -2px rgba(0,0,0,.06),0 4px 8px -2px rgba(0,0,0,.10);
+    --shadow-lg:0 4px 6px -2px rgba(0,0,0,.03),0 12px 16px -4px rgba(0,0,0,.08);
+    --shadow-xl:0 8px 8px -4px rgba(0,0,0,.03),0 20px 24px -4px rgba(0,0,0,.08);
+    --focus-ring:0 0 0 2px #fff,0 0 0 4px var(--brand-500);
+
+    /* Semantic aliases (also referenced from JS: --good, --warn, --danger) */
+    --bg:var(--gray-50); --card:#fff; --border:var(--gray-200); --border-strong:var(--gray-300);
+    --heading:var(--gray-900); --text:var(--gray-600); --muted:var(--gray-500);
+    --accent:var(--brand-600); --accent-dark:var(--brand-700); --navy:var(--gray-900); --navy-dark:var(--gray-800);
+    --danger:var(--error-600); --warn:var(--warning-500); --good:var(--success-600);
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:var(--font);font-size:var(--text-md);line-height:var(--lh-md);background:var(--bg);color:var(--text);-webkit-font-smoothing:antialiased;accent-color:var(--brand-600);}
+  h1,h2,h3,strong{color:var(--heading);}
+  code{font-size:.92em;background:var(--gray-100);border:1px solid var(--gray-200);border-radius:var(--radius-sm);padding:1px 5px;}
+
+  /* Header + tab nav */
+  header{background:#fff;color:var(--heading);padding:var(--sp-5) var(--sp-8);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:var(--sp-3);}
+  header h1{font-size:var(--display-xs);line-height:var(--lh-display-xs);margin:0;font-weight:600;letter-spacing:-.01em;}
+  header .sub{font-size:var(--text-sm);line-height:var(--lh-sm);color:var(--muted);margin-top:var(--sp-1);}
+  nav{display:flex;gap:var(--sp-1);background:#fff;padding:0 var(--sp-6);flex-wrap:wrap;border-bottom:1px solid var(--border);box-shadow:var(--shadow-xs);}
+  nav button{background:transparent;border:none;color:var(--gray-500);padding:var(--sp-3) var(--sp-3) 11px;margin-bottom:-1px;cursor:pointer;font-family:inherit;font-size:var(--text-sm);line-height:var(--lh-sm);font-weight:600;border-bottom:2px solid transparent;}
+  nav button:hover{color:var(--gray-700);}
+  nav button.active{color:var(--brand-700);border-bottom-color:var(--brand-600);}
+  nav button:focus-visible{outline:none;box-shadow:var(--focus-ring);border-radius:var(--radius-sm);}
+  main{max-width:1024px;margin:var(--sp-8) auto;padding:0 var(--sp-5) var(--sp-12);}
+
+  /* Cards */
+  .card{background:var(--card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:var(--sp-6);margin-bottom:var(--sp-5);box-shadow:var(--shadow-sm);}
+  .card h2{margin-top:0;margin-bottom:var(--sp-2);font-size:var(--text-lg);line-height:var(--lh-lg);font-weight:600;}
+  .card h3{font-size:var(--text-xs);line-height:var(--lh-xs);color:var(--muted);text-transform:uppercase;letter-spacing:.04em;font-weight:600;margin:var(--sp-2) 0 var(--sp-3);}
+  .card p{margin:0 0 var(--sp-4);}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--sp-4);}
+  @media(max-width:700px){.grid{grid-template-columns:1fr;} header{padding:var(--sp-4);} nav{padding:0 var(--sp-2);} main{padding:0 var(--sp-4) var(--sp-12);margin-top:var(--sp-5);} .card{padding:var(--sp-4);}}
+
+  /* Form controls */
+  label{display:block;font-size:var(--text-sm);line-height:var(--lh-sm);font-weight:500;margin-bottom:6px;color:var(--gray-700);}
+  input[type=text],input[type=number],input[type=password],select,textarea{
+    width:100%;min-height:44px;padding:10px 14px;border:1px solid var(--border-strong);border-radius:var(--radius-md);font-size:var(--text-md);line-height:var(--lh-md);font-family:inherit;background:#fff;color:var(--gray-900);box-shadow:var(--shadow-xs);transition:border-color .15s,box-shadow .15s;
+  }
+  input::placeholder,textarea::placeholder{color:var(--gray-400);}
+  input[type=text]:focus,input[type=number]:focus,input[type=password]:focus,select:focus,textarea:focus{outline:none;border-color:var(--brand-300);box-shadow:var(--shadow-xs),0 0 0 4px var(--brand-100);}
+  .row > select{width:auto;min-width:180px;}
+  input[type=file]{font-family:inherit;font-size:var(--text-sm);color:var(--text);}
+  input[type=file]::file-selector-button{font-family:inherit;font-weight:600;font-size:var(--text-sm);height:36px;padding:0 14px;margin-right:var(--sp-3);border:1px solid var(--border-strong);border-radius:var(--radius-md);background:#fff;color:var(--gray-700);box-shadow:var(--shadow-xs);cursor:pointer;}
+  input[type=checkbox],input[type=radio]{accent-color:var(--brand-600);width:16px;height:16px;}
+  textarea{min-height:96px;resize:vertical;}
+  .field{margin-bottom:var(--sp-4);}
+  .row{display:flex;gap:var(--sp-3);flex-wrap:wrap;align-items:center;}
+
+  /* Buttons */
+  button.btn{display:inline-flex;align-items:center;justify-content:center;gap:var(--sp-2);min-height:40px;background:var(--brand-600);color:#fff;border:1px solid var(--brand-600);padding:10px 16px;border-radius:var(--radius-md);font-family:inherit;font-size:var(--text-sm);line-height:var(--lh-sm);cursor:pointer;font-weight:600;box-shadow:var(--shadow-xs);transition:background .15s,border-color .15s;}
+  button.btn:hover{background:var(--brand-700);border-color:var(--brand-700);}
+  button.btn:focus-visible{outline:none;box-shadow:var(--focus-ring);}
+  button.btn.secondary{background:#fff;color:var(--gray-700);border-color:var(--border-strong);}
+  button.btn.secondary:hover{background:var(--gray-50);color:var(--gray-800);}
+  button.btn.danger{background:var(--error-600);color:#fff;border-color:var(--error-600);}
+  button.btn.danger:hover{background:var(--error-700);border-color:var(--error-700);}
+  /* Row-level delete uses the kit's secondary-destructive variant so tables stay calm */
+  td button.btn,.paper-list-item button.btn{min-height:36px;}
+  td button.btn.danger,.paper-list-item button.btn.danger{background:#fff;color:var(--error-700);border-color:var(--error-200);}
+  td button.btn.danger:hover,.paper-list-item button.btn.danger:hover{background:var(--error-50);}
+  button.btn:disabled{opacity:.5;cursor:not-allowed;}
+
+  /* Badges (subject colour cues mapped to kit palettes) */
+  .badge{display:inline-flex;align-items:center;padding:2px 10px;border-radius:var(--radius-full);font-size:var(--text-xs);line-height:var(--lh-xs);font-weight:500;background:var(--brand-50);color:var(--brand-700);border:1px solid var(--brand-200);}
+  .badge.math{background:var(--blue-50);color:var(--blue-700);border-color:var(--blue-100);}
+  .badge.science{background:var(--success-50);color:var(--success-700);border-color:var(--success-100);}
+  .badge.english{background:var(--brand-50);color:var(--brand-700);border-color:var(--brand-200);}
+  .badge.hindi{background:var(--orange-50);color:var(--orange-700);border-color:var(--orange-100);}
+  .badge.easy{background:var(--success-50);color:var(--success-700);border-color:var(--success-100);}
+  .badge.medium{background:var(--warning-50);color:var(--warning-700);border-color:var(--warning-200);}
+  .badge.hard{background:var(--error-50);color:var(--error-700);border-color:var(--error-100);}
+  .todo-toggle{min-height:36px;padding:0 var(--sp-3);font-family:inherit;font-size:var(--text-sm);font-weight:600;border-radius:var(--radius-md);border:1px solid var(--border-strong);background:#fff;color:var(--gray-700);box-shadow:var(--shadow-xs);cursor:pointer;}
+  .todo-toggle:hover{background:var(--gray-50);}
+  .todo-toggle.on{background:var(--brand-50);border-color:var(--brand-300);color:var(--brand-700);}
+  .nav-count{background:var(--brand-50);color:var(--brand-700);border:1px solid var(--brand-200);border-radius:var(--radius-full);font-size:var(--text-xs);line-height:16px;font-weight:500;padding:0 8px;margin-left:var(--sp-2);}
+
+  /* Tables */
+  table{width:100%;border-collapse:collapse;font-size:var(--text-sm);line-height:var(--lh-sm);}
+  th,td{text-align:left;padding:var(--sp-3) var(--sp-3);border-bottom:1px solid var(--border);vertical-align:top;}
+  th{color:var(--muted);font-weight:500;font-size:var(--text-xs);line-height:var(--lh-xs);background:var(--gray-50);}
+  td{color:var(--text);}
+  .qtext{max-width:340px;color:var(--gray-900);}
+  .muted{color:var(--muted);font-size:var(--text-sm);line-height:var(--lh-sm);}
+  .empty{color:var(--muted);padding:var(--sp-8) 0;text-align:center;font-size:var(--text-sm);}
+  .topic-checks{display:flex;flex-wrap:wrap;gap:var(--sp-2);margin-top:6px;}
+  .topic-checks label{display:flex;align-items:center;gap:var(--sp-2);font-weight:500;font-size:var(--text-sm);background:#fff;border:1px solid var(--border-strong);padding:6px 12px;border-radius:var(--radius-md);cursor:pointer;color:var(--gray-700);}
+  .topic-checks label:hover{background:var(--gray-50);}
+  .topic-checks label:has(input:checked){background:var(--brand-50);border-color:var(--brand-300);color:var(--brand-700);}
+  .paper-list-item{border:1px solid var(--border);border-radius:var(--radius-lg);padding:var(--sp-4);margin-bottom:var(--sp-3);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:var(--sp-3);background:#fff;transition:box-shadow .15s,border-color .15s;}
+  .paper-list-item > :first-child{flex:1 1 240px;min-width:0;}
+  .paper-list-item > .row:last-child{flex:0 0 auto;}
+  .paper-list-item:hover{border-color:var(--gray-300);box-shadow:var(--shadow-sm);}
+  .status-pill{display:inline-flex;align-items:center;font-size:var(--text-xs);line-height:var(--lh-xs);padding:2px 10px;border-radius:var(--radius-full);font-weight:500;border:1px solid transparent;}
+  .status-not{background:var(--gray-50);color:var(--gray-700);border-color:var(--gray-200);}
+  .status-progress{background:var(--warning-50);color:var(--warning-700);border-color:var(--warning-200);}
+  .status-done{background:var(--success-50);color:var(--success-700);border-color:var(--success-100);}
+  .status-submitted{background:var(--brand-50);color:var(--brand-700);border-color:var(--brand-200);}
+  body.child-mode .parent-only{display:none !important;}
+  .mode-btn{display:inline-flex;align-items:center;min-height:36px;background:#fff;border:1px solid var(--border-strong);color:var(--gray-700);padding:0 14px;border-radius:var(--radius-md);font-family:inherit;font-size:var(--text-sm);font-weight:600;cursor:pointer;box-shadow:var(--shadow-xs);}
+  .mode-btn:hover{background:var(--gray-50);}
+  .mode-btn:focus-visible{outline:none;box-shadow:var(--focus-ring);}
+
+  /* Paper / quiz */
+  .q-block{border:1px solid var(--border);border-radius:var(--radius-lg);padding:var(--sp-5);margin-bottom:var(--sp-4);background:#fff;}
+  .q-block .qnum{font-weight:600;color:var(--brand-700);margin-bottom:6px;}
+  .q-meta{font-size:var(--text-xs);line-height:var(--lh-xs);color:var(--muted);margin-bottom:var(--sp-2);}
+  .opt-label{display:flex;align-items:center;padding:10px 14px;border:1px solid var(--border);border-radius:var(--radius-md);margin-bottom:var(--sp-2);cursor:pointer;font-size:var(--text-md);font-weight:400;color:var(--gray-700);transition:background .15s,border-color .15s;}
+  .opt-label:hover{background:var(--gray-50);border-color:var(--gray-300);}
+  .opt-label:has(input:checked){background:var(--brand-50);border-color:var(--brand-300);color:var(--brand-800);}
+  .opt-label input{margin:0 var(--sp-3) 0 0;flex-shrink:0;}
+  .solution-box{background:var(--brand-25);border:1px solid var(--brand-200);border-radius:var(--radius-md);padding:var(--sp-3) var(--sp-4);margin-top:var(--sp-3);font-size:var(--text-sm);line-height:var(--lh-sm);color:var(--gray-700);display:none;}
+  .solution-box.show{display:block;}
+  /* Past-paper figures and reading passages */
+  .q-text{white-space:pre-line;margin-bottom:10px;}
+  .q-figs{display:flex;flex-wrap:wrap;gap:var(--sp-3);margin:0 0 12px;}
+  .q-figs img{max-width:min(100%,460px);max-height:300px;height:auto;border:1px solid var(--border);border-radius:var(--radius-md);background:#fff;padding:4px;}
+  .passage-block{border:1px solid var(--brand-200);background:var(--brand-25);border-radius:var(--radius-lg);padding:var(--sp-4) var(--sp-5);margin-bottom:var(--sp-4);}
+  .passage-block summary{cursor:pointer;font-weight:600;color:var(--brand-700);}
+  .passage-block .passage-text{white-space:pre-line;margin-top:10px;font-size:var(--text-sm);line-height:1.65;color:var(--gray-800,#1d2939);}
+  .passage-block img{display:block;max-width:100%;height:auto;margin-top:10px;border:1px solid var(--border);border-radius:var(--radius-md);background:#fff;}
+  .q-source{font-size:var(--text-xs);color:var(--muted);}
+  .mark-buttons{margin-top:var(--sp-3);display:flex;gap:var(--sp-2);}
+  .mark-buttons button{min-height:36px;padding:0 14px;border-radius:var(--radius-md);border:1px solid var(--border-strong);background:#fff;color:var(--gray-700);font-family:inherit;font-weight:600;cursor:pointer;font-size:var(--text-sm);box-shadow:var(--shadow-xs);}
+  .mark-buttons button:hover{background:var(--gray-50);}
+  .mark-buttons button.correct-active{background:var(--success-50);border-color:var(--success-600);color:var(--success-700);}
+  .mark-buttons button.wrong-active{background:var(--error-50);border-color:var(--error-600);color:var(--error-700);}
+
+  /* Progress */
+  .progress-bar-track{background:var(--gray-200);border-radius:var(--radius-full);height:8px;overflow:hidden;flex:1;}
+  .progress-bar-fill{background:var(--brand-600);height:100%;border-radius:var(--radius-full);}
+  .topic-row{display:flex;align-items:center;gap:var(--sp-3);margin-bottom:var(--sp-3);font-size:var(--text-sm);line-height:var(--lh-sm);}
+  .topic-row .name{width:190px;flex-shrink:0;color:var(--gray-700);font-weight:500;}
+  .topic-row .pct{width:44px;text-align:right;font-weight:600;color:var(--gray-900);}
+  @media(max-width:560px){.topic-row{flex-wrap:wrap;} .topic-row .name{width:100%;}}
+
+  /* Toast + note */
+  .toast{position:fixed;bottom:var(--sp-5);right:var(--sp-5);background:var(--gray-900);color:#fff;padding:var(--sp-3) var(--sp-4);border-radius:var(--radius-md);font-size:var(--text-sm);line-height:var(--lh-sm);font-weight:500;box-shadow:var(--shadow-lg);opacity:0;transform:translateY(8px);transition:.25s;pointer-events:none;z-index:999;}
+  .toast.show{opacity:1;transform:translateY(0);}
+  .note{background:var(--warning-50);border:1px solid var(--warning-200);color:var(--warning-700);padding:var(--sp-3) var(--sp-4);border-radius:var(--radius-md);font-size:var(--text-sm);line-height:var(--lh-sm);margin-bottom:var(--sp-4);}
+  .print-title,.print-only{display:none;}
+  /* ---------- Exam-style print sheet (built on demand by buildPrintSheet) ---------- */
+  #printSheet{display:none;}
+  @page{size:A4;margin:16mm 16mm 18mm;@bottom-center{content:counter(page);font:10pt Arial,Helvetica,sans-serif;}}
+  @media print{
+    body.printing-sheet > *:not(#printSheet){display:none !important;}
+    body.printing-sheet{background:#fff !important;}
+    body.printing-sheet #printSheet{display:block;}
+  }
+  #printSheet{font-family:Arial,Helvetica,sans-serif;font-size:11.5pt;line-height:1.55;color:#000;}
+  #printSheet .ps-page-break{break-before:page;page-break-before:always;}
+  #printSheet .ps-cover{border:1.5px solid #000;padding:14mm 12mm;text-align:center;}
+  #printSheet .ps-cover h1{font-size:22pt;line-height:1.25;margin:0 0 4mm;font-weight:700;letter-spacing:.5px;}
+  #printSheet .ps-cover .ps-cover-sub{display:inline-block;border:1.2px solid #000;padding:3mm 8mm;margin:4mm 0 5mm;font-size:13pt;font-weight:700;}
+  #printSheet .ps-cover .ps-cover-sub span{display:block;font-weight:400;font-size:11pt;}
+  #printSheet .ps-box{border:1.2px solid #000;padding:4mm 6mm;margin-top:6mm;text-align:left;}
+  #printSheet .ps-box h3{margin:0 0 2mm;font-size:11.5pt;text-decoration:underline;}
+  #printSheet .ps-box ol{margin:0;padding-left:6mm;}
+  #printSheet .ps-fields div{margin:4mm 0;}
+  #printSheet table.ps-marks{border-collapse:collapse;margin:8mm auto 0;min-width:60%;}
+  #printSheet table.ps-marks th,#printSheet table.ps-marks td{border:1.2px solid #000;padding:2.5mm 6mm;text-align:center;font-size:11pt;color:#000;background:#fff;text-transform:none;letter-spacing:0;font-weight:400;}
+  #printSheet table.ps-marks th,#printSheet table.ps-key th{font-weight:700;background:#e6e6e6;color:#000;}
+  #printSheet table.ps-key th,#printSheet table.ps-key td{color:#000;text-transform:none;letter-spacing:0;}
+  #printSheet .ps-booklet{display:inline-block;border:1.5px solid #000;background:#e6e6e6;font-weight:700;font-size:13pt;padding:1.5mm 6mm;margin:0 0 4mm;letter-spacing:.5px;}
+  #printSheet .ps-section{margin:5mm 0 3mm;}
+  #printSheet .ps-section h2{font-size:12pt;margin:0 0 1.5mm;padding-bottom:1mm;border-bottom:1.2px solid #000;}
+  #printSheet .ps-section p{margin:0;font-size:10.5pt;}
+  #printSheet .ps-q{display:grid;grid-template-columns:9mm 1fr;margin:0 0 6mm;break-inside:avoid;page-break-inside:avoid;}
+  #printSheet .ps-q.ps-long{break-inside:auto;page-break-inside:auto;}
+  #printSheet .ps-num{font-weight:700;}
+  #printSheet .ps-stem{white-space:pre-line;}
+  #printSheet .ps-marks-tag{float:right;margin-left:4mm;font-size:10pt;}
+  #printSheet .ps-fig{margin:3mm 0 2mm;}
+  #printSheet .ps-fig img{display:block;max-width:66%;max-height:78mm;height:auto;}
+  #printSheet .ps-fig.ps-ref{break-inside:avoid;page-break-inside:avoid;margin:3mm 0 5mm;}
+  #printSheet .ps-fig.ps-ref img{max-width:100%;width:auto;max-height:120mm;}
+  #printSheet .ps-fig.ps-visual img{width:100%;max-height:225mm;object-fit:contain;}
+  #printSheet .ps-opts{display:grid;grid-template-columns:1fr;gap:1mm 6mm;margin-top:2mm;position:relative;padding-right:24mm;}
+  #printSheet .ps-opts.two{grid-template-columns:1fr 1fr;}
+  #printSheet .ps-opt{display:grid;grid-template-columns:9mm 1fr;}
+  #printSheet .ps-bracket{position:absolute;right:0;bottom:0;white-space:pre;}
+  #printSheet .ps-work{min-height:22mm;}
+  #printSheet .ps-work.big{min-height:48mm;}
+  #printSheet .ps-ans{text-align:right;margin-top:1mm;}
+  #printSheet .ps-line{border-bottom:1px solid #000;height:8mm;}
+  #printSheet .ps-passage{border:1.2px solid #000;border-radius:2mm;padding:4mm 5mm;margin:2mm 0 5mm;white-space:pre-line;font-size:11pt;line-height:1.75;}
+  #printSheet .ps-passage img{display:block;max-width:100%;height:auto;margin:1mm auto;}
+  #printSheet .ps-blanks{display:grid;grid-template-columns:1fr 1fr;gap:3mm 10mm;margin:0 0 6mm;}
+  #printSheet .ps-blank{display:flex;align-items:flex-end;gap:2mm;}
+  #printSheet .ps-blank b{min-width:9mm;}
+  #printSheet .ps-blank span.w{flex:1;border-bottom:1px solid #000;height:7mm;}
+  #printSheet .ps-end{text-align:center;font-weight:700;margin-top:8mm;}
+  #printSheet table.ps-key{border-collapse:collapse;width:100%;margin:2mm 0 6mm;font-size:10.5pt;}
+  #printSheet table.ps-key th,#printSheet table.ps-key td{border:1px solid #000;padding:1.5mm 2.5mm;vertical-align:top;text-align:left;}
+  #printSheet table.ps-key td.c{text-align:center;width:12mm;}
+  #printSheet .ps-keygrid{display:grid;grid-template-columns:repeat(10,1fr);border:1px solid #000;border-right:none;margin:2mm 0 6mm;}
+  #printSheet .ps-keygrid div{border-right:1px solid #000;text-align:center;padding:1mm 0;}
+  #printSheet .ps-keygrid div:nth-child(20n+1),#printSheet .ps-keygrid div:nth-child(20n+2),#printSheet .ps-keygrid div:nth-child(20n+3),#printSheet .ps-keygrid div:nth-child(20n+4),#printSheet .ps-keygrid div:nth-child(20n+5),#printSheet .ps-keygrid div:nth-child(20n+6),#printSheet .ps-keygrid div:nth-child(20n+7),#printSheet .ps-keygrid div:nth-child(20n+8),#printSheet .ps-keygrid div:nth-child(20n+9),#printSheet .ps-keygrid div:nth-child(20n+10){background:#e6e6e6;font-weight:700;}
+  @media print{
+    header,nav,.no-print{display:none !important;}
+    body{background:#fff;color:#000;}
+    h1,h2,h3,strong,td,.qtext,.q-block .qnum,.opt-label{color:#000 !important;}
+    .badge,.status-pill{background:none !important;color:#000 !important;border:1px solid #888 !important;}
+    .q-block,.opt-label{background:none !important;}
+    main{margin:0;padding:0;max-width:100%;}
+    .card{border:none;box-shadow:none;padding:0;margin-bottom:14px;}
+    .print-title{display:block;text-align:center;margin-bottom:16px;}
+    .print-title h1{margin:0;font-size:20px;}
+    .print-title p{margin:2px 0;font-size:12px;color:#555;}
+    .solution-box{display:none !important;}
+    .q-figs img,.passage-block img{max-height:none;border:none;}
+    .passage-block{background:none !important;break-inside:auto;}
+    .mark-buttons{display:none !important;}
+    .print-only{display:block;}
+    .answer-area{display:none !important;}
+    .print-fields{display:flex;justify-content:space-between;gap:16px;font-size:13px;margin:10px 0 18px;padding-bottom:10px;border-bottom:1px solid #999;}
+    .q-block{border:none;border-bottom:1px solid #ddd;border-radius:0;padding:10px 0 14px;margin:0;break-inside:avoid;page-break-inside:avoid;}
+    .q-block .qnum{color:#000;}
+    .q-meta{font-size:10px;}
+    .print-opts{margin:6px 0 0;padding-left:0;list-style:none;}
+    .print-opts li{margin:5px 0;font-size:14px;}
+    .write-line{border-bottom:1px solid #aaa;height:30px;}
+    body.print-key .solution-box{display:block !important;border:none;background:none;padding:6px 0 0;margin:0;}
+    body.print-key .write-lines,body.print-key .print-fields{display:none !important;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>P5 Practice Paper Generator</h1>
+    <div class="sub">Singapore MOE syllabus &middot; Math &middot; Science &middot; English &middot; Hindi (DAV curriculum)</div>
+  </div>
+  <div class="row">
+    <div class="sub parent-only" id="headerStatus"></div>
+    <button class="mode-btn no-print" id="modeBtn" style="display:none;"></button>
+  </div>
+</header>
+
+<nav class="no-print">
+  <button data-tab="bank" class="active parent-only">Question Bank</button>
+  <button data-tab="generate" class="parent-only">Generate Paper</button>
+  <button data-tab="todo">To-Do List<span class="nav-count" id="todoNavCount" style="display:none;"></span></button>
+  <button data-tab="practice">Practice</button>
+  <button data-tab="progress">Progress</button>
+  <button data-tab="settings" class="parent-only">Settings</button>
+</nav>
+
+<main>
+
+  <!-- QUESTION BANK TAB -->
+  <section id="tab-bank">
+    <div class="card">
+      <h2>Study Material &amp; Reference Papers</h2>
+      <p class="muted">Pick a subject and upload reference/sample papers (PDF, image, or text) — select multiple files at once. Topic is optional; leave it blank to file material under the whole subject. When AI generation is on (Settings), matching material is sent to Claude as extra context alongside your question bank.</p>
+      <div class="grid">
+        <div class="field">
+          <label>Subject</label>
+          <select id="matSubject">
+            <option value="Math">Math</option>
+            <option value="Science">Science</option>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi (Mother Tongue)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Topic / Strand <span class="muted" style="font-weight:400;">(optional)</span></label>
+          <input type="text" id="matTopic" list="matTopicList" placeholder="Leave blank to file under the whole subject">
+          <datalist id="matTopicList"></datalist>
+        </div>
+      </div>
+      <div class="field">
+        <label>What are you adding?</label>
+        <div class="row" style="gap:18px;">
+          <label style="display:flex;align-items:center;gap:6px;font-weight:400;"><input type="radio" name="matKind" value="notes" checked style="width:auto;"> Study notes (paste text)</label>
+          <label style="display:flex;align-items:center;gap:6px;font-weight:400;"><input type="radio" name="matKind" value="file" style="width:auto;"> Reference / sample paper (upload file)</label>
+        </div>
+      </div>
+      <div class="field" id="matNotesField">
+        <label>Study Notes</label>
+        <textarea id="matNotesText" placeholder="Paste syllabus notes, concept explanations, formulas, worked examples, etc."></textarea>
+      </div>
+      <div class="field" id="matFileField" style="display:none;">
+        <label>Upload File(s) (PDF, image, or .txt — up to 50 MB each, select multiple at once)</label>
+        <input type="file" id="matFileInput" accept=".pdf,.png,.jpg,.jpeg,.txt" multiple>
+      </div>
+      <button class="btn" id="addMaterialBtn">Add to Bank</button>
+      <span class="muted" id="addMaterialMsg" style="margin-left:10px;"></span>
+    </div>
+
+    <div class="card">
+      <h2>Uploaded Materials <span class="muted" id="materialCount" style="font-weight:400;font-size:14px;"></span></h2>
+      <div class="row" style="margin-bottom:12px;">
+        <select id="filterMatSubject">
+          <option value="">All subjects</option>
+          <option value="Math">Math</option>
+          <option value="Science">Science</option>
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+      </div>
+      <div id="materialsWrap"></div>
+    </div>
+
+    <div class="card">
+      <h2>Question Bank <span class="muted" id="bankCount" style="font-weight:400;font-size:14px;"></span></h2>
+      <div class="row" style="margin-bottom:12px;">
+        <select id="filterSubject">
+          <option value="">All subjects</option>
+          <option value="Math">Math</option>
+          <option value="Science">Science</option>
+          <option value="English">English</option>
+          <option value="Hindi">Hindi</option>
+        </select>
+        <button class="btn secondary" id="loadSamplesBtn">Load Sample Questions</button>
+        <button class="btn secondary" id="dedupeBankBtn">Remove Duplicates</button>
+        <button class="btn secondary" id="importQuestionsBtnTrigger">Import Questions from File</button>
+        <input type="file" id="importQuestionsFile" accept=".json" style="display:none;">
+        <span class="muted" id="importQuestionsMsg"></span>
+      </div>
+      <div id="bankTableWrap"></div>
+    </div>
+  </section>
+
+  <!-- GENERATE TAB -->
+  <section id="tab-generate" style="display:none;">
+    <div class="card">
+      <h2>Generate a Practice Paper</h2>
+      <div class="note" id="apiKeyNote" style="display:none;">
+        No Claude API key set — generation will use the built-in template method (picks and reshuffles questions from your bank) instead of AI, and uploaded study material/reference papers won't be used. Add a key in Settings for AI-generated questions that draw on your uploaded material too.
+      </div>
+      <div class="grid">
+        <div class="field">
+          <label>Paper Title</label>
+          <input type="text" id="genTitle" placeholder="e.g. Daily Math Practice">
+        </div>
+        <div class="field">
+          <label>Subject</label>
+          <select id="genSubject">
+            <option value="Math">Math</option>
+            <option value="Science">Science</option>
+            <option value="English">English</option>
+            <option value="Hindi">Hindi (Mother Tongue)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label>Number of Questions</label>
+          <input type="number" id="genCount" value="8" min="3" max="30">
+        </div>
+        <div class="field">
+          <label>Difficulty Mix</label>
+          <select id="genDifficulty">
+            <option value="mixed">Mixed</option>
+            <option value="Easy">Easy only</option>
+            <option value="Medium">Medium only</option>
+            <option value="Hard">Hard only</option>
+          </select>
+        </div>
+      </div>
+      <div class="field">
+        <label>Topics (leave all unchecked to include the whole subject)</label>
+        <div class="topic-checks" id="genTopicChecks"></div>
+      </div>
+      <div class="field">
+        <label style="display:flex;align-items:center;gap:7px;font-weight:400;">
+          <input type="checkbox" id="genAddTodo" checked style="width:auto;">
+          Add to To-Do List so my son can open and complete it
+        </label>
+      </div>
+      <div class="row">
+        <button class="btn" id="generateBtn">Generate Paper</button>
+        <span class="muted" id="generateStatus"></span>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Real School Papers (2023–2025)</h2>
+      <p class="muted">Full P5 end-of-year papers from Singapore schools, typed in from the free scans on testpapersfree.com with the schools' own answer keys. Add one to Practice to take it as a whole paper, or add its questions to the Question Bank so they can be mixed into generated papers. Composition, listening and drawing questions are left out. Questions with a diagram show the diagram cropped from the original paper.</p>
+      <div class="field">
+        <label style="display:flex;align-items:center;gap:7px;font-weight:400;">
+          <input type="checkbox" id="pastAddTodo" checked style="width:auto;">
+          Also add the paper to the To-Do List
+        </label>
+      </div>
+      <div id="pastPapersWrap"></div>
+    </div>
+  </section>
+
+  <!-- TO-DO TAB -->
+  <section id="tab-todo" style="display:none;">
+    <div class="card">
+      <h2>To-Do List</h2>
+      <p class="muted">Papers assigned and waiting to be done. Your son can open this tab, pick a paper, and complete it.</p>
+      <div id="todoListWrap"></div>
+    </div>
+  </section>
+
+  <!-- PRACTICE TAB -->
+  <section id="tab-practice" style="display:none;">
+    <div class="card no-print">
+      <div class="row" style="justify-content:space-between;align-items:center;margin-bottom:12px;">
+        <h2 style="margin:0;">Your Papers</h2>
+        <label style="display:flex;align-items:center;gap:8px;font-weight:500;margin:0;">Subject
+          <select id="practiceSubject" style="width:auto;min-width:190px;"></select>
+        </label>
+      </div>
+      <div id="paperListWrap"></div>
+    </div>
+    <div id="paperViewWrap"></div>
+  </section>
+
+  <!-- PROGRESS TAB -->
+  <section id="tab-progress" style="display:none;">
+    <div class="card">
+      <h2>Accuracy by Topic</h2>
+      <div id="progressBySubject"></div>
+    </div>
+    <div class="card">
+      <h2>Paper History</h2>
+      <div id="progressHistory"></div>
+    </div>
+  </section>
+
+  <!-- SETTINGS TAB -->
+  <section id="tab-settings" style="display:none;">
+    <div class="card">
+      <h2>AI Generation Settings</h2>
+      <p class="muted">Your API key is stored only in this browser (localStorage) and sent directly from your browser to Anthropic's API. It is never sent anywhere else.</p>
+      <div class="note">If AI generation fails with a network/CORS error, try running this file from a local server instead of opening it directly: <code>python3 -m http.server</code> in this folder, then visit <code>http://localhost:8000/p5_practice_app.html</code>.</div>
+      <div class="field">
+        <label>Anthropic API Key</label>
+        <input type="password" id="apiKeyInput" placeholder="sk-ant-...">
+      </div>
+      <div class="field">
+        <label>Model</label>
+        <input type="text" id="modelInput" placeholder="claude-sonnet-5">
+      </div>
+      <button class="btn" id="saveSettingsBtn">Save Settings</button>
+      <span class="muted" id="saveSettingsMsg" style="margin-left:10px;"></span>
+    </div>
+    <div class="card">
+      <h2>Parent PIN</h2>
+      <p class="muted">With a PIN set, the app opens in child mode: only To-Do, Practice and Progress are shown, answers stay hidden until a paper is submitted, and only a parent can mark written answers. Tap "Parent mode" in the header and enter the PIN to unlock everything.</p>
+      <div class="field" style="max-width:260px;">
+        <label>New PIN (4–8 digits)</label>
+        <input type="password" id="pinInput" inputmode="numeric" maxlength="8" placeholder="e.g. 2580">
+      </div>
+      <div class="row">
+        <button class="btn" id="savePinBtn">Set PIN</button>
+        <button class="btn danger" id="removePinBtn">Remove PIN</button>
+        <span class="muted" id="pinMsg"></span>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Data</h2>
+      <p class="muted">Everything (question bank, generated papers, progress) is stored locally in this browser. Export a backup, or clear everything to start over.</p>
+      <div class="row">
+        <button class="btn secondary" id="exportBtn">Export Backup (JSON)</button>
+        <button class="btn secondary" id="importBtnTrigger">Import Backup</button>
+        <input type="file" id="importFile" accept=".json" style="display:none;">
+        <button class="btn danger" id="clearBtn">Clear All Data</button>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<div class="toast" id="toast"></div>
+
+<script>document.write('<script src="source_papers/p5_past_papers.js?v=' + Date.now() + '"><\/script>');</script>
+<script>
+(function(){
+  "use strict";
+
+  const STORAGE_KEY = "p5app_v1";
+  const DEFAULT_TOPICS = {
+    Math: ["Whole Numbers","Fractions","Decimals","Percentage","Ratio","Area","Volume","Angles","Average","Rate","Speed","Geometry","Data Analysis"],
+    Science: ["Cycles","Systems (Human/Plant)","Interactions (Forces & Energy)","Matter","Energy","Diversity"],
+    English: ["Grammar","Vocabulary","Comprehension (MCQ)","Comprehension (Open-Ended)","Synthesis & Transformation","Composition"],
+    Hindi: ["Grammar (व्याकरण)","Vocabulary (शब्दावली)","Comprehension (अवबोधन)","Composition (निबंध लेखन)","Letter Writing (पत्र लेखन)","Poetry (कविता)","Oral & Conversation"]
+  };
+
+  function uid(){ return Date.now().toString(36) + Math.random().toString(36).slice(2,8); }
+
+  function loadState(){
+    try{
+      const raw = localStorage.getItem(STORAGE_KEY);
+      if(raw) return JSON.parse(raw);
+    }catch(e){ console.error("Failed to load state", e); }
+    return { apiKey:"", model:"claude-sonnet-5", bank:[], papers:[], materials:[] };
+  }
+  function saveState(){
+    try{
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+      return true;
+    }catch(e){
+      console.error("Failed to save state", e);
+      toast("Storage full — try a smaller file, or delete an old reference paper first.");
+      return false;
+    }
+  }
+
+  let state = loadState();
+  if(!state.model) state.model = "claude-sonnet-5";
+  if(!state.materials) state.materials = [];
+  if(!state.bank) state.bank = [];
+  if(!state.papers) state.papers = [];
+
+  function toast(msg){
+    const t = document.getElementById("toast");
+    t.textContent = msg;
+    t.classList.add("show");
+    clearTimeout(t._timer);
+    t._timer = setTimeout(()=>t.classList.remove("show"), 2600);
+  }
+
+  function esc(s){
+    return String(s==null?"":s).replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+  }
+
+  // ---------- PARENT PIN / CHILD MODE ----------
+  // A light lock for a child, not real security: the PIN is stored hashed in this browser.
+  function hashPin(pin){
+    let h = 2166136261;
+    const str = "p5app-pin:" + pin;
+    for(let i=0;i<str.length;i++){ h ^= str.charCodeAt(i); h = Math.imul(h, 16777619); }
+    return (h>>>0).toString(16);
+  }
+  let parentUnlocked = !state.pinHash;
+  function isChild(){ return !!state.pinHash && !parentUnlocked; }
+
+  function applyMode(){
+    document.body.classList.toggle("child-mode", isChild());
+    const modeBtn = document.getElementById("modeBtn");
+    modeBtn.style.display = state.pinHash ? "inline-block" : "none";
+    modeBtn.textContent = isChild() ? "🔒 Parent mode" : "Lock (child mode)";
+  }
+
+  document.getElementById("modeBtn").addEventListener("click", ()=>{
+    if(!state.pinHash) return;
+    if(isChild()){
+      askPin();
+      return;
+    } else {
+      parentUnlocked = false;
+      applyMode();
+      switchTab("todo");
+    }
+    if(activePaperId) renderPaperView();
+  });
+
+  // Masked PIN entry (the browser's prompt() can't hide what is typed).
+  function askPin(){
+    let dlg = document.getElementById("pinDialog");
+    if(!dlg){
+      dlg = document.createElement("dialog");
+      dlg.id = "pinDialog";
+      dlg.innerHTML = `<form method="dialog" style="margin:0;min-width:260px;">
+        <h3 style="margin:0 0 10px;">Enter parent PIN</h3>
+        <input type="password" id="pinDialogInput" inputmode="numeric" autocomplete="off" maxlength="8" style="width:100%;font-size:18px;letter-spacing:4px;">
+        <div class="muted" id="pinDialogMsg" style="min-height:18px;margin-top:6px;color:var(--danger);"></div>
+        <div class="row" style="justify-content:flex-end;margin-top:10px;">
+          <button type="button" class="btn secondary" id="pinDialogCancel">Cancel</button>
+          <button type="submit" class="btn" id="pinDialogOk">Unlock</button>
+        </div>
+      </form>`;
+      dlg.style.cssText = "border:1px solid var(--border);border-radius:12px;padding:20px;box-shadow:0 12px 32px rgba(0,0,0,.18);";
+      document.body.appendChild(dlg);
+      dlg.querySelector("#pinDialogCancel").addEventListener("click", ()=> dlg.close());
+      dlg.querySelector("form").addEventListener("submit", (e)=>{
+        e.preventDefault();
+        const input = dlg.querySelector("#pinDialogInput");
+        if(hashPin(input.value.trim()) !== state.pinHash){
+          dlg.querySelector("#pinDialogMsg").textContent = "Wrong PIN. Try again.";
+          input.value = ""; input.focus();
+          return;
+        }
+        dlg.close();
+        parentUnlocked = true;
+        applyMode();
+        toast("Parent mode unlocked.");
+        if(activePaperId) renderPaperView();
+      });
+    }
+    dlg.querySelector("#pinDialogInput").value = "";
+    dlg.querySelector("#pinDialogMsg").textContent = "";
+    dlg.showModal();
+    dlg.querySelector("#pinDialogInput").focus();
+  }
+
+  // ---------- TAB NAV ----------
+  const tabs = ["bank","generate","todo","practice","progress","settings"];
+  document.querySelectorAll("nav button").forEach(btn=>{
+    btn.addEventListener("click", ()=> switchTab(btn.dataset.tab));
+  });
+  function switchTab(name){
+    if(isChild() && ["bank","generate","settings"].includes(name)) name = "todo";
+    tabs.forEach(t=>{
+      document.getElementById("tab-"+t).style.display = (t===name)?"block":"none";
+    });
+    document.querySelectorAll("nav button").forEach(b=> b.classList.toggle("active", b.dataset.tab===name));
+    if(name==="bank"){ renderBank(); renderMaterials(); }
+    if(name==="generate") renderGenerateTab();
+    if(name==="todo") renderTodo();
+    if(name==="practice") renderPracticeList();
+    if(name==="progress") renderProgress();
+    if(name==="settings") renderSettings();
+    updateTodoNavCount();
+  }
+
+  document.getElementById("filterSubject").addEventListener("change", renderBank);
+
+  function renderBank(){
+    const filter = document.getElementById("filterSubject").value;
+    const list = state.bank.filter(q=> !filter || q.subject===filter);
+    document.getElementById("bankCount").textContent = `(${list.length} of ${state.bank.length})`;
+    const wrap = document.getElementById("bankTableWrap");
+    if(list.length===0){
+      wrap.innerHTML = `<div class="empty">No questions yet. Add some above, or click "Load Sample Questions" to try the app out.</div>`;
+      return;
+    }
+    let rows = list.slice().sort((a,b)=>b.createdAt-a.createdAt).map(q=>`
+      <tr>
+        <td><span class="badge ${q.subject.toLowerCase()}">${esc(q.subject)}</span></td>
+        <td>${esc(q.topic)}</td>
+        <td>${esc(q.type)}</td>
+        <td><span class="badge ${q.difficulty.toLowerCase()}">${esc(q.difficulty)}</span></td>
+        <td class="qtext">${esc(q.text.length>80? q.text.slice(0,80)+"…" : q.text)}</td>
+        <td><button class="btn danger" data-del="${q.id}" style="padding:4px 10px;font-size:12px;">Delete</button></td>
+      </tr>
+    `).join("");
+    wrap.innerHTML = `<table><thead><tr><th>Subject</th><th>Topic</th><th>Type</th><th>Level</th><th>Question</th><th></th></tr></thead><tbody>${rows}</tbody></table>`;
+    wrap.querySelectorAll("[data-del]").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        state.bank = state.bank.filter(q=>q.id!==btn.dataset.del);
+        saveState(); renderBank();
+      });
+    });
+  }
+
+  document.getElementById("dedupeBankBtn").addEventListener("click", ()=>{
+    const removed = dedupeBank();
+    saveState(); renderBank();
+    toast(removed ? `Removed ${removed} repeated question(s) from the bank.` : "No repeated questions in the bank.");
+  });
+
+  document.getElementById("loadSamplesBtn").addEventListener("click", ()=>{
+    const samples = [
+      {subject:"Math",topic:"Fractions",type:"Short Answer",difficulty:"Medium",text:"Siti had 3/4 kg of flour. She used 1/3 kg to bake muffins. How much flour did she have left?",options:[],answer:"5/12 kg",solution:"3/4 - 1/3 = 9/12 - 4/12 = 5/12 kg"},
+      {subject:"Math",topic:"Percentage",type:"Short Answer",difficulty:"Medium",text:"A shirt originally cost $40. It was sold at a 15% discount. What was the selling price?",options:[],answer:"$34",solution:"15% of 40 = 6. 40 - 6 = $34"},
+      {subject:"Math",topic:"Volume",type:"Structured",difficulty:"Hard",text:"A rectangular tank measuring 20cm by 15cm by 30cm is 2/5 filled with water. How much more water, in litres, is needed to fill the tank completely?",options:[],answer:"5.4 litres",solution:"Volume = 20x15x30 = 9000 cm3. Filled = 2/5 x 9000 = 3600. Remaining = 5400 cm3 = 5.4 litres"},
+      {subject:"Math",topic:"Area",type:"Short Answer",difficulty:"Medium",text:"A rectangular garden is 12m long and 8m wide. A square pond of side 3m is built inside it. What is the area of the garden not covered by the pond?",options:[],answer:"87 m²",solution:"Garden area = 12x8=96. Pond area = 3x3=9. 96-9=87 m2"},
+      {subject:"Math",topic:"Speed",type:"Short Answer",difficulty:"Hard",text:"A car travels 180km in 3 hours. At the same speed, how long will it take to travel 300km?",options:[],answer:"5 hours",solution:"Speed = 180/3 = 60km/h. Time = 300/60 = 5 hours"},
+      {subject:"Science",topic:"Cycles",type:"MCQ",difficulty:"Easy",text:"Which of the following is a stage in the life cycle of a butterfly?",options:["Tadpole","Pupa","Nymph","Larva only"],answer:"Pupa",solution:"The butterfly life cycle: egg, larva (caterpillar), pupa, adult."},
+      {subject:"Science",topic:"Interactions (Forces & Energy)",type:"Short Answer",difficulty:"Medium",text:"Explain why it is easier to push a heavy box using a ramp than lifting it straight up.",options:[],answer:"A ramp reduces the force needed by spreading the work over a longer distance.",solution:"Using a ramp trades distance for force — less force is needed but it acts over a longer distance."},
+      {subject:"English",topic:"Vocabulary",type:"MCQ",difficulty:"Easy",text:"Choose the word closest in meaning to 'reluctant'.",options:["Eager","Unwilling","Confident","Careless"],answer:"Unwilling",solution:"'Reluctant' means unwilling or hesitant."},
+      {subject:"English",topic:"Synthesis & Transformation",type:"Short Answer",difficulty:"Medium",text:"Rewrite using 'so...that': The soup was very hot. She could not drink it.",options:[],answer:"The soup was so hot that she could not drink it.",solution:"Combine using 'so + adjective + that + result'."},
+      {subject:"Hindi",topic:"Vocabulary (शब्दावली)",type:"MCQ",difficulty:"Easy",text:"'प्रसन्न' शब्द का समानार्थी (synonym) चुनिए।",options:["खुश","उदास","क्रोधित","थका"],answer:"खुश",solution:"'प्रसन्न' का अर्थ है 'खुश' या 'आनंदित'।"},
+      {subject:"Hindi",topic:"Grammar (व्याकरण)",type:"Short Answer",difficulty:"Medium",text:"रिक्त स्थान भरें: राम ___ बाजार ___ रहा है। (सही कारक चिह्न लगाएँ)",options:[],answer:"राम बाजार जा रहा है।",solution:"वाक्य में क्रिया 'जा रहा है' का प्रयोग सही रूप में करें।"}
+    ];
+    let added = 0;
+    samples.forEach(s=>{
+      if(bankHas(s)) return;
+      state.bank.push({id:uid(), subject:s.subject, topic:s.topic, type:s.type, difficulty:s.difficulty, text:s.text, options:s.options, answer:s.answer, solution:s.solution, source:"sample", createdAt:Date.now()});
+      added++;
+    });
+    saveState(); renderBank();
+    toast(added ? `Loaded ${added} sample questions.` : "The sample questions are already in your bank.");
+  });
+
+  // ---------- BULK IMPORT QUESTIONS ----------
+  document.getElementById("importQuestionsBtnTrigger").addEventListener("click", ()=> document.getElementById("importQuestionsFile").click());
+  document.getElementById("importQuestionsFile").addEventListener("change", (e)=>{
+    const file = e.target.files[0];
+    if(!file) return;
+    const msg = document.getElementById("importQuestionsMsg");
+    const reader = new FileReader();
+    reader.onload = (ev)=>{
+      try{
+        const items = JSON.parse(ev.target.result);
+        if(!Array.isArray(items)) throw new Error("File must contain a JSON array of questions.");
+        let added = 0, skipped = 0, dupes = 0;
+        items.forEach(it=>{
+          if(!it || !it.subject || !it.text || !it.answer){ skipped++; return; }
+          if(bankHas(it)){ dupes++; return; }
+          state.bank.push({
+            id: uid(),
+            subject: it.subject,
+            topic: it.topic || it.subject,
+            type: it.type || "Short Answer",
+            difficulty: it.difficulty || "Medium",
+            text: it.text,
+            options: Array.isArray(it.options) ? it.options : [],
+            answer: it.answer,
+            solution: it.solution || "",
+            images: Array.isArray(it.images) ? it.images : [],
+            passage: it.passage || undefined,
+            accept: Array.isArray(it.accept) ? it.accept : undefined,
+            source: it.source || "imported",
+            createdAt: Date.now()
+          });
+          added++;
+        });
+        saveState();
+        msg.textContent = `Imported ${added} question(s)${dupes? `, skipped ${dupes} already in the bank` : ""}${skipped? `, skipped ${skipped} invalid` : ""}.`;
+        msg.style.color = "var(--good)";
+        toast(`Imported ${added} question(s) into the bank.`);
+        renderBank();
+      }catch(err){
+        msg.textContent = "Import failed: " + err.message;
+        msg.style.color = "var(--danger)";
+      }
+      e.target.value = "";
+    };
+    reader.readAsText(file);
+  });
+
+  // ---------- STUDY MATERIAL / REFERENCE PAPERS ----------
+  // File contents live in IndexedDB (hundreds of MB available); localStorage keeps only the list of files,
+  // so large PDFs no longer fill the ~5MB localStorage quota.
+  const MAX_MATERIAL_FILE_BYTES = 50 * 1024 * 1024; // 50MB per file
+  // The Claude API accepts about 32MB per request; base64 adds ~33%, so send at most ~22MB of files per generation.
+  const MAX_AI_FILE_BASE64_CHARS = 30 * 1024 * 1024;
+
+  const fileDb = (()=>{
+    let dbp = null;
+    function open(){
+      if(!dbp) dbp = new Promise((resolve,reject)=>{
+        const req = indexedDB.open("p5app_files", 1);
+        req.onupgradeneeded = ()=> req.result.createObjectStore("files");
+        req.onsuccess = ()=> resolve(req.result);
+        req.onerror = ()=> reject(req.error || new Error("Could not open file storage"));
+      });
+      return dbp;
+    }
+    function run(mode, fn){
+      return open().then(db=> new Promise((resolve,reject)=>{
+        const tx = db.transaction("files", mode);
+        const r = fn(tx.objectStore("files"));
+        tx.oncomplete = ()=> resolve(r && r.result);
+        tx.onerror = tx.onabort = ()=> reject(tx.error || new Error("File storage error"));
+      }));
+    }
+    return {
+      put: (id, data)=> run("readwrite", st=> st.put(data, id)),
+      get: (id)=> run("readonly", st=> st.get(id)),
+      del: (id)=> run("readwrite", st=> st.delete(id)),
+      clear: ()=> run("readwrite", st=> st.clear()),
+    };
+  })();
+  function fmtSize(bytes){
+    if(!bytes) return "";
+    return bytes >= 1024*1024 ? (bytes/1024/1024).toFixed(1)+" MB" : Math.max(1,Math.round(bytes/1024))+" KB";
+  }
+  // Base64 content of a material (from IndexedDB, or older entries still holding it inline).
+  async function materialData(m){
+    if(m.dataBase64) return m.dataBase64;
+    if(m.inIdb){ try{ return (await fileDb.get(m.id)) || ""; }catch(e){ console.error(e); } }
+    return "";
+  }
+  // One-time move of files uploaded before this change out of localStorage into IndexedDB.
+  async function migrateMaterialsToIdb(){
+    const inline = state.materials.filter(m=> m.dataBase64);
+    if(!inline.length) return;
+    for(const m of inline){
+      try{
+        await fileDb.put(m.id, m.dataBase64);
+        m.size = m.size || Math.round(m.dataBase64.length*3/4);
+        m.inIdb = true;
+        delete m.dataBase64;
+      }catch(e){ console.error("Could not move file to IndexedDB", m.fileName, e); }
+    }
+    saveState();
+  }
+
+  function refreshMatTopicList(){
+    const subj = document.getElementById("matSubject").value;
+    const dl = document.getElementById("matTopicList");
+    const fromBank = state.bank.filter(q=>q.subject===subj).map(q=>q.topic);
+    const fromMats = state.materials.filter(m=>m.subject===subj).map(m=>m.topic);
+    const all = Array.from(new Set([...(DEFAULT_TOPICS[subj]||[]), ...fromBank, ...fromMats]));
+    dl.innerHTML = all.map(t=>`<option value="${esc(t)}">`).join("");
+  }
+  document.getElementById("matSubject").addEventListener("change", refreshMatTopicList);
+
+  function updateMatKindFields(){
+    const kind = document.querySelector('input[name="matKind"]:checked').value;
+    document.getElementById("matNotesField").style.display = kind==="notes" ? "block" : "none";
+    document.getElementById("matFileField").style.display = kind==="file" ? "block" : "none";
+  }
+  document.querySelectorAll('input[name="matKind"]').forEach(r=> r.addEventListener("change", updateMatKindFields));
+
+  function readFileAsText(file){
+    return new Promise((resolve,reject)=>{
+      const reader = new FileReader();
+      reader.onload = ()=> resolve(reader.result);
+      reader.onerror = ()=> reject(reader.error || new Error("Could not read file"));
+      reader.readAsText(file);
+    });
+  }
+  function readFileAsBase64(file){
+    return new Promise((resolve,reject)=>{
+      const reader = new FileReader();
+      reader.onload = ()=>{
+        const result = reader.result; // data:<mime>;base64,<data>
+        const comma = result.indexOf(",");
+        resolve(comma>=0 ? result.slice(comma+1) : result);
+      };
+      reader.onerror = ()=> reject(reader.error || new Error("Could not read file"));
+      reader.readAsDataURL(file);
+    });
+  }
+
+  document.getElementById("addMaterialBtn").addEventListener("click", async ()=>{
+    const subject = document.getElementById("matSubject").value;
+    const topic = document.getElementById("matTopic").value.trim(); // optional
+    const kind = document.querySelector('input[name="matKind"]:checked').value;
+    const msg = document.getElementById("addMaterialMsg");
+    msg.style.color = "var(--danger)";
+
+    if(kind==="notes"){
+      const text = document.getElementById("matNotesText").value.trim();
+      if(!text){ msg.textContent = "Please paste some study notes, or switch to file upload."; return; }
+      state.materials.push({ id: uid(), subject, topic, kind:"notes", text, fileName:"", mimeType:"text/plain", dataBase64:"", createdAt: Date.now() });
+      if(!saveState()){ state.materials.pop(); return; }
+      document.getElementById("matNotesText").value = "";
+      msg.style.color = "var(--good)";
+      msg.textContent = "Added to bank.";
+      setTimeout(()=> msg.textContent="", 2000);
+      renderMaterials();
+      toast("Study notes added.");
+      return;
+    }
+
+    // kind === "file" — supports selecting multiple files at once
+    const fileInput = document.getElementById("matFileInput");
+    const files = Array.from(fileInput.files || []);
+    if(files.length===0){ msg.textContent = "Please choose one or more files to upload."; return; }
+
+    let added = 0, skipped = [];
+    for(const file of files){
+      if(file.size > MAX_MATERIAL_FILE_BYTES){ skipped.push(`${file.name} (too large, max 50 MB)`); continue; }
+      const isText = file.type==="text/plain" || /\.txt$/i.test(file.name);
+      const isPdf = file.type==="application/pdf" || /\.pdf$/i.test(file.name);
+      const isImage = file.type.startsWith("image/") || /\.(png|jpe?g)$/i.test(file.name);
+      if(!isText && !isPdf && !isImage){ skipped.push(`${file.name} (unsupported type)`); continue; }
+
+      try{
+        let entry = { id: uid(), subject, topic, kind:"file", fileName:file.name, size:file.size, createdAt: Date.now() };
+        if(isText){
+          entry.text = await readFileAsText(file);
+          entry.mimeType = "text/plain";
+        } else {
+          const data = await readFileAsBase64(file);
+          try{ await fileDb.put(entry.id, data); }
+          catch(e){ skipped.push(`${file.name} (could not store: ${e.message||e})`); continue; }
+          entry.inIdb = true;
+          entry.mimeType = isPdf ? "application/pdf" : (file.type || "image/png");
+          entry.text = "";
+        }
+        state.materials.push(entry);
+        if(!saveState()){
+          // Storage is full: undo this file so memory matches what was actually saved.
+          state.materials.pop();
+          if(entry.inIdb) fileDb.del(entry.id).catch(()=>{});
+          skipped.push(`${file.name} (browser storage full)`);
+          continue;
+        }
+        added++;
+      }catch(err){
+        skipped.push(`${file.name} (${err.message})`);
+      }
+    }
+
+    fileInput.value = "";
+    if(added>0 && skipped.length===0){
+      msg.style.color = "var(--good)";
+      msg.textContent = `Added ${added} file(s) to bank.`;
+      toast(`Added ${added} file(s).`);
+    } else if(added>0 && skipped.length>0){
+      msg.style.color = "var(--warn)";
+      msg.textContent = `Added ${added} file(s). Skipped: ${skipped.join(", ")}`;
+      toast(`Added ${added} file(s), skipped ${skipped.length}.`);
+    } else {
+      msg.style.color = "var(--danger)";
+      msg.textContent = `No files added. Skipped: ${skipped.join(", ")}`;
+    }
+    setTimeout(()=> msg.textContent="", 4000);
+    renderMaterials();
+  });
+
+  document.getElementById("filterMatSubject").addEventListener("change", renderMaterials);
+
+  function renderMaterials(){
+    refreshMatTopicList();
+    const filter = document.getElementById("filterMatSubject").value;
+    const list = state.materials.filter(m=> !filter || m.subject===filter);
+    document.getElementById("materialCount").textContent = `(${list.length} of ${state.materials.length})`;
+    const wrap = document.getElementById("materialsWrap");
+    if(list.length===0){
+      wrap.innerHTML = `<div class="empty">No study material or reference papers uploaded yet.</div>`;
+      return;
+    }
+    wrap.innerHTML = list.slice().sort((a,b)=>b.createdAt-a.createdAt).map(m=>{
+      const kindLabel = m.kind==="notes" ? "Study notes" : (m.mimeType==="application/pdf" ? "PDF reference paper" : (m.mimeType && m.mimeType.startsWith("image/") ? "Image reference paper" : "Text reference paper"));
+      const preview = m.kind==="notes" || m.mimeType==="text/plain"
+        ? esc((m.text||"").length>140 ? m.text.slice(0,140)+"…" : m.text)
+        : esc(m.fileName||"");
+      return `<div class="paper-list-item">
+        <div>
+          <span class="badge ${m.subject.toLowerCase()}">${esc(m.subject)}</span>
+          <strong style="margin-left:8px;">${m.topic ? esc(m.topic) : "Whole subject (no topic set)"}</strong>
+          <div class="muted">${kindLabel}${m.size ? " &middot; "+fmtSize(m.size) : ""} &middot; ${new Date(m.createdAt).toLocaleDateString()}</div>
+          <div class="muted" style="margin-top:4px;">${preview}</div>
+        </div>
+        <div class="row">
+          <button class="btn danger" data-delmat="${m.id}">Delete</button>
+        </div>
+      </div>`;
+    }).join("");
+    wrap.querySelectorAll("[data-delmat]").forEach(btn=>{
+      btn.addEventListener("click", ()=>{
+        const id = btn.dataset.delmat;
+        state.materials = state.materials.filter(m=>m.id!==id);
+        fileDb.del(id).catch(()=>{});
+        saveState(); renderMaterials();
+      });
+    });
+  }
+
+  function getRelevantMaterials(subject, topics){
+    // Materials with no topic set are treated as general reference for the whole subject and always included.
+    return state.materials.filter(m=> m.subject===subject && (!m.topic || topics.length===0 || topics.includes(m.topic)));
+  }
+
+  // ---------- GENERATE TAB ----------
+  function renderGenerateTab(){
+    document.getElementById("apiKeyNote").style.display = state.apiKey ? "none" : "block";
+    const subj = document.getElementById("genSubject").value;
+    renderGenTopicChecks(subj);
+    renderPastPapers();
+  }
+  document.getElementById("genSubject").addEventListener("change", (e)=> renderGenTopicChecks(e.target.value));
+
+  // ---------- REAL SCHOOL PAPERS (loaded from source_papers/p5_past_papers.js) ----------
+  function pastPapers(){ return Array.isArray(window.P5_PAST_PAPERS) ? window.P5_PAST_PAPERS : []; }
+  function pastQuestion(q){
+    const c = JSON.parse(JSON.stringify(q));
+    delete c.id;
+    return c;
+  }
+  function renderPastPapers(){
+    const wrap = document.getElementById("pastPapersWrap");
+    if(!wrap) return;
+    const list = pastPapers();
+    if(!list.length){
+      wrap.innerHTML = `<div class="empty">No school papers found. The file source_papers/p5_past_papers.js must sit next to this app.</div>`;
+      return;
+    }
+    wrap.innerHTML = list.map(pp=>{
+      const inPractice = state.papers.some(p=>p.pastKey===pp.key);
+      const inBank = state.bank.some(q=>q.source && q.source.paperKey===pp.key);
+      const figs = pp.questions.filter(q=>q.images && q.images.length).length;
+      return `<div class="paper-list-item">
+        <div>
+          <strong>${esc(pp.title)}</strong>
+          <span class="badge ${pp.subject.toLowerCase()}" style="margin-left:8px;">${esc(pp.subject)}</span>
+          <div class="muted">${esc(pp.school)} &middot; ${esc(pp.exam)} ${pp.year} &middot; ${pp.questions.length} questions${figs? ` &middot; ${figs} with diagrams`:""}</div>
+        </div>
+        <div class="row">
+          <button class="btn" data-past-paper="${esc(pp.key)}" ${inPractice?"disabled":""}>${inPractice?"✓ In Practice":"Add to Practice"}</button>
+          <button class="btn secondary" data-past-bank="${esc(pp.key)}" ${inBank?"disabled":""}>${inBank?"In Question Bank":"Add to Question Bank"}</button>
+        </div>
+      </div>`;
+    }).join("");
+    wrap.querySelectorAll("[data-past-paper]").forEach(b=> b.addEventListener("click", ()=>{
+      const pp = pastPapers().find(x=>x.key===b.dataset.pastPaper);
+      if(!pp || state.papers.some(p=>p.pastKey===pp.key)) return;
+      const onTodo = document.getElementById("pastAddTodo").checked;
+      const paper = {
+        id: uid(), title: pp.title, subject: pp.subject, topics: [], difficulty: "mixed", createdAt: Date.now(),
+        pastKey: pp.key,
+        questions: pp.questions.map(q=>({...pastQuestion(q), id:uid()})),
+        responses: {}, status: "not-started", score: null, onTodo
+      };
+      state.papers.push(paper);
+      if(!saveState()){ state.papers.pop(); return; }
+      toast(`Added "${pp.title}" to Practice${onTodo?" and the To-Do List":""}.`);
+      updateTodoNavCount();
+      switchTab("practice");
+      openPaper(paper.id);
+    }));
+    wrap.querySelectorAll("[data-past-bank]").forEach(b=> b.addEventListener("click", ()=>{
+      const pp = pastPapers().find(x=>x.key===b.dataset.pastBank);
+      if(!pp) return;
+      const before = state.bank.length;
+      pp.questions.forEach(q=>{ if(!bankHas(q)) state.bank.push({...pastQuestion(q), id:uid(), createdAt:Date.now()}); });
+      if(!saveState()){ state.bank.length = before; return; }
+      toast(`Added ${pp.questions.length} questions from ${pp.school} to the Question Bank.`);
+      renderPastPapers();
+    }));
+  }
+
+  function renderGenTopicChecks(subj){
+    const fromBank = Array.from(new Set(state.bank.filter(q=>q.subject===subj).map(q=>q.topic)));
+    const all = Array.from(new Set([...(DEFAULT_TOPICS[subj]||[]), ...fromBank]));
+    const wrap = document.getElementById("genTopicChecks");
+    wrap.innerHTML = all.map(t=>`<label><input type="checkbox" value="${esc(t)}"> ${esc(t)}</label>`).join("");
+  }
+
+  document.getElementById("generateBtn").addEventListener("click", async ()=>{
+    const title = document.getElementById("genTitle").value.trim() || "Practice Paper";
+    const subject = document.getElementById("genSubject").value;
+    const count = Math.max(3, Math.min(30, parseInt(document.getElementById("genCount").value,10) || 8));
+    const difficulty = document.getElementById("genDifficulty").value;
+    const topics = Array.from(document.querySelectorAll("#genTopicChecks input:checked")).map(i=>i.value);
+    const statusEl = document.getElementById("generateStatus");
+    const btn = document.getElementById("generateBtn");
+
+    const samplePool = state.bank.filter(q => q.subject===subject && (topics.length===0 || topics.includes(q.topic)));
+    const relevantMaterials = getRelevantMaterials(subject, topics);
+    if(samplePool.length===0 && relevantMaterials.length===0){
+      statusEl.textContent = "No matching questions or study material for this subject/topic. Add some in the Question Bank tab first.";
+      statusEl.style.color = "var(--danger)";
+      return;
+    }
+    if(samplePool.length===0 && !state.apiKey){
+      statusEl.textContent = "You've uploaded study material but no sample questions, and no API key is set — the template method needs at least one bank question to work from. Add a sample question, or set an API key in Settings to generate directly from your uploaded material.";
+      statusEl.style.color = "var(--danger)";
+      return;
+    }
+
+    btn.disabled = true;
+    statusEl.style.color = "var(--muted)";
+    statusEl.textContent = "Generating…";
+
+    let questions = null;
+    if(state.apiKey){
+      try{
+        questions = await generateWithAI({subject, topics, count, difficulty, samplePool});
+      }catch(err){
+        console.error(err);
+        statusEl.textContent = "AI generation failed (" + err.message + "). Using template method instead.";
+        statusEl.style.color = "var(--warn)";
+        questions = generateFromTemplate({subject, topics, count, difficulty, samplePool});
+      }
+    } else {
+      questions = generateFromTemplate({subject, topics, count, difficulty, samplePool});
+    }
+
+    if(questions && questions.length){
+      // Never repeat a question that is already in another paper (or twice in this one).
+      const used = usedQuestionKeys();
+      questions = questions.filter(q=>{ const k = questionKey(q); if(used.has(k)) return false; used.add(k); return true; });
+    }
+    if(!questions || questions.length===0){
+      statusEl.textContent = state.apiKey
+        ? "Could not generate new questions that aren't already used in your papers. Try again, or pick other topics."
+        : "Every matching question in your bank is already used in an existing paper. Add more questions to the bank (or delete an old paper) to make a new one.";
+      statusEl.style.color = "var(--danger)";
+      btn.disabled = false;
+      return;
+    }
+
+    const onTodo = document.getElementById("genAddTodo").checked;
+    const paper = {
+      id: uid(), title, subject, topics, difficulty, createdAt: Date.now(),
+      questions: questions.map(q=>({...q, id:uid()})),
+      responses: {}, status: "not-started", score: null, onTodo
+    };
+    state.papers.push(paper);
+    saveState();
+    btn.disabled = false;
+    statusEl.textContent = (onTodo ? "Paper generated and added to the To-Do List!" : "Paper generated!") +
+      (questions.length < count ? ` Only ${questions.length} of ${count} questions — the rest of the matching bank questions are already used in other papers, and questions are never repeated.` : "");
+    statusEl.style.color = questions.length < count ? "var(--warn)" : "var(--good)";
+    updateTodoNavCount();
+    switchTab("practice");
+    openPaper(paper.id);
+  });
+
+  function shuffle(arr){
+    const a = arr.slice();
+    for(let i=a.length-1;i>0;i--){
+      const j = Math.floor(Math.random()*(i+1));
+      [a[i],a[j]] = [a[j],a[i]];
+    }
+    return a;
+  }
+
+  // Template-based fallback generator: draws bank questions without repeats (until the pool runs out)
+  // and shuffles MCQ options. Question text and answers are kept exactly as written so they stay correct.
+  // ---------- NO-REPEAT RULES ----------
+  // A question's identity: school-paper questions by paper + question number (cloze blanks share
+  // the same wording but are different questions); everything else by its wording and answer.
+  function normText(t){ return String(t||"").toLowerCase().replace(/[^a-z0-9\u0900-\u097f]+/g," ").trim(); }
+  function questionKey(q){
+    const src = q && q.source && typeof q.source==="object" ? q.source : null;
+    if(src && src.paperKey && src.qno) return "school|" + src.paperKey + "|" + src.qno;
+    return "q|" + (q.subject||"") + "|" + normText(q.text) + "|" + normText(q.answer);
+  }
+  // Questions that only make sense next to their passage (single blanks) are never mixed into generated papers.
+  function isPassageBlank(q){ return /^(Grammar cloze|Comprehension cloze|Editing for spelling)/i.test(q.text||""); }
+  function usedQuestionKeys(){
+    const used = new Set();
+    state.papers.forEach(p=> (p.questions||[]).forEach(q=> used.add(questionKey(q))));
+    return used;
+  }
+  // Removes repeated copies from the question bank, keeping the first. Returns how many were removed.
+  function dedupeBank(){
+    const seen = new Set(), before = state.bank.length;
+    state.bank = state.bank.filter(q=>{ const k = questionKey(q); if(seen.has(k)) return false; seen.add(k); return true; });
+    return before - state.bank.length;
+  }
+  function bankHas(q){ const k = questionKey(q); return state.bank.some(b=> questionKey(b)===k); }
+
+  // Picks bank questions that are not already in any paper and not repeated within this paper.
+  function generateFromTemplate({subject, topics, count, difficulty, samplePool}){
+    if(!samplePool || samplePool.length===0) return [];
+    const used = usedQuestionKeys(), seen = new Set();
+    const fresh = samplePool.filter(q=>{
+      if(isPassageBlank(q)) return false;
+      const k = questionKey(q);
+      if(used.has(k) || seen.has(k)) return false;
+      seen.add(k); return true;
+    });
+    // Prefer the chosen difficulty, then fill up with other unused questions.
+    const preferred = difficulty==="mixed" ? fresh : fresh.filter(q=>q.difficulty===difficulty);
+    const others = difficulty==="mixed" ? [] : fresh.filter(q=>q.difficulty!==difficulty);
+    const picked = shuffle(preferred).concat(shuffle(others)).slice(0, count);
+    return picked.map(copyQuestion);
+  }
+  function copyQuestion(base){
+    return {
+      subject: base.subject, topic: base.topic, type: base.type, difficulty: base.difficulty,
+      text: base.text, options: base.options ? shuffle(base.options) : [], answer: base.answer, solution: base.solution,
+      images: base.images || [], passage: base.passage, source: base.source, accept: base.accept, marks: base.marks,
+      generatedBy: "template"
+    };
+  }
+
+  async function generateWithAI({subject, topics, count, difficulty, samplePool}){
+    const examples = samplePool.slice(0, 6).map(q => ({
+      topic:q.topic, type:q.type, difficulty:q.difficulty, question:q.text, options:q.options, answer:q.answer
+    }));
+    const topicLine = topics.length ? topics.join(", ") : "any topic within the subject";
+    const diffLine = difficulty === "mixed" ? "a mix of Easy, Medium and Hard" : `all ${difficulty}`;
+
+    const materials = getRelevantMaterials(subject, topics);
+    const notesText = materials
+      .filter(m => m.kind==="notes" || m.mimeType==="text/plain")
+      .map(m => (m.topic ? `Topic: ${m.topic}\n${m.text}` : m.text))
+      .join("\n\n---\n\n");
+    const fileCandidates = materials.filter(m => m.kind==="file" && (m.inIdb || m.dataBase64) && (m.mimeType==="application/pdf" || (m.mimeType||"").startsWith("image/")));
+    // Load file contents (newest first) until the request-size budget is used; the rest are skipped this time.
+    const fileMaterials = [], skippedFiles = [];
+    let budget = MAX_AI_FILE_BASE64_CHARS;
+    for(const m of fileCandidates.slice().sort((a,b)=>b.createdAt-a.createdAt)){
+      if(fileMaterials.length >= 3){ skippedFiles.push(m.fileName); continue; }
+      const data = await materialData(m);
+      if(!data) continue;
+      if(data.length > budget){ skippedFiles.push(m.fileName); continue; }
+      budget -= data.length;
+      fileMaterials.push({...m, dataBase64:data});
+    }
+    if(skippedFiles.length) toast(`Too large to send to the AI in one go, so skipped: ${skippedFiles.join(", ")}`);
+
+    let prompt = `You are creating a ${subject} practice paper for a Primary 5 student in Singapore, aligned to MOE syllabus standards.
+
+Generate exactly ${count} NEW questions (not copies) covering: ${topicLine}.
+Difficulty: ${diffLine}.
+Do not repeat or lightly reword any question the student has already been given.
+Match the style, phrasing, and difficulty of these example questions from the student's real school materials:
+${JSON.stringify(examples, null, 2)}`;
+
+    if(notesText){
+      prompt += `\n\nAdditional study notes / syllabus material uploaded for these topics — use them to ground the questions in what the student has actually been taught:\n${notesText}`;
+    }
+    if(fileMaterials.length){
+      prompt += `\n\n${fileMaterials.length} reference/sample paper file(s) are attached below (PDF/image). Use them as further style and content reference, matching their format and difficulty where relevant.`;
+    }
+    prompt += `\n\nWrite the questions the way Singapore primary school exam papers are written (like the reference papers): clear exam wording, MCQs with exactly 4 options (the answer must be one of them, word for word), structured questions split into parts (a), (b) where natural, and a mark value for each question (MCQ 1-2 marks, short answer 1-2, structured 3-5). No figure or picture can be shown, so never write "the diagram below" or "the picture shows": give every number and detail in words or as a small table in the text.`;
+    prompt += `\n\nReturn ONLY a valid JSON array (no markdown, no commentary), where each item has exactly these fields:
+{"topic": string, "type": "MCQ"|"Short Answer"|"Structured", "difficulty": "Easy"|"Medium"|"Hard", "marks": number, "text": string, "options": string[] (4 items if MCQ, else empty array), "answer": string, "solution": string (brief worked explanation)}`;
+
+    const content = [{ type:"text", text: prompt }];
+    fileMaterials.forEach(m=>{
+      if(m.mimeType==="application/pdf"){
+        content.push({ type:"document", source:{ type:"base64", media_type:"application/pdf", data:m.dataBase64 } });
+      } else {
+        content.push({ type:"image", source:{ type:"base64", media_type:m.mimeType, data:m.dataBase64 } });
+      }
+    });
+
+    const resp = await fetch("https://api.anthropic.com/v1/messages", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        "x-api-key": state.apiKey,
+        "anthropic-version": "2023-06-01",
+        "anthropic-beta": "pdfs-2024-09-25",
+        "anthropic-dangerous-direct-browser-access": "true"
+      },
+      body: JSON.stringify({
+        model: state.model || "claude-sonnet-5",
+        max_tokens: 16000,
+        messages: [{role:"user", content}]
+      })
+    });
+    if(!resp.ok){
+      const errText = await resp.text().catch(()=> "");
+      throw new Error(`API error ${resp.status}: ${errText.slice(0,200)}`);
+    }
+    const data = await resp.json();
+    if(data.stop_reason === "max_tokens") throw new Error("the paper was too long for one reply — try fewer questions");
+    const textBlock = (data.content || []).find(b => b.type === "text");
+    const raw = (textBlock && textBlock.text) || "";
+    const jsonMatch = raw.match(/\[[\s\S]*\]/);
+    if(!jsonMatch) throw new Error("Could not parse AI response as JSON");
+    const parsed = JSON.parse(jsonMatch[0]);
+    return parsed.map(q => ({
+      subject, topic: q.topic || (topics[0]||subject), type: q.type || "Short Answer",
+      difficulty: q.difficulty || "Medium", text: q.text || "", options: Array.isArray(q.options)?q.options:[],
+      answer: q.answer || "", solution: q.solution || "", marks: Number(q.marks) || undefined, generatedBy: "ai"
+    })).filter(q=>q.text);
+  }
+
+  // ---------- RETAKE ----------
+  // A retake keeps the finished attempt (answers + score) in paper.attempts so Progress still counts it,
+  // then clears the answers so the paper can be done again from scratch.
+  function retakePaper(id){
+    const p = state.papers.find(p=>p.id===id);
+    if(!p || p.status!=="completed") return;
+    if(!confirm(`Start "${p.title}" again with blank answers? Your previous score (${p.score}%) stays in Progress.`)) return;
+    const prev = {responses:p.responses, score:p.score, status:p.status, completedAt:p.completedAt};
+    p.attempts = p.attempts || [];
+    p.attempts.push({responses:p.responses, score:p.score, completedAt:p.completedAt || p.createdAt});
+    p.responses = {}; p.score = null; p.status = "not-started"; delete p.completedAt;
+    if(!saveState()){ p.attempts.pop(); Object.assign(p, prev); return; }
+    toast("Fresh attempt started. Good luck!");
+    updateTodoNavCount();
+    switchTab("practice");
+    openPaper(p.id);
+  }
+  function attemptLabel(p){ return p.attempts && p.attempts.length ? ` &middot; Attempt ${p.attempts.length+1}` : ""; }
+
+  // ---------- TO-DO TAB ----------
+  function updateTodoNavCount(){
+    const pending = state.papers.filter(p=> p.onTodo && p.status!=="completed" && p.status!=="submitted").length;
+    const badge = document.getElementById("todoNavCount");
+    if(pending>0){ badge.style.display="inline-block"; badge.textContent = pending; }
+    else { badge.style.display="none"; }
+  }
+
+  function renderTodo(){
+    const wrap = document.getElementById("todoListWrap");
+    const pending = state.papers.filter(p=> p.onTodo && p.status!=="completed" && p.status!=="submitted").sort((a,b)=>a.createdAt-b.createdAt);
+    const done = state.papers.filter(p=> p.onTodo && p.status==="completed").sort((a,b)=>(b.completedAt||b.createdAt)-(a.completedAt||a.createdAt));
+    updateTodoNavCount();
+    const doneHtml = done.length ? `<h3 style="margin-top:20px;">Done</h3>` + done.map(p=>`<div class="paper-list-item">
+        <div>
+          <strong>${esc(p.title)}</strong>
+          <span class="badge ${p.subject.toLowerCase()}" style="margin-left:8px;">${esc(p.subject)}</span>
+          <div class="muted">${new Date(p.createdAt).toLocaleDateString()} &middot; ${p.questions.length} questions${attemptLabel(p)}</div>
+        </div>
+        <div class="row">
+          <span class="status-pill status-done">Completed — ${p.score}%</span>
+          <button class="btn" data-todo-retake="${p.id}">Retake</button>
+          <button class="btn secondary parent-only" data-todo-remove="${p.id}">Remove from To-Do</button>
+        </div>
+      </div>`).join("") : "";
+    if(pending.length===0){
+      wrap.innerHTML = `<div class="empty">Nothing to do right now. Generate a paper and tick "Add to To-Do List" to send it here.</div>` + doneHtml;
+    } else wrap.innerHTML = pending.map(p=>{
+      const statusClass = p.status==="in-progress"?"status-progress":"status-not";
+      const statusLabel = p.status==="in-progress"?"In progress":"Not started";
+      return `<div class="paper-list-item">
+        <div>
+          <strong>${esc(p.title)}</strong>
+          <span class="badge ${p.subject.toLowerCase()}" style="margin-left:8px;">${esc(p.subject)}</span>
+          <div class="muted">${new Date(p.createdAt).toLocaleDateString()} &middot; ${p.questions.length} questions${attemptLabel(p)}</div>
+        </div>
+        <div class="row">
+          <span class="status-pill ${statusClass}">${statusLabel}</span>
+          <button class="btn" data-todo-open="${p.id}">${p.status==="in-progress"?"Continue":"Start"}</button>
+          <button class="btn secondary parent-only" data-todo-remove="${p.id}">Remove from To-Do</button>
+        </div>
+      </div>`;
+    }).join("") + doneHtml;
+    wrap.querySelectorAll("[data-todo-retake]").forEach(b=> b.addEventListener("click", ()=> retakePaper(b.dataset.todoRetake)));
+    wrap.querySelectorAll("[data-todo-open]").forEach(b=> b.addEventListener("click", ()=>{
+      switchTab("practice");
+      openPaper(b.dataset.todoOpen);
+    }));
+    wrap.querySelectorAll("[data-todo-remove]").forEach(b=> b.addEventListener("click", ()=>{
+      const p = state.papers.find(p=>p.id===b.dataset.todoRemove);
+      if(p){ p.onTodo = false; saveState(); }
+      renderTodo();
+    }));
+  }
+
+  // ---------- PRACTICE TAB ----------
+  let activePaperId = null;
+
+  function renderPracticeList(){
+    const wrap = document.getElementById("paperListWrap");
+    if(state.papers.length===0){
+      wrap.innerHTML = `<div class="empty">No papers yet. Go to "Generate Paper" to create one.</div>`;
+      document.getElementById("paperViewWrap").innerHTML = "";
+      return;
+    }
+    // Subject dropdown: remembers the last choice; lists only subjects that have papers, with counts.
+    const subjSel = document.getElementById("practiceSubject");
+    const subjects = ["Math","English","Science","Hindi"].filter(sub=> state.papers.some(p=>p.subject===sub));
+    let chosen = state.practiceSubject || "";
+    if(chosen && !subjects.includes(chosen)) chosen = "";
+    const count = sub => state.papers.filter(p=>!sub || p.subject===sub).length;
+    const label = {Math:"Maths", English:"English", Science:"Science", Hindi:"Hindi"};
+    subjSel.innerHTML = `<option value="">All subjects (${count("")})</option>` +
+      subjects.map(sub=>`<option value="${sub}">${label[sub]} (${count(sub)})</option>`).join("");
+    subjSel.value = chosen;
+    subjSel.onchange = ()=>{ state.practiceSubject = subjSel.value; saveState(); renderPracticeList(); };
+    const sorted = state.papers.filter(p=>!chosen || p.subject===chosen).sort((a,b)=>b.createdAt-a.createdAt);
+    wrap.innerHTML = sorted.map(p=>{
+      const statusClass = {completed:"status-done", submitted:"status-submitted", "in-progress":"status-progress"}[p.status] || "status-not";
+      const statusLabel = p.status==="completed"? `Completed — ${p.score}%` : ({submitted:"Waiting for parent marking", "in-progress":"In progress"}[p.status] || "Not started");
+      return `<div class="paper-list-item">
+        <div>
+          <strong>${esc(p.title)}</strong>
+          <span class="badge ${p.subject.toLowerCase()}" style="margin-left:8px;">${esc(p.subject)}</span>
+          <div class="muted">${new Date(p.createdAt).toLocaleDateString()} &middot; ${p.questions.length} questions${attemptLabel(p)}</div>
+        </div>
+        <div class="row">
+          <span class="status-pill ${statusClass}">${statusLabel}</span>
+          ${p.status==="completed" ? `<button class="btn" data-retake="${p.id}">Retake</button>` : ""}
+          <button class="todo-toggle parent-only ${p.onTodo?'on':''}" data-todo-toggle="${p.id}">${p.onTodo?'✓ On To-Do':'+ Add to To-Do'}</button>
+          <button class="btn secondary" data-open="${p.id}">Open</button>
+          <button class="btn danger parent-only" data-delp="${p.id}">Delete</button>
+        </div>
+      </div>`;
+    }).join("");
+    wrap.querySelectorAll("[data-open]").forEach(b=> b.addEventListener("click", ()=> openPaper(b.dataset.open)));
+    wrap.querySelectorAll("[data-retake]").forEach(b=> b.addEventListener("click", ()=> retakePaper(b.dataset.retake)));
+    wrap.querySelectorAll("[data-todo-toggle]").forEach(b=> b.addEventListener("click", ()=>{
+      const p = state.papers.find(p=>p.id===b.dataset.todoToggle);
+      if(p){ p.onTodo = !p.onTodo; saveState(); }
+      renderPracticeList();
+      updateTodoNavCount();
+    }));
+    wrap.querySelectorAll("[data-delp]").forEach(b=> b.addEventListener("click", ()=>{
+      state.papers = state.papers.filter(p=>p.id!==b.dataset.delp);
+      saveState();
+      if(activePaperId===b.dataset.delp){ activePaperId=null; document.getElementById("paperViewWrap").innerHTML=""; }
+      renderPracticeList();
+      updateTodoNavCount();
+    }));
+  }
+
+  function openPaper(id){
+    activePaperId = id;
+    renderPaperView();
+  }
+
+  function renderPaperView(){
+    const wrap = document.getElementById("paperViewWrap");
+    const paper = state.papers.find(p=>p.id===activePaperId);
+    if(!paper){ wrap.innerHTML=""; return; }
+    const child = isChild();
+    const handedIn = paper.status==="submitted" || paper.status==="completed";
+    const locked = child && handedIn;          // child can't change answers after submitting
+    const canSeeAnswers = !child || handedIn;  // child sees answers only after submitting
+
+    const ordered = examOrder(paper);
+    let qHtml = ordered.map((q,idx)=>{
+      const resp = paper.responses[q.id] || {};
+      const prevPassage = idx>0 && ordered[idx-1].passage ? ordered[idx-1].passage.id : null;
+      const passageHtml = (q.passage && q.passage.id !== prevPassage) ? renderPassage(q.passage) : "";
+      const src = (q.source && typeof q.source === "object") ? q.source : null; // real school paper
+      let answerInput = "";
+      if(isMcq(q)){
+        answerInput = q.options.map(opt=>`
+          <label class="opt-label">
+            <input type="radio" name="resp-${q.id}" value="${esc(opt)}" ${resp.given===opt?"checked":""} ${locked?"disabled":""}>
+            ${esc(opt)}
+          </label>`).join("");
+      } else {
+        answerInput = `<textarea data-resp="${q.id}" placeholder="Type your answer..." ${locked?"disabled":""}>${esc(resp.given||"")}</textarea>`;
+      }
+      const marked = resp.correct===true ? "correct-active" : (resp.correct===false ? "wrong-active" : "");
+      return `${passageHtml}<div class="q-block">
+        <div class="qnum">Question ${idx+1}${src && src.marks ? ` <span class="q-source">(${src.marks} mark${src.marks>1?"s":""})</span>` : ""}</div>
+        <div class="q-meta">${esc(q.topic)}${src ? "" : " &middot; "+esc(q.difficulty)}<span class="no-print">${q.generatedBy? " · "+ (q.generatedBy==="ai"?"AI-generated":"template-generated") : ""}${src ? " · "+esc(sourceLabel(src)) : ""}</span></div>
+        <div class="q-text">${esc(q.text)}</div>
+        ${figuresHtml(q)}
+        <div class="answer-area">${answerInput}</div>
+        ${isMcq(q)
+          ? `<ol class="print-only print-opts">${q.options.map((opt,i)=>`<li>(${String.fromCharCode(65+i)})&nbsp; ${esc(opt)}</li>`).join("")}</ol>`
+          : `<div class="print-only write-lines">${'<div class="write-line"></div>'.repeat(q.type==="Structured"?5:3)}</div>`}
+        <div class="row" style="margin-top:8px;">
+          ${canSeeAnswers ? `<button class="btn secondary no-print" data-reveal="${q.id}" style="padding:6px 12px;font-size:12.5px;">Show Answer</button>` : ""}
+          ${child && resp.correct===true && handedIn ? `<span class="muted" style="color:var(--good);">✓ Correct</span>` : ""}
+          ${child && resp.correct===false && handedIn ? `<span class="muted" style="color:var(--danger);">✗ Not quite</span>` : ""}
+        </div>
+        ${canSeeAnswers ? `<div class="solution-box" id="sol-${q.id}">
+          <strong>Answer:</strong> ${esc(q.answer)}<br>
+          ${q.solution?`<strong>Explanation:</strong> ${esc(q.solution)}`:""}
+        </div>` : ""}
+        <div class="mark-buttons no-print parent-only">
+          <button data-mark="${q.id}" data-val="correct" class="${resp.correct===true?'correct-active':''}">✓ Got it right</button>
+          <button data-mark="${q.id}" data-val="wrong" class="${resp.correct===false?'wrong-active':''}">✗ Got it wrong</button>
+        </div>
+      </div>`;
+    }).join("");
+
+    wrap.innerHTML = `
+      <div class="card">
+        <div class="print-title">
+          <h1>${esc(paper.title)}</h1>
+          <p>${esc(paper.subject)} &middot; Primary 5 &middot; ${paper.questions.length} Questions<span class="print-key-label"></span></p>
+          <div class="print-fields"><span>Name: ______________________</span><span>Date: ____________</span><span>Score: ______ / ${paper.questions.length}</span></div>
+        </div>
+        <div class="row no-print" style="justify-content:space-between;margin-bottom:14px;">
+          <h2 style="margin:0;">${esc(paper.title)}</h2>
+          ${paper.status==="submitted" ? `<span class="status-pill status-submitted">${child?"Submitted — waiting for a parent to mark written answers":"Submitted — mark the written answers, then Finish & Score"}</span>` : ""}
+          <div class="row">
+            <button class="btn secondary" id="printPaperBtn">Print Paper</button>
+            <button class="btn secondary parent-only" id="printKeyBtn">Print Answer Key</button>
+${child
+              ? (handedIn ? "" : `<button class="btn" id="finishPaperBtn">Submit Paper</button>`)
+              : `<button class="btn" id="finishPaperBtn">Finish & Score</button>`}
+          </div>
+        </div>
+        ${qHtml}
+      </div>
+    `;
+
+    wrap.querySelectorAll("[data-reveal]").forEach(b=> b.addEventListener("click", ()=>{
+      document.getElementById("sol-"+b.dataset.reveal).classList.toggle("show");
+    }));
+    wrap.querySelectorAll("textarea[data-resp]").forEach(ta=> ta.addEventListener("input", ()=>{
+      const qid = ta.dataset.resp;
+      paper.responses[qid] = paper.responses[qid] || {};
+      paper.responses[qid].given = ta.value;
+      if(paper.status==="not-started") paper.status = "in-progress";
+      saveState();
+    }));
+    wrap.querySelectorAll('input[type=radio]').forEach(r=> r.addEventListener("change", ()=>{
+      const qid = r.name.replace("resp-","");
+      paper.responses[qid] = paper.responses[qid] || {};
+      paper.responses[qid].given = r.value;
+      const q = paper.questions.find(q=>q.id===qid);
+      if(q) paper.responses[qid].correct = (r.value.trim().toLowerCase() === q.answer.trim().toLowerCase());
+      if(paper.status==="not-started") paper.status = "in-progress";
+      saveState();
+    }));
+    wrap.querySelectorAll("[data-mark]").forEach(b=> b.addEventListener("click", ()=>{
+      const qid = b.dataset.mark;
+      paper.responses[qid] = paper.responses[qid] || {};
+      paper.responses[qid].correct = (b.dataset.val === "correct");
+      if(paper.status==="not-started") paper.status = "in-progress";
+      saveState();
+      renderPaperView();
+    }));
+    document.getElementById("printPaperBtn").addEventListener("click", ()=> printPaper(paper, false));
+    document.getElementById("printKeyBtn").addEventListener("click", ()=> printPaper(paper, true));
+    const finishBtn = document.getElementById("finishPaperBtn");
+    if(finishBtn) finishBtn.addEventListener("click", ()=>{
+      const total = paper.questions.length;
+      autoMarkExactAnswers(paper);
+      if(child){
+        const blank = paper.questions.filter(q=> !((paper.responses[q.id]||{}).given||"").trim()).length;
+        if(blank>0 && !confirm(`You haven't answered ${blank} question(s). Submit anyway?`)) return;
+        const stillUnmarked = paper.questions.some(q=>{
+          const r = paper.responses[q.id];
+          return !r || (r.correct!==true && r.correct!==false);
+        });
+        if(stillUnmarked){
+          paper.status = "submitted";
+          saveState();
+          toast("Submitted! A parent will mark your written answers.");
+          renderPracticeList(); renderPaperView(); updateTodoNavCount();
+          return;
+        }
+      }
+      const unmarked = paper.questions.filter(q=>{
+        const r = paper.responses[q.id];
+        return !r || (r.correct!==true && r.correct!==false);
+      }).length;
+      if(unmarked>0 && !confirm(`${unmarked} question(s) haven't been marked right or wrong yet and will count as wrong. Finish anyway?`)) return;
+      let correct = 0;
+      paper.questions.forEach(q=>{
+        const r = paper.responses[q.id];
+        if(r && r.correct===true) correct++;
+      });
+      paper.status = "completed";
+      paper.score = Math.round((correct/total)*100);
+      paper.completedAt = Date.now();
+      saveState();
+      toast(`Scored ${correct}/${total} (${paper.score}%)`);
+      renderPracticeList();
+      renderPaperView();
+      updateTodoNavCount();
+    });
+  }
+
+  function isMcq(q){ return q.type==="MCQ" && q.options && q.options.length; }
+
+  // Figures are image files next to the app (e.g. source_papers/2025/figs/...), referenced by relative path.
+  function figuresHtml(q){
+    const imgs = figsFor(q).images;
+    if(!imgs.length) return "";
+    return `<div class="q-figs">${imgs.map(src=>`<img src="${esc(src)}" alt="Diagram for this question" loading="lazy">`).join("")}</div>`;
+  }
+  function renderPassage(pg){
+    const body = (pg.text ? `<div class="passage-text">${passageMarkup(pg.text)}</div>` : "") +
+      (pg.images||[]).map(src=>`<img src="${esc(src)}" alt="Reading passage" loading="lazy">`).join("");
+    return `<details class="passage-block" open><summary>${esc(pg.title || "Read this first (passage for the next questions)")}</summary>${body}</details>`;
+  }
+  function sourceLabel(src){
+    return [src.school, [src.year, src.exam].filter(Boolean).join(" "), src.qno].filter(Boolean).join(" · ");
+  }
+
+  // ---------- EXAM-STYLE PRINTING ----------
+  // Question order used on screen and in print: real school papers keep their original order;
+  // generated papers put MCQs first (Booklet A), then written questions (Booklet B), grouped by topic.
+  function examOrder(paper){
+    const qs = paper.questions || [];
+    if(paper.pastKey) return qs;
+    const topicRank = {};
+    qs.forEach(q=>{ if(!(q.topic in topicRank)) topicRank[q.topic] = Object.keys(topicRank).length; });
+    return qs.map((q,i)=>({q,i})).sort((a,b)=>{
+      const ba = isMcq(a.q)?0:1, bb = isMcq(b.q)?0:1;
+      if(ba!==bb) return ba-bb;
+      const ta = topicRank[a.q.topic], tb = topicRank[b.q.topic];
+      if(ta!==tb) return ta-tb;
+      return a.i-b.i;
+    }).map(x=>x.q);
+  }
+  function qMarks(q){
+    const m = (q.source && typeof q.source==="object" && q.source.marks) || q.marks;
+    return Number(m) || null;
+  }
+  // Section name for a question, like the headings in school papers.
+  function sectionName(q, subject){
+    if(subject==="Math" || subject==="Science") return isMcq(q) ? "Multiple-Choice Questions" : (subject==="Math" ? "Short-Answer and Structured Questions" : "Open-Ended Questions");
+    const t = q.text || "";
+    if(/^Grammar cloze/i.test(t)) return "Grammar Cloze";
+    if(/^Editing/i.test(t)) return "Editing — Spelling / Grammar";
+    if(/^Comprehension cloze/i.test(t)) return "Comprehension Cloze";
+    if(/^(Vocabulary cloze|Choose the (word|phrase) closest in meaning)/i.test(t)) return "Vocabulary Cloze";
+    if(/^Visual text/i.test(t) || (q.topic==="Comprehension (MCQ)" && isMcq(q))) return "Visual Text Comprehension";
+    if(/^Rewrite/i.test(t) || q.topic==="Synthesis & Transformation") return "Synthesis / Transformation";
+    if(q.topic==="Comprehension (Open-Ended)") return "Comprehension (Open-Ended)";
+    return q.topic || "Questions";
+  }
+  // Cloze-type items (one blank each, sharing a passage) print as a compact grid of numbered blanks.
+  function isBlankItem(q){
+    return !isMcq(q) && q.passage && (qMarks(q)||1) <= 1 && /^(Grammar cloze|Editing|Comprehension cloze)/i.test(q.text||"");
+  }
+  function stripClozePrompt(q){
+    // Keep the question readable without the long app-style instruction.
+    let t = (q.text||"").replace(/^Visual text\.\s*/i,"");
+    return t;
+  }
+  function sectionInstruction(sec, subject){
+    const range = sec.from===sec.to ? `question ${sec.from}` : `questions ${sec.from} to ${sec.to}`;
+    const marks = sec.marksKnown ? ` (${sec.marks} mark${sec.marks===1?"":"s"})` : "";
+    if(sec.mcq) return `For each of ${range}, four options are given. One of them is the correct answer. Make your choice (1, 2, 3 or 4) and write the correct number in the brackets provided.${marks}`;
+    if(/Grammar Cloze/.test(sec.name)) return `Fill in each blank, ${range}, with the most suitable word from the list in the passage. Each word can only be used once.${marks}`;
+    if(/Editing/.test(sec.name)) return `Each of the underlined words in the passage, ${range}, contains a spelling or grammatical error. Write the correct word on the line provided.${marks}`;
+    if(/Comprehension Cloze/.test(sec.name)) return `Fill in each blank, ${range}, with a suitable word.${marks}`;
+    if(/Synthesis/.test(sec.name)) return `For ${range}, rewrite the given sentence(s) using the word(s) provided. Your answer must be in one sentence and keep the same meaning.${marks}`;
+    if(subject==="Math") return `For ${range}, show your working clearly in the space provided and write your answers in the spaces given. The number of marks is shown in brackets at the end of each question.${marks}`;
+    return `For ${range}, write your answers in the spaces provided.${marks}`;
+  }
+  function buildSections(ordered, subject){
+    const secs = [];
+    ordered.forEach((q,i)=>{
+      const booklet = isMcq(q) ? "A" : "B";
+      const name = sectionName(q, subject);
+      let cur = secs[secs.length-1];
+      if(!cur || cur.booklet!==booklet || cur.name!==name){
+        cur = {booklet, name, mcq: isMcq(q), items:[], from:i+1, to:i+1, marks:0, marksKnown:true};
+        secs.push(cur);
+      }
+      cur.items.push({q, n:i+1});
+      cur.to = i+1;
+      const m = qMarks(q);
+      if(m) cur.marks += m; else cur.marksKnown = false;
+    });
+    return secs;
+  }
+  let printedImgs = new Set(); // shared figures (e.g. a poster used by several questions) print only once
+  let pastIndex = null;
+  // Figures for a question, taken from the current school-paper data when the question came from one,
+  // so papers added before a data update also get the shared (print-once, high-resolution) images.
+  function figsFor(q){
+    const src = q.source && typeof q.source==="object" ? q.source : null;
+    if(src && src.paperKey){
+      if(!pastIndex){ pastIndex = {}; pastPapers().forEach(pp=>pp.questions.forEach(x=>{ pastIndex[pp.key+"|"+x.source.qno] = x; })); }
+      const cur = pastIndex[src.paperKey+"|"+src.qno];
+      if(cur) return {images: cur.images||[], shared: cur.sharedImages||[]};
+    }
+    return {images: q.images||[], shared: []};
+  }
+  function printFigs(q, visual){
+    const f = figsFor(q);
+    return f.images.filter(src=>!printedImgs.has(src)).map(src=>{
+      printedImgs.add(src);
+      // A figure several questions refer to (poster, shared diagram) prints once, large and full width.
+      return `<div class="ps-fig${visual?" ps-ref ps-visual":(f.shared.includes(src)?" ps-ref":"")}"><img src="${esc(src)}" alt=""></div>`;
+    }).join("");
+  }
+  // Passage text marks error words as [word](36) and blanks as __(26)__; show them the way exam papers do.
+  function passageMarkup(text){
+    return esc(text)
+      .replace(/Each underlined word \[in brackets\]/g, "Each underlined word")
+      .replace(/\[([^\]]+)\]\((\d+)\)/g, '<u>$1</u>&nbsp;<b>($2)</b>')
+      .replace(/__\((\d+)\)__/g, '<b>($1)</b>____________')
+      .replace(/\[(\d+)\]\s+([A-Za-z'’-]+)/g, '<b>($1)</b>&nbsp;<u>$2</u>');
+  }
+  function printPassage(pg){
+    const body = (pg.text ? passageMarkup(pg.text) : "") + (pg.images||[]).map(src=>`<img src="${esc(src)}" alt="">`).join("");
+    return `<div class="ps-passage">${body}</div>`;
+  }
+  function answerParts(text){
+    const parts = [];
+    (text.match(/\(([a-d])\)/g) || []).forEach(m=>{ if(!parts.includes(m)) parts.push(m); });
+    return parts;
+  }
+  function printQuestion(q, n, subject){
+    const m = qMarks(q);
+    const tag = m && !isMcq(q) ? `<span class="ps-marks-tag">[${m}]</span>` : "";
+    let body = `${tag}<div class="ps-stem">${esc(stripClozePrompt(q))}</div>${printFigs(q)}`;
+    if(isMcq(q)){
+      const two = q.options.every(o=>String(o).length<=24) && !(q.images||[]).length;
+      body += `<div class="ps-opts${two?" two":""}">${q.options.map((o,i)=>`<div class="ps-opt"><span>(${i+1})</span><span>${esc(o)}</span></div>`).join("")}<div class="ps-bracket">(        )</div></div>`;
+    } else if(subject==="Math"){
+      const parts = answerParts(q.text||"");
+      const space = Math.min(70, Math.max(18, 14*(m || (q.type==="Structured"?3:2))));
+      body += `<div class="ps-work" style="min-height:${space}mm"></div>
+        <div class="ps-ans">${parts.length>1 ? parts.map(p=>`Ans: ${p} ____________________`).join("<br>") : "Ans: ______________________"}</div>`;
+    } else {
+      const lines = q.type==="Structured" ? Math.max(4, answerParts(q.text||"").length*2) : ((m||1)>=2 ? 3 : 2);
+      body += '<div class="ps-line"></div>'.repeat(lines);
+    }
+    const long = (q.images||[]).length && q.type==="Structured";
+    return `<div class="ps-q${long?" ps-long":""}"><div class="ps-num">${n}.</div><div>${body}</div></div>`;
+  }
+  function printBlankItems(items){
+    return `<div class="ps-blanks">${items.map(({q,n})=>{
+      const under = (q.text||"").match(/underlined word '([^']+)'/i);
+      return `<div class="ps-blank"><b>(${n})</b>${under?`<span>${esc(under[1])} →</span>`:""}<span class="w"></span></div>`;
+    }).join("")}</div>`;
+  }
+  function coverPage(paper, secs){
+    const subjName = {Math:"MATHEMATICS", Science:"SCIENCE", English:"ENGLISH", Hindi:"HINDI"}[paper.subject] || String(paper.subject).toUpperCase();
+    const hasA = secs.some(s=>s.booklet==="A"), hasB = secs.some(s=>s.booklet==="B");
+    const booklets = hasA && hasB ? "BOOKLET A AND BOOKLET B" : (hasA ? "BOOKLET A" : "BOOKLET B");
+    const row = (b)=>{
+      const ss = secs.filter(s=>s.booklet===b);
+      if(!ss.length) return null;
+      const qn = ss.reduce((a,s)=>a+s.items.length,0);
+      const known = ss.every(s=>s.marksKnown);
+      return {b, qn, marks: known ? ss.reduce((a,s)=>a+s.marks,0) : null};
+    };
+    const rows = [row("A"), row("B")].filter(Boolean);
+    const allKnown = rows.every(r=>r.marks!==null);
+    const total = allKnown ? rows.reduce((a,r)=>a+r.marks,0) : rows.reduce((a,r)=>a+r.qn,0);
+    const src = paper.pastKey && paper.questions[0] && paper.questions[0].source;
+    const extra = paper.subject==="Math" ? "<li>Show your working clearly. Write your answers in the spaces provided.</li>"
+      : paper.subject==="English" ? "<li>Write your answers in the brackets, blanks or lines provided.</li>" : "<li>Write your answers in the spaces provided.</li>";
+    return `<div class="ps-cover">
+      <h1>PRIMARY 5<br>${subjName}<br>${esc(String(paper.title).toUpperCase())}</h1>
+      <div class="ps-cover-sub">${booklets}<span>${paper.questions.length} questions${src && src.school ? " · Source: "+esc(src.school)+" "+esc(src.year||"") : ""}</span></div>
+      <div class="ps-box"><h3>INSTRUCTIONS TO CANDIDATES</h3><ol>
+        <li>Do not turn over this page until you are told to do so.</li>
+        <li>Follow all instructions carefully.</li>
+        <li>Answer <b>ALL</b> questions.</li>${extra}</ol></div>
+      <div class="ps-box ps-fields"><div>NAME: ____________________________________</div><div>CLASS: PRIMARY 5 ________ &nbsp;&nbsp;&nbsp; DATE: ______________</div></div>
+      <table class="ps-marks"><tr><th>BOOKLET</th><th>${allKnown?"TOTAL MARKS":"QUESTIONS"}</th><th>${allKnown?"MARKS OBTAINED":"SCORE"}</th></tr>
+        ${rows.map(r=>`<tr><td><b>${r.b}</b></td><td>${allKnown?r.marks:r.qn}</td><td></td></tr>`).join("")}
+        <tr><td><b>TOTAL</b></td><td><b>${total}</b></td><td></td></tr></table>
+    </div>`;
+  }
+  function buildPaperSheet(paper){
+    const ordered = examOrder(paper);
+    const secs = buildSections(ordered, paper.subject);
+    let html = coverPage(paper, secs);
+    let lastBooklet = null, secNo = 0;
+    const printedPassages = new Set();
+    printedImgs = new Set();
+    secs.forEach(sec=>{
+      if(sec.booklet!==lastBooklet){
+        html += `<div class="ps-page-break"></div><div class="ps-booklet">BOOKLET ${sec.booklet}</div>`;
+        lastBooklet = sec.booklet; secNo = 0;
+      }
+      // A section that opens with a visual text (poster + passage) starts on a fresh page with its heading.
+      const opensWithVisual = sec.items[0].q.passage && figsFor(sec.items[0].q).images.length && !printedPassages.has(sec.items[0].q.passage.id);
+      if(opensWithVisual && secNo>0) html += `<div class="ps-page-break"></div>`;
+      html += `<div class="ps-section"><h2>SECTION ${String.fromCharCode(65+secNo)}: ${esc(sec.name)}</h2><p>${esc(sectionInstruction(sec, paper.subject))}</p></div>`;
+      secNo++;
+      // Walk items; passages print once before the first question that uses them; runs of cloze blanks print compactly.
+      let i = 0;
+      while(i < sec.items.length){
+        const {q} = sec.items[i];
+        if(q.passage && !printedPassages.has(q.passage.id)){
+          // Visual texts: the poster/figure comes first (Text 1), then the passage (Text 2), then the questions.
+          html += printFigs(q, true) + printPassage(q.passage);
+          printedPassages.add(q.passage.id);
+        }
+        if(isBlankItem(q)){
+          const run = [];
+          while(i < sec.items.length && isBlankItem(sec.items[i].q) && sec.items[i].q.passage.id===q.passage.id){ run.push(sec.items[i]); i++; }
+          html += printBlankItems(run);
+          continue;
+        }
+        html += printQuestion(q, sec.items[i].n, paper.subject);
+        i++;
+      }
+    });
+    html += `<div class="ps-end">— END OF PAPER —</div>`;
+    return html;
+  }
+  function buildKeySheet(paper){
+    const ordered = examOrder(paper);
+    const secs = buildSections(ordered, paper.subject);
+    let html = `<div class="ps-booklet">ANSWER KEY</div><h2 style="margin:0 0 4mm;font-size:14pt;">${esc(paper.title)} · ${esc(paper.subject)} · Primary 5</h2>`;
+    const mcqItems = secs.filter(s=>s.mcq).flatMap(s=>s.items);
+    if(mcqItems.length){
+      html += `<div class="ps-section"><h2>BOOKLET A — Multiple-choice answers</h2></div>`;
+      for(let k=0;k<mcqItems.length;k+=10){
+        const chunk = mcqItems.slice(k,k+10);
+        const cells = chunk.map(({n})=>`<div>Q${n}</div>`).join("") + '<div></div>'.repeat(10-chunk.length)
+          + chunk.map(({q})=>{ const idx = q.options.findIndex(o=>String(o).trim().toLowerCase()===String(q.answer).trim().toLowerCase()); return `<div>${idx>=0?idx+1:esc(q.answer)}</div>`; }).join("") + '<div></div>'.repeat(10-chunk.length);
+        html += `<div class="ps-keygrid">${cells}</div>`;
+      }
+    }
+    const rest = secs.filter(s=>!s.mcq).flatMap(s=>s.items);
+    if(rest.length){
+      html += `<div class="ps-section"><h2>BOOKLET B — Written answers</h2></div>
+        <table class="ps-key"><tr><th class="c">Q</th><th>Answer</th><th>Working / notes</th></tr>
+        ${rest.map(({q,n})=>`<tr><td class="c">${n}</td><td style="white-space:pre-line;">${esc(q.answer)}</td><td style="white-space:pre-line;font-size:9.5pt;">${esc(q.solution||"")}</td></tr>`).join("")}</table>`;
+    }
+    return html;
+  }
+  // Prints an exam-style paper (cover page, booklets, sections), or its answer key.
+  function printPaper(paper, withKey){
+    let sheet = document.getElementById("printSheet");
+    if(!sheet){ sheet = document.createElement("div"); sheet.id = "printSheet"; document.body.appendChild(sheet); }
+    // Page footer (title left, page number centre, "Primary 5" right) via @page margin boxes.
+    let pageCss = document.getElementById("printPageCss");
+    if(!pageCss){ pageCss = document.createElement("style"); pageCss.id = "printPageCss"; document.head.appendChild(pageCss); }
+    const footTitle = (paper.title + (withKey ? " — Answer Key" : "")).replace(/["\\]/g, "");
+    pageCss.textContent = `@page{@bottom-left{content:"${footTitle}";font:8.5pt Arial,Helvetica,sans-serif;color:#333;}@bottom-right{content:"Primary 5";font:8.5pt Arial,Helvetica,sans-serif;color:#333;}}`;
+    sheet.innerHTML = withKey ? buildKeySheet(paper) : buildPaperSheet(paper);
+    document.body.classList.add("printing-sheet");
+    // Wait for the diagrams to load so they appear in the printout.
+    const imgs = [...sheet.querySelectorAll("img")].filter(img=>!img.complete);
+    Promise.all(imgs.map(img=>new Promise(r=>{ img.onload = img.onerror = r; }))).then(()=> window.print());
+  }
+  window.addEventListener("afterprint", ()=>{
+    document.body.classList.remove("printing-sheet");
+  });
+
+
+  // Marks unmarked written answers correct when they match the answer key exactly (ignoring case,
+  // extra spaces and a trailing full stop). Anything else is left for a parent to mark.
+  function autoMarkExactAnswers(paper){
+    const norm = s => String(s||"").toLowerCase().replace(/\s+/g," ").trim().replace(/[.。।]$/,"").trim();
+    paper.questions.forEach(q=>{
+      const r = paper.responses[q.id];
+      if(!r || r.correct===true || r.correct===false || !(r.given||"").trim()) return;
+      const ok = [q.answer].concat(q.accept || []).some(a => norm(r.given) === norm(a));
+      if(ok) r.correct = true;
+    });
+  }
+
+  // ---------- PROGRESS TAB ----------
+  function renderProgress(){
+    const stats = {}; // subject -> topic -> {correct, total}
+    state.papers.forEach(p=>{
+      [...(p.attempts||[]).map(a=>a.responses), p.responses].forEach(responses=> p.questions.forEach(q=>{
+        const r = responses[q.id];
+        if(!r || r.correct===undefined || r.correct===null) return;
+        stats[p.subject] = stats[p.subject] || {};
+        stats[p.subject][q.topic] = stats[p.subject][q.topic] || {correct:0,total:0};
+        stats[p.subject][q.topic].total++;
+        if(r.correct) stats[p.subject][q.topic].correct++;
+      }));
+    });
+
+    const bySubjWrap = document.getElementById("progressBySubject");
+    const subjects = Object.keys(stats);
+    if(subjects.length===0){
+      bySubjWrap.innerHTML = `<div class="empty">No marked answers yet. Complete a paper in Practice to see progress here.</div>`;
+    } else {
+      bySubjWrap.innerHTML = subjects.map(subj=>{
+        const topics = stats[subj];
+        const rows = Object.keys(topics).sort().map(t=>{
+          const {correct,total} = topics[t];
+          const pct = Math.round((correct/total)*100);
+          const color = pct>=75?"var(--good)":(pct>=50?"var(--warn)":"var(--danger)");
+          return `<div class="topic-row">
+            <div class="name">${esc(t)}</div>
+            <div class="progress-bar-track"><div class="progress-bar-fill" style="width:${pct}%;background:${color};"></div></div>
+            <div class="pct">${pct}%</div>
+            <div class="muted" style="width:60px;">(${correct}/${total})</div>
+          </div>`;
+        }).join("");
+        return `<h3><span class="badge ${subj.toLowerCase()}">${esc(subj)}</span></h3>${rows}`;
+      }).join("<div style='height:14px;'></div>");
+    }
+
+    const histWrap = document.getElementById("progressHistory");
+    // One row per finished attempt; retaken papers show each earlier score as its own row.
+    const completed = [];
+    state.papers.forEach(p=>{
+      const multi = (p.attempts||[]).length>0;
+      (p.attempts||[]).forEach((a,i)=> completed.push({title:p.title + ` (Attempt ${i+1})`, subject:p.subject, score:a.score, at:a.completedAt||p.createdAt}));
+      if(p.status==="completed") completed.push({title:p.title + (multi?` (Attempt ${p.attempts.length+1})`:""), subject:p.subject, score:p.score, at:p.completedAt||p.createdAt});
+    });
+    completed.sort((a,b)=>b.at-a.at);
+    if(completed.length===0){
+      histWrap.innerHTML = `<div class="empty">No completed papers yet.</div>`;
+    } else {
+      histWrap.innerHTML = `<table><thead><tr><th>Date</th><th>Paper</th><th>Subject</th><th>Score</th></tr></thead><tbody>
+        ${completed.map(p=>`<tr>
+          <td>${new Date(p.at).toLocaleDateString()}</td>
+          <td>${esc(p.title)}</td>
+          <td><span class="badge ${p.subject.toLowerCase()}">${esc(p.subject)}</span></td>
+          <td>${p.score}%</td>
+        </tr>`).join("")}
+      </tbody></table>`;
+    }
+  }
+
+  // ---------- SETTINGS TAB ----------
+  function renderSettings(){
+    document.getElementById("apiKeyInput").value = state.apiKey || "";
+    document.getElementById("modelInput").value = state.model || "claude-sonnet-5";
+  }
+  document.getElementById("saveSettingsBtn").addEventListener("click", ()=>{
+    state.apiKey = document.getElementById("apiKeyInput").value.trim();
+    state.model = document.getElementById("modelInput").value.trim() || "claude-sonnet-5";
+    saveState();
+    const msg = document.getElementById("saveSettingsMsg");
+    msg.textContent = "Saved.";
+    msg.style.color = "var(--good)";
+    setTimeout(()=> msg.textContent="", 2000);
+    updateHeaderStatus();
+  });
+  function showPinMsg(text, color){
+    const msg = document.getElementById("pinMsg");
+    msg.textContent = text; msg.style.color = color;
+    setTimeout(()=> msg.textContent="", 3000);
+  }
+  document.getElementById("savePinBtn").addEventListener("click", ()=>{
+    const input = document.getElementById("pinInput");
+    const pin = input.value.trim();
+    if(!/^\d{4,8}$/.test(pin)){ showPinMsg("PIN must be 4 to 8 digits.", "var(--danger)"); return; }
+    state.pinHash = hashPin(pin);
+    saveState();
+    input.value = "";
+    parentUnlocked = true;
+    applyMode();
+    showPinMsg("PIN set. Use \"Lock (child mode)\" in the header before handing over.", "var(--good)");
+  });
+  document.getElementById("removePinBtn").addEventListener("click", ()=>{
+    if(!state.pinHash){ showPinMsg("No PIN is set.", "var(--muted)"); return; }
+    if(!confirm("Remove the parent PIN? The app will no longer have a child mode.")) return;
+    delete state.pinHash;
+    saveState();
+    parentUnlocked = true;
+    applyMode();
+    showPinMsg("PIN removed.", "var(--good)");
+  });
+
+  document.getElementById("exportBtn").addEventListener("click", async ()=>{
+    // Include uploaded file contents (kept in IndexedDB) so the backup is complete.
+    const full = {...state, materials: await Promise.all(state.materials.map(async m=>{
+      if(!m.inIdb) return m;
+      const {inIdb, ...rest} = m;
+      return {...rest, dataBase64: await materialData(m)};
+    }))};
+    const blob = new Blob([JSON.stringify(full, null, 2)], {type:"application/json"});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url; a.download = `p5-practice-backup-${new Date().toISOString().slice(0,10)}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+  });
+  document.getElementById("importBtnTrigger").addEventListener("click", ()=> document.getElementById("importFile").click());
+  document.getElementById("importFile").addEventListener("change", (e)=>{
+    const file = e.target.files[0];
+    if(!file) return;
+    const reader = new FileReader();
+    reader.onload = async (ev)=>{
+      try{
+        const imported = JSON.parse(ev.target.result);
+        state = Object.assign({apiKey:"",model:"claude-sonnet-5",bank:[],papers:[],materials:[]}, imported);
+        await migrateMaterialsToIdb(); // file contents go to IndexedDB, not localStorage
+        saveState();
+        toast("Backup imported.");
+        parentUnlocked = true; applyMode();
+        renderBank(); renderMaterials(); renderSettings(); updateHeaderStatus(); updateTodoNavCount();
+      }catch(err){
+        toast("Import failed: invalid file.");
+      }
+    };
+    reader.readAsText(file);
+  });
+  document.getElementById("clearBtn").addEventListener("click", ()=>{
+    if(!confirm("This will permanently delete your question bank, papers, and progress. Continue?")) return;
+    state = { apiKey:"", model:"claude-sonnet-5", bank:[], papers:[], materials:[] };
+    saveState();
+    fileDb.clear().catch(()=>{});
+    toast("All data cleared.");
+    parentUnlocked = true; applyMode();
+    renderBank(); renderMaterials(); renderSettings(); updateHeaderStatus(); updateTodoNavCount();
+  });
+
+  function updateHeaderStatus(){
+    document.getElementById("headerStatus").textContent = state.apiKey
+      ? "AI generation: enabled"
+      : "AI generation: off (template mode) — set an API key in Settings";
+  }
+
+  // ---------- INIT ----------
+  { const removed = dedupeBank(); if(removed){ saveState(); setTimeout(()=> toast(`Removed ${removed} repeated question(s) from the question bank.`), 600); } }
+  migrateMaterialsToIdb().then(()=>{ if(document.getElementById("tab-bank").style.display!=="none") renderMaterials(); });
+  updateHeaderStatus();
+  updateMatKindFields();
+  applyMode();
+  if(isChild()) switchTab("todo");
+  else { renderBank(); renderMaterials(); updateTodoNavCount(); }
+})();
+</script>
+
+</body>
+</html>
