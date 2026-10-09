@@ -1,0 +1,8 @@
+# Figma files (too large for GitHub)
+*.fig
+
+# Large binary files
+*.pdf
+
+# macOS
+.DS_Store
